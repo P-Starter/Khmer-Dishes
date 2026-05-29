@@ -67,6 +67,7 @@
         "cuisine": { "type": "string", "default": "Khmer" },
         "description": { "type": "string" },
         "image": { "type": "string", "description": "Relative or absolute image URL." },
+        "imageFamily": { "type": "string", "description": "Image group key shared by protein variants of one base dish, so ~1000 dishes reuse ~150 images." },
         "tags": { "type": "array", "items": { "type": "string" } },
         "dietary": {
           "type": "array",

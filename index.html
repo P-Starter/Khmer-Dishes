@@ -54,8 +54,9 @@
     transition:transform .12s ease, box-shadow .12s ease;
   }
   .daily:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(0,0,0,.10)}
-  .daily .emoji{font-size:54px;width:96px;height:96px;flex:0 0 96px;border-radius:14px;
-    display:grid;place-items:center;background:var(--gold-soft)}
+  .daily .emoji{font-size:54px;width:120px;height:120px;flex:0 0 120px;border-radius:14px;
+    display:grid;place-items:center;background:var(--gold-soft);position:relative;overflow:hidden}
+  .daily .emoji .thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
   .daily .label{font-size:11px;font-weight:700;letter-spacing:1.5px;color:var(--red);text-transform:uppercase}
   .daily h2{margin:4px 0 2px;font-size:20px}
   .daily .rom{color:var(--muted);font-size:14px}
@@ -83,9 +84,10 @@
     cursor:pointer;box-shadow:var(--shadow);transition:transform .12s ease, box-shadow .12s ease;display:flex;flex-direction:column;
   }
   .card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.12)}
-  .card .head{height:92px;display:grid;place-items:center;font-size:42px;position:relative}
-  .card .cat{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.32);color:#fff;font-size:11px;
-    padding:3px 8px;border-radius:999px;text-transform:capitalize;backdrop-filter:blur(2px)}
+  .card .head{height:120px;display:grid;place-items:center;font-size:42px;position:relative;overflow:hidden}
+  .card .head .thumb{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .card .cat{position:absolute;top:8px;left:8px;background:rgba(0,0,0,.42);color:#fff;font-size:11px;
+    padding:3px 8px;border-radius:999px;text-transform:capitalize;backdrop-filter:blur(2px);z-index:2}
   .card .body{padding:12px 14px 14px;flex:1;display:flex;flex-direction:column}
   .card h3{margin:0;font-size:16px;font-weight:600;line-height:1.3}
   .card .rom{color:var(--muted);font-size:13px;margin-top:1px}
@@ -102,7 +104,10 @@
   .overlay{position:fixed;inset:0;background:rgba(30,22,18,.55);display:none;z-index:50;padding:20px;overflow:auto}
   .overlay.open{display:block}
   .modal{max-width:760px;margin:30px auto;background:var(--cream);border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4)}
-  .modal .mhead{padding:24px 26px;color:#fff;position:relative;background:linear-gradient(135deg,var(--red),var(--red-dark))}
+  .modal .mhead{padding:24px 26px;color:#fff;position:relative;background:linear-gradient(135deg,var(--red),var(--red-dark));overflow:hidden}
+  .modal .mhead .mbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+  .modal .mhead .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.62));z-index:1}
+  .modal .mhead > *:not(.mbg):not(.scrim){position:relative;z-index:2}
   .modal .mhead .big{font-size:46px}
   .modal .mhead h2{margin:6px 0 2px;font-size:25px}
   .modal .mhead .rom{opacity:.9;font-size:15px}
@@ -341,7 +346,9 @@
     const el=document.createElement("div"); el.className="card";
     el.innerHTML=
       '<div class="head" style="background:'+v.c+'22">'+
-        '<span>'+v.e+'</span><span class="cat">'+r.category+'</span></div>'+
+        '<span class="ph">'+v.e+'</span>'+
+        (r.image?'<img class="thumb" src="'+esc(r.image)+'" alt="" loading="lazy" onerror="this.remove()">':'')+
+        '<span class="cat">'+r.category+'</span></div>'+
       '<div class="body">'+
         '<h3>'+esc(r.name.en)+'</h3>'+
         '<div class="rom">'+esc(r.name.romanized)+'</div>'+
@@ -406,6 +413,7 @@
 
     m.innerHTML=
       '<div class="mhead" style="background:linear-gradient(135deg,'+v.c+','+shade(v.c)+')">'+
+        (r.image?'<img class="mbg" src="'+esc(r.image)+'" alt="" onerror="this.remove()"><div class="scrim"></div>':'')+
         '<button class="mclose" id="mclose">✕</button>'+
         '<div class="big">'+v.e+'</div>'+
         '<h2>'+esc(r.name.en)+'</h2>'+
@@ -444,7 +452,8 @@
     const r=DATA[dayHash()%DATA.length], v=catView(r.category);
     const el=document.getElementById("daily"); el.style.display="flex";
     el.innerHTML=
-      '<div class="emoji" style="background:'+v.c+'22">'+v.e+'</div>'+
+      '<div class="emoji" style="background:'+v.c+'22"><span>'+v.e+'</span>'+
+        (r.image?'<img class="thumb" src="'+esc(r.image)+'" alt="" onerror="this.remove()">':'')+'</div>'+
       '<div><div class="label">🍴 Dish of the day</div>'+
       '<h2>'+esc(r.name.en)+'</h2>'+
       '<div class="rom">'+esc(r.name.romanized)+' · <span class="km">'+esc(r.name.km)+'</span></div>'+

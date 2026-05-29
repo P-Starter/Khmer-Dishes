@@ -1560,6 +1560,15 @@ def generate():
         rid = "khm-{:04d}".format(counter)
         slug = slugify(r["name_en"])
         total = r.get("prep", 0) + r.get("cook", 0)
+        # image family: protein variants of one base dish share a single image.
+        # signature/iconic dishes get their own (unique) family from the slug.
+        strip = {"chicken", "pork", "beef", "duck", "frog", "fish", "shrimp", "squid",
+                 "crab", "clam", "tofu", "egg", "mushroom", "vegetable", "meat", "seafood", "veg"}
+        tags = r.get("tags", [])
+        if "signature" in tags:
+            family = slug
+        else:
+            family = "-".join(t for t in tags if t not in strip) or slug
         record = {
             "id": rid,
             "slug": slug,
@@ -1568,8 +1577,9 @@ def generate():
             "subcategory": r.get("subcategory", ""),
             "cuisine": "Khmer",
             "description": r["description"],
-            "image": "/images/dishes/{}.jpg".format(slug),
-            "tags": r.get("tags", []),
+            "imageFamily": family,
+            "image": "images/dishes/{}.jpg".format(family),
+            "tags": tags,
             "dietary": r.get("dietary", []),
             "spiceLevel": r.get("spice", 0),
             "difficulty": r.get("difficulty", "easy"),
