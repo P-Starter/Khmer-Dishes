@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/khmer_menu.schema.json",
+  "title": "Khmer Menu Catalog",
+  "description": "Website-ready catalog of Cambodian (Khmer) dishes with structured ingredients and step-by-step cooking instructions.",
+  "type": "object",
+  "required": ["meta", "recipes"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schemaVersion", "count", "recipes"],
+      "properties": {
+        "schemaVersion": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "cuisine": { "type": "string" },
+        "language": {
+          "type": "object",
+          "properties": {
+            "primary": { "type": "string" },
+            "names": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "count": { "type": "integer", "minimum": 0 },
+        "categories": { "type": "array", "items": { "type": "string" } },
+        "generatedAt": { "type": "string", "format": "date" },
+        "license": { "type": "string" }
+      }
+    },
+    "recipes": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/recipe" }
+    }
+  },
+  "definitions": {
+    "recipe": {
+      "type": "object",
+      "required": ["id", "slug", "name", "category", "ingredients", "instructions"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^khm-[0-9]{4}$",
+          "description": "Stable unique identifier, e.g. khm-0001."
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "URL-safe slug derived from the English name."
+        },
+        "name": {
+          "type": "object",
+          "required": ["en"],
+          "description": "Trilingual dish name.",
+          "properties": {
+            "km": { "type": "string", "description": "Khmer script." },
+            "romanized": { "type": "string", "description": "Romanized Khmer." },
+            "en": { "type": "string", "description": "English name." }
+          }
+        },
+        "category": {
+          "type": "string",
+          "description": "Top-level menu category.",
+          "examples": ["stir-fry", "soup", "curry", "grilled", "fried", "braised", "steamed", "salad", "noodles", "rice", "dip", "dessert", "drink", "snack"]
+        },
+        "subcategory": { "type": "string", "description": "Khmer technique/family, e.g. cha, samlor, amok, kho." },
+        "cuisine": { "type": "string", "default": "Khmer" },
+        "description": { "type": "string" },
+        "image": { "type": "string", "description": "Relative or absolute image URL." },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "dietary": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["vegetarian", "vegan", "pescatarian", "gluten-free", "dairy-free", "halal"] }
+        },
+        "spiceLevel": { "type": "integer", "minimum": 0, "maximum": 5, "description": "0 = none, 5 = very hot." },
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+        "servings": { "type": "integer", "minimum": 1 },
+        "time": {
+          "type": "object",
+          "properties": {
+            "prepMinutes": { "type": "integer", "minimum": 0 },
+            "cookMinutes": { "type": "integer", "minimum": 0 },
+            "totalMinutes": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "kroeung": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Aromatic spice-paste components (the Khmer flavour base), if any."
+        },
+        "equipment": { "type": "array", "items": { "type": "string" } },
+        "ingredients": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/ingredient" }
+        },
+        "instructions": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/step" }
+        },
+        "nutrition": {
+          "type": "object",
+          "description": "Optional per-serving nutrition.",
+          "properties": {
+            "calories": { "type": "number" },
+            "protein": { "type": "number" },
+            "carbs": { "type": "number" },
+            "fat": { "type": "number" }
+          }
+        }
+      }
+    },
+    "ingredient": {
+      "type": "object",
+      "required": ["item"],
+      "additionalProperties": false,
+      "properties": {
+        "group": {
+          "type": "string",
+          "description": "Logical grouping for display, e.g. main, kroeung, seasoning, veg, garnish, dressing, serving, equipment."
+        },
+        "item": { "type": "string" },
+        "quantity": { "type": "number" },
+        "unit": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "step": {
+      "type": "object",
+      "required": ["step", "text"],
+      "additionalProperties": false,
+      "properties": {
+        "step": { "type": "integer", "minimum": 1 },
+        "text": { "type": "string" },
+        "tip": { "type": "string", "description": "Optional chef's tip for this step." }
+      }
+    }
+  }
+}
