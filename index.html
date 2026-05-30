@@ -103,7 +103,8 @@
   /* ---------- modal ---------- */
   .overlay{position:fixed;inset:0;background:rgba(30,22,18,.55);display:none;z-index:50;padding:20px;overflow:auto}
   .overlay.open{display:block}
-  .modal{max-width:760px;margin:30px auto;background:var(--cream);border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+  .modal{max-width:980px;margin:30px auto;background:var(--cream);border-radius:18px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+  .mbody-grid{display:block}
   .modal .mhead{padding:24px 26px;color:#fff;position:relative;background:linear-gradient(135deg,var(--red),var(--red-dark));overflow:hidden}
   .modal .mhead .mbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
   .modal .mhead .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.62));z-index:1}
@@ -141,6 +142,37 @@
   .spice{color:var(--red);letter-spacing:1px}
   footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 16px 50px}
 
+  /* Large screens: full-bleed dish dialog with a two-column body
+     (sticky ingredients sidebar + roomy steps column). */
+  @media(min-width:1100px){
+    .overlay{padding:0}
+    .modal{max-width:none;width:100%;margin:0;min-height:100vh;border-radius:0;box-shadow:none}
+    .modal .mhead{padding:40px 56px}
+    .modal .mhead h2{font-size:32px}
+    .modal .mhead .rom, .modal .mhead .km{font-size:17px}
+    .modal .mhead .desc{font-size:16px;max-width:78ch}
+    .modal .mhead .desc-km{font-size:16px;max-width:78ch}
+    .mclose{position:fixed;top:18px;right:24px;width:44px;height:44px;
+      background:rgba(255,255,255,.94);color:#222;box-shadow:0 4px 16px rgba(0,0,0,.25);
+      z-index:60;font-size:22px}
+    .mbody{padding:36px 56px 64px;max-width:1400px;margin:0 auto}
+    .stats{margin-bottom:26px}
+    .stats .stat{font-size:14px;padding:10px 14px;min-width:96px}
+    .stats .stat b{font-size:16px}
+    .mbody-grid{display:grid;grid-template-columns:340px minmax(0,1fr);gap:56px;align-items:start}
+    .ingredients-col{position:sticky;top:24px;max-height:calc(100vh - 48px);
+      overflow-y:auto;padding-right:8px}
+    .ingredients-col .sec-title:first-child,
+    .steps-col .sec-title:first-child{margin-top:0}
+    ul.ings li{padding:8px 0;font-size:15px}
+    ul.ings li .qty{flex:0 0 110px}
+    ol.steps li{padding:0 0 24px 56px}
+    ol.steps li:before{width:36px;height:36px;font-size:15px}
+    ol.steps li .txt{font-size:17px;line-height:1.65;max-width:72ch}
+    ol.steps li .tip{font-size:14px;padding:10px 14px;max-width:72ch}
+    ol.steps li .km-line{font-size:15px;max-width:72ch}
+    .sec-title{font-size:14px;margin:32px 0 14px}
+  }
   @media(max-width:560px){
     .daily{flex-direction:column;align-items:flex-start}
     .frow .flabel{width:100%;flex-basis:100%;margin-bottom:2px}
@@ -432,9 +464,15 @@
       '<div class="mbody">'+
         '<div class="stats">'+stats+'</div>'+
         kro+
-        '<div class="sec-title">Ingredients</div>'+ingHtml+
-        '<div class="sec-title">How to cook</div><ol class="steps">'+stepsHtml+'</ol>'+
-        (r.equipment&&r.equipment.length?'<div class="sec-title">Equipment</div><div style="font-size:14px">'+r.equipment.map(esc).join(" · ")+'</div>':'')+
+        '<div class="mbody-grid">'+
+          '<aside class="ingredients-col">'+
+            '<div class="sec-title">Ingredients</div>'+ingHtml+
+          '</aside>'+
+          '<div class="steps-col">'+
+            '<div class="sec-title">How to cook</div><ol class="steps">'+stepsHtml+'</ol>'+
+            (r.equipment&&r.equipment.length?'<div class="sec-title">Equipment</div><div style="font-size:14px">'+r.equipment.map(esc).join(" · ")+'</div>':'')+
+          '</div>'+
+        '</div>'+
       '</div>';
     document.getElementById("overlay").classList.add("open");
     document.body.style.overflow="hidden";
