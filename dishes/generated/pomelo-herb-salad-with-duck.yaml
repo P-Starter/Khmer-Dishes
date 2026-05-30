@@ -1,0 +1,96 @@
+id: khm-0673
+slug: pomelo-herb-salad-with-duck
+name:
+  km: ញាំផ្កាសាច់ទា
+  romanized: Nhoam Phkar Sach Tia
+  en: Pomelo & Herb Salad with Duck
+category: salad
+subcategory: nhoam-trayoung
+cuisine: Khmer
+description: Juicy pomelo segments with poached protein, coconut and herbs.
+descriptionKm: ញាំក្រូចថ្លុង — ផ្អែម ត្រជាក់ និងស្រស់។
+image: images/dishes/pomelo-herb-salad-with-duck.jpg
+imageFamily: salad-nhoam-nhoam-trayoung
+tags:
+- salad
+- nhoam
+- nhoam-trayoung
+- duck
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 6
+time:
+  prepMinutes: 18
+  cookMinutes: 9
+  totalMinutes: 27
+kroeung: []
+equipment:
+- mixing bowl
+equipmentKm:
+- ចានលាយ
+ingredients:
+- group: main
+  item: duck
+  quantity: 300
+  unit: g
+  notes: chopped into pieces
+  itemKm: សាច់ទា
+- group: veg
+  item: pomelo
+  quantity: 1
+  unit: whole
+  notes: segmented
+  itemKm: ក្រូចថ្លុង
+  notesKm: កាត់ចែកចំណិត
+- group: garnish
+  item: toasted coconut
+  quantity: 3
+  unit: tbsp
+  itemKm: ដូងលីង
+- group: veg
+  item: mint & coriander
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកសុណ្ដ និងវ៉ាន់សុយ
+- group: dressing
+  item: lime juice
+  quantity: 4
+  unit: tbsp
+  itemKm: ទឹកក្រូចឆ្មារ
+- group: dressing
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: dressing
+  item: palm sugar
+  quantity: 2
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: dressing
+  item: garlic
+  quantity: 2
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: dressing
+  item: bird's-eye chili
+  quantity: 2
+  unit: whole
+  notes: minced
+  itemKm: ម្ទេសខ្មាំង
+  notesKm: កិន
+instructions:
+- step: 1
+  text: Poach or grill the duck (chopped into pieces) until just cooked, then slice thinly.
+- step: 2
+  text: Whisk the dressing — lime juice, fish sauce, palm sugar, garlic and chili — until the sugar dissolves.
+- step: 3
+  text: Combine the duck with pomelo, toasted coconut, mint & coriander.
+- step: 4
+  text: Pour over the dressing and toss well just before serving.
+- step: 5
+  text: Pile onto a plate and top with extra herbs, peanuts and fried shallots.

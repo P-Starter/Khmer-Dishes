@@ -1,0 +1,94 @@
+id: khm-0688
+slug: rice-noodle-soup-with-squid
+name:
+  km: គុយទាវមឹក
+  romanized: Kuy Teav Meuk
+  en: Rice Noodle Soup with Squid
+category: noodles
+subcategory: kuy-teav
+cuisine: Khmer
+description: Cambodia's beloved breakfast noodle soup in a clear pork-and-dried-seafood broth.
+descriptionKm: គុយទាវ — ភ្ញាក់ព្រឹកដ៏ល្បីរបស់ខ្មែរ។
+image: images/dishes/rice-noodle-soup-with-squid.jpg
+imageFamily: noodles-kuy-teav
+tags:
+- noodles
+- kuy-teav
+- squid
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 1
+difficulty: medium
+servings: 3
+time:
+  prepMinutes: 27
+  cookMinutes: 45
+  totalMinutes: 72
+kroeung: []
+equipment:
+- stock pot
+equipmentKm:
+- ឆ្នាំងស៊ុប
+ingredients:
+- group: main
+  item: flat rice noodles
+  quantity: 400
+  unit: g
+  itemKm: គុយទាវ
+- group: main
+  item: squid
+  quantity: 250
+  unit: g
+  notes: cleaned and scored into rings
+  itemKm: មឹក
+  notesKm: សម្អាត ហើយហាន់ជាកង់
+- group: veg
+  item: bean sprouts
+  quantity: 100
+  unit: g
+  itemKm: សណ្ដែកបណ្ដុះ
+- group: garnish
+  item: spring onion & coriander
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកខ្ទឹមបារាំង និងវ៉ាន់សុយ
+- group: garnish
+  item: fried garlic oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងខ្ទឹមចៀន
+- group: main
+  item: pork or chicken stock
+  quantity: 1.5
+  unit: litre
+  itemKm: ទឹកស៊ុបជ្រូក ឬ មាន់
+- group: main
+  item: dried squid or shrimp
+  quantity: 20
+  unit: g
+  notes: for the broth
+  itemKm: មឹកស្ងួត ឬ បង្គា
+  notesKm: សម្រាប់ទឹកស៊ុប
+- group: seasoning
+  item: rock sugar
+  quantity: 1
+  unit: tsp
+  itemKm: ស្ករអំពៅ
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+instructions:
+- step: 1
+  text: Simmer the stock with dried seafood, rock sugar and a little fish sauce for 30 minutes; keep hot.
+  tip: Skim the broth often to keep it crystal clear.
+- step: 2
+  text: Cook the squid (cleaned and scored into rings) in the broth until done; slice if needed.
+- step: 3
+  text: Blanch the noodles and bean sprouts; divide between bowls.
+- step: 4
+  text: Top with the squid and ladle over the hot broth.
+- step: 5
+  text: Finish with fried garlic oil, spring onion and coriander; serve with lime, chili and herbs on the side.

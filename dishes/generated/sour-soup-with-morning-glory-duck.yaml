@@ -1,0 +1,107 @@
+id: khm-0908
+slug: sour-soup-with-morning-glory-duck
+name:
+  km: សម្លម្ជូរត្រកួនសាច់ទា
+  romanized: Samlor Machu Trakuon Sach Tia
+  en: Sour Soup with Morning Glory & Duck
+category: soup
+subcategory: samlor-machu
+cuisine: Khmer
+description: A bright Khmer sour soup of morning glory with duck.
+descriptionKm: សម្លម្ជូរស្រស់ ផ្សំជាមួយត្រកួន និងសាច់ទា។
+image: images/dishes/sour-soup-with-morning-glory-duck.jpg
+imageFamily: soup-samlor-machu-morning-glory
+tags:
+- soup
+- samlor
+- machu
+- morning-glory
+- duck
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 17
+  cookMinutes: 41
+  totalMinutes: 58
+kroeung:
+- lemongrass
+equipment:
+- soup pot
+equipmentKm:
+- ឆ្នាំងស៊ុប
+ingredients:
+- group: main
+  item: duck
+  quantity: 350
+  unit: g
+  notes: chopped into pieces
+  itemKm: សាច់ទា
+- group: veg
+  item: morning glory
+  quantity: 1
+  unit: bunch
+  notes: cut in 6 cm lengths
+  itemKm: ត្រកួន
+  notesKm: កាត់ ៦សម
+- group: main
+  item: stock or water
+  quantity: 1.2
+  unit: litre
+  itemKm: ទឹកស៊ុប ឬ ទឹក
+- group: kroeung
+  item: lemongrass
+  quantity: 2
+  unit: stalks
+  notes: bruised
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: បុកបន្តិច
+- group: kroeung
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: smashed
+  itemKm: ខ្ទឹមស
+  notesKm: បុក
+- group: seasoning
+  item: tamarind paste
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកអម្ពិល
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: garnish
+  item: sawtooth coriander & rice-paddy herb
+  quantity: 1
+  unit: handful
+  itemKm: ជីអង្ការ និងម្អម
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: Bring the stock to a boil with bruised lemongrass and smashed garlic.
+  textKm: ដាំទឹកស៊ុបជាមួយស្លឹកគ្រៃបុក និងខ្ទឹមសបុក។
+- step: 2
+  text: Add the duck (chopped into pieces) and simmer until almost cooked.
+- step: 3
+  text: Add the morning glory and simmer until tender.
+- step: 4
+  text: Season with tamarind, fish sauce and palm sugar; balance to a clean sour-salty-sweet.
+  tip: Add tamarind gradually and taste — sourness should brighten, not dominate.
+- step: 5
+  text: Finish with sawtooth coriander and rice-paddy herb; serve with rice.

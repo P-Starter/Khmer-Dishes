@@ -1,0 +1,83 @@
+id: khm-0965
+slug: steamed-with-sour-plum-lime-squid
+name:
+  km: ចំហុយម្ជូរមឹក
+  romanized: Chamhoy Machu Meuk
+  en: Steamed with Sour Plum & Lime (Squid)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed with pickled sour plum, lime and chili for a tangy lift.
+descriptionKm: ចំហុយម្ជូរ — ផ្លែឈើជូរ និងទឹកក្រូចឆ្មារ។
+image: images/dishes/steamed-with-sour-plum-lime-squid.jpg
+imageFamily: steamed-chhnganh-machu
+tags:
+- steamed
+- chhnganh
+- machu
+- squid
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 2
+difficulty: easy
+servings: 4
+time:
+  prepMinutes: 18
+  cookMinutes: 16
+  totalMinutes: 34
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: squid
+  quantity: 600
+  unit: g
+  notes: cleaned and scored into rings
+  itemKm: មឹក
+  notesKm: សម្អាត ហើយហាន់ជាកង់
+- group: seasoning
+  item: pickled sour plum
+  quantity: 2
+  unit: whole
+  itemKm: ផ្លែព្រូនជ្រក់
+- group: seasoning
+  item: lime juice
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកក្រូចឆ្មារ
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: seasoning
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the squid: cleaned and scored into rings.'
+  textKm: រៀបចំមឹក៖ សម្អាត ហើយហាន់ជាកង់។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until just opaque (do not overcook).
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

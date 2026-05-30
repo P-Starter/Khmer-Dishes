@@ -1,0 +1,105 @@
+id: khm-0149
+slug: stir-fried-morning-glory-with-crab
+name:
+  km: ឆាត្រកួនក្ដាម
+  romanized: Cha Trakuon Kdam
+  en: Stir-fried Morning Glory with Crab
+category: stir-fry
+subcategory: cha-vegetable
+cuisine: Khmer
+description: A fast, high-heat home stir-fry of morning glory with crab.
+descriptionKm: ម្ហូបឆាដ៏លឿនជាមួយត្រកួន និងក្ដាម។
+image: images/dishes/stir-fried-morning-glory-with-crab.jpg
+imageFamily: stir-fry-cha-morning-glory
+tags:
+- stir-fry
+- cha
+- morning-glory
+- crab
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 0
+difficulty: easy
+servings: 5
+time:
+  prepMinutes: 11
+  cookMinutes: 18
+  totalMinutes: 29
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: crab
+  quantity: 300
+  unit: g
+  notes: cleaned and quartered
+  itemKm: ក្ដាម
+  notesKm: សម្អាត ហើយកាត់ជា ៤
+- group: veg
+  item: morning glory (water spinach)
+  quantity: 1
+  unit: bunch
+  notes: cut in 6 cm lengths
+  itemKm: ត្រកួន
+  notesKm: កាត់ ៦សម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: seasoning
+  item: oyster sauce
+  quantity: 1.5
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: fish sauce (teuk trey)
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: vegetable oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងបន្លែ
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the crab: cleaned and quartered.'
+  textKm: រៀបចំក្ដាម៖ សម្អាត ហើយកាត់ជា ៤។
+- step: 2
+  text: Mince the garlic and have the morning glory washed and cut.
+  textKm: កិនខ្ទឹមស ហើយលាង ត្រកួន ឱ្យស្អាតហើយកាត់រួច។
+- step: 3
+  text: Heat 2 tbsp oil in a wok over high heat; fry the garlic until fragrant.
+  textKm: ដាក់ប្រេង ២ ស្លាបព្រាក្នុងខ្ទះ ហើយដុំឱ្យក្ដៅខ្លាំង។
+- step: 4
+  text: Add the crab and stir-fry until the shells turn bright orange, about 12 minutes.
+  textKm: ដាក់ក្ដាម ហើយឆា រហូតទាល់តែសំបកក្ដាមមានពណ៌ទឹកក្រូច ប្រហែល 12 នាទី។
+- step: 5
+  text: Add the morning glory and stir-fry over high heat until tender-crisp.
+  tip: Keep the heat high so the vegetable stays bright and never stews.
+  textKm: ដាក់ត្រកួន ហើយឆាលើភ្លើងខ្លាំង រហូតទាល់តែទន់និងក្រៀម។
+- step: 6
+  text: Season with oyster sauce, fish sauce and a pinch of palm sugar; toss quickly.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

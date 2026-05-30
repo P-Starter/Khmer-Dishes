@@ -1,0 +1,103 @@
+id: khm-0169
+slug: stir-fried-bitter-melon-with-frog
+name:
+  km: ឆាម្រះកង្កែប
+  romanized: Cha Mreah Kong Kep
+  en: Stir-fried Bitter Melon with Frog
+category: stir-fry
+subcategory: cha-vegetable
+cuisine: Khmer
+description: A fast, high-heat home stir-fry of bitter melon with frog.
+descriptionKm: ម្ហូបឆាដ៏លឿនជាមួយម្រះ និងកង្កែប។
+image: images/dishes/stir-fried-bitter-melon-with-frog.jpg
+imageFamily: stir-fry-cha-bitter-melon
+tags:
+- stir-fry
+- cha
+- bitter-melon
+- frog
+- meat
+dietary: []
+spiceLevel: 0
+difficulty: easy
+servings: 6
+time:
+  prepMinutes: 16
+  cookMinutes: 20
+  totalMinutes: 36
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: frog
+  quantity: 300
+  unit: g
+  notes: cleaned and jointed
+  itemKm: កង្កែប
+- group: veg
+  item: bitter melon
+  quantity: 1
+  unit: whole
+  notes: deseeded, sliced
+  itemKm: ម្រះ
+  notesKm: ដកគ្រាប់ ហើយហាន់
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: seasoning
+  item: oyster sauce
+  quantity: 1.5
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: fish sauce (teuk trey)
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: vegetable oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងបន្លែ
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the frog: cleaned and jointed.'
+  textKm: រៀបចំកង្កែប៖ សម្អាត ហើយកាត់តាមសន្លាក់។
+- step: 2
+  text: Mince the garlic and have the bitter melon washed and cut.
+  textKm: កិនខ្ទឹមស ហើយលាង ម្រះ ឱ្យស្អាតហើយកាត់រួច។
+- step: 3
+  text: Heat 2 tbsp oil in a wok over high heat; fry the garlic until fragrant.
+  textKm: ដាក់ប្រេង ២ ស្លាបព្រាក្នុងខ្ទះ ហើយដុំឱ្យក្ដៅខ្លាំង។
+- step: 4
+  text: Add the frog and stir-fry until tender, about 15 minutes.
+  textKm: ដាក់កង្កែប ហើយឆា រហូតទាល់តែទន់ ប្រហែល 15 នាទី។
+- step: 5
+  text: Add the bitter melon and stir-fry over high heat until tender-crisp.
+  tip: Keep the heat high so the vegetable stays bright and never stews.
+  textKm: ដាក់ម្រះ ហើយឆាលើភ្លើងខ្លាំង រហូតទាល់តែទន់និងក្រៀម។
+- step: 6
+  text: Season with oyster sauce, fish sauce and a pinch of palm sugar; toss quickly.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

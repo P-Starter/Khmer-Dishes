@@ -1,0 +1,101 @@
+id: khm-0981
+slug: fried-rice-with-mixed-vegetables
+name:
+  km: បាយឆាបន្លែ
+  romanized: Bai Cha Bonlae
+  en: Fried Rice with Mixed Vegetables
+category: rice
+subcategory: bai-cha
+cuisine: Khmer
+description: Wok-tossed Khmer fried rice with mixed vegetables.
+descriptionKm: បាយឆា — ឆាក្ដៅជាមួយសាច់ បន្លែ និងពងមាន់។
+image: images/dishes/fried-rice-with-mixed-vegetables.jpg
+imageFamily: rice-bai-cha
+tags:
+- rice
+- bai-cha
+- vegetable
+- veg
+dietary:
+- vegetarian
+spiceLevel: 0
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 11
+  cookMinutes: 12
+  totalMinutes: 23
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: day-old cooked jasmine rice
+  quantity: 4
+  unit: cups
+  itemKm: បាយម្លិះកាល់ពីមួយថ្ងៃ
+- group: main
+  item: mixed vegetables
+  quantity: 200
+  unit: g
+  notes: cut into bite-sized pieces
+  itemKm: បន្លែ
+  notesKm: កាត់ជាដុំៗតូច
+- group: main
+  item: egg
+  quantity: 2
+  unit: whole
+  itemKm: ពងមាន់
+- group: kroeung
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: veg
+  item: onion
+  quantity: 1
+  unit: half
+  notes: diced
+  itemKm: ខ្ទឹមបារាំង
+  notesKm: កាត់ជាគូបតូច
+- group: veg
+  item: spring onion
+  quantity: 2
+  unit: stalks
+  notes: sliced
+  itemKm: ស្លឹកខ្ទឹមបារាំង
+  notesKm: ហាន់
+- group: seasoning
+  item: light soy sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកសុីអ៊ីវស្រាល
+- group: seasoning
+  item: oyster sauce
+  quantity: 1
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: fish sauce
+  quantity: 1
+  unit: tbsp
+  itemKm: ទឹកត្រី
+instructions:
+- step: 1
+  text: Use cold, day-old rice and break up any clumps.
+  tip: Fresh rice turns mushy — day-old rice fries up separate and light.
+- step: 2
+  text: Heat a wok very hot; fry the garlic, then the mixed vegetables until tender-crisp.
+- step: 3
+  text: Push aside and scramble the eggs.
+- step: 4
+  text: Add the rice and onion; toss over high heat to coat and heat through.
+- step: 5
+  text: Season with soy, oyster and fish sauces; toss until smoky and fragrant.
+- step: 6
+  text: Finish with spring onion. Serve with sliced cucumber, lime and chili sauce.

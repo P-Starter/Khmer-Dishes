@@ -1,0 +1,106 @@
+id: khm-0916
+slug: sour-soup-with-young-tamarind-leaves-chicken
+name:
+  km: សម្លម្ជូរស្លឹកអម្ពិលសាច់មាន់
+  romanized: Samlor Machu Sloek Ampil Sach Moan
+  en: Sour Soup with Young Tamarind Leaves & Chicken
+category: soup
+subcategory: samlor-machu
+cuisine: Khmer
+description: A bright Khmer sour soup of young tamarind leaves with chicken.
+descriptionKm: សម្លម្ជូរស្រស់ ផ្សំជាមួយស្លឹកអម្ពិល និងសាច់មាន់។
+image: images/dishes/sour-soup-with-young-tamarind-leaves-chicken.jpg
+imageFamily: soup-samlor-machu-tamarind-leaf
+tags:
+- soup
+- samlor
+- machu
+- tamarind-leaf
+- chicken
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 4
+time:
+  prepMinutes: 18
+  cookMinutes: 30
+  totalMinutes: 48
+kroeung:
+- lemongrass
+equipment:
+- soup pot
+equipmentKm:
+- ឆ្នាំងស៊ុប
+ingredients:
+- group: main
+  item: chicken
+  quantity: 350
+  unit: g
+  notes: cut into bite-sized pieces
+  itemKm: សាច់មាន់
+  notesKm: កាត់ជាដុំៗតូច
+- group: veg
+  item: young tamarind leaves
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកអម្ពិលខ្ចី
+- group: main
+  item: stock or water
+  quantity: 1.2
+  unit: litre
+  itemKm: ទឹកស៊ុប ឬ ទឹក
+- group: kroeung
+  item: lemongrass
+  quantity: 2
+  unit: stalks
+  notes: bruised
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: បុកបន្តិច
+- group: kroeung
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: smashed
+  itemKm: ខ្ទឹមស
+  notesKm: បុក
+- group: seasoning
+  item: tamarind paste
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកអម្ពិល
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: garnish
+  item: sawtooth coriander & rice-paddy herb
+  quantity: 1
+  unit: handful
+  itemKm: ជីអង្ការ និងម្អម
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: Bring the stock to a boil with bruised lemongrass and smashed garlic.
+  textKm: ដាំទឹកស៊ុបជាមួយស្លឹកគ្រៃបុក និងខ្ទឹមសបុក។
+- step: 2
+  text: Add the chicken (cut into bite-sized pieces) and simmer until almost cooked.
+- step: 3
+  text: Add the young tamarind leaves and simmer until tender.
+- step: 4
+  text: Season with tamarind, fish sauce and palm sugar; balance to a clean sour-salty-sweet.
+  tip: Add tamarind gradually and taste — sourness should brighten, not dominate.
+- step: 5
+  text: Finish with sawtooth coriander and rice-paddy herb; serve with rice.

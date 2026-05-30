@@ -1,0 +1,77 @@
+id: khm-0949
+slug: steamed-in-black-bean-sauce-pork
+name:
+  km: ចំហុយទឹកខ្មៅសាច់ជ្រូក
+  romanized: Chamhoy Tuk Khmav Sach Chrouk
+  en: Steamed in Black Bean Sauce (Pork)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed over fermented black beans, garlic and chili.
+descriptionKm: ចំហុយជាមួយទឹកខ្មៅ — សណ្ដែកខ្មៅ ខ្ទឹមស និងម្ទេស។
+image: images/dishes/steamed-in-black-bean-sauce-pork.jpg
+imageFamily: steamed-chhnganh-khmav
+tags:
+- steamed
+- chhnganh
+- khmav
+- pork
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 16
+  cookMinutes: 17
+  totalMinutes: 33
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: pork
+  quantity: 600
+  unit: g
+  notes: cut into thin slices
+  itemKm: សាច់ជ្រូក
+- group: seasoning
+  item: fermented black beans
+  quantity: 2
+  unit: tbsp
+  notes: rinsed
+  itemKm: សណ្ដែកខ្មៅជ្រក់
+- group: seasoning
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the pork: cut into thin slices.'
+  textKm: រៀបចំសាច់ជ្រូក៖ ហាន់ជាបន្ទះស្ដើង។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until cooked through.
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

@@ -1,0 +1,102 @@
+id: khm-0741
+slug: dry-rice-noodles-with-fish
+name:
+  km: គុយទាវខត្រី
+  romanized: Kuy Teav Kho Trey
+  en: Dry Rice Noodles with Fish
+category: noodles
+subcategory: kuy-teav-kho
+cuisine: Khmer
+description: '''Dry'' kuy teav — noodles tossed in a savoury sauce with the broth served on the side.'
+descriptionKm: គុយទាវខ — គុយទាវខ្លាប់ ផ្សំជាមួយទឹកជ្រលក់។
+image: images/dishes/dry-rice-noodles-with-fish.jpg
+imageFamily: noodles-kuy-teav-kho
+tags:
+- noodles
+- kuy-teav-kho
+- fish
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 1
+difficulty: medium
+servings: 5
+time:
+  prepMinutes: 37
+  cookMinutes: 35
+  totalMinutes: 72
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: flat rice noodles
+  quantity: 400
+  unit: g
+  itemKm: គុយទាវ
+- group: main
+  item: fish
+  quantity: 250
+  unit: g
+  notes: cut into thick fillet slices
+  itemKm: ត្រី
+  notesKm: ហាន់ជាបន្ទះក្រាស់
+- group: veg
+  item: bean sprouts
+  quantity: 100
+  unit: g
+  itemKm: សណ្ដែកបណ្ដុះ
+- group: garnish
+  item: spring onion & coriander
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកខ្ទឹមបារាំង និងវ៉ាន់សុយ
+- group: garnish
+  item: fried garlic oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងខ្ទឹមចៀន
+- group: kroeung
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: main
+  item: egg
+  quantity: 1
+  unit: whole
+  itemKm: ពងមាន់
+- group: veg
+  item: Chinese broccoli
+  quantity: 1
+  unit: bunch
+  notes: cut in 5 cm lengths
+  itemKm: ស្ពៃខៀវ
+  notesKm: កាត់ ៥សម
+- group: seasoning
+  item: oyster sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: dark soy sauce
+  quantity: 1
+  unit: tsp
+  itemKm: ទឹកសុីអ៊ីវខ្មៅ
+instructions:
+- step: 1
+  text: Soak or loosen the noodles so they don't clump.
+- step: 2
+  text: Heat a wok screaming hot; fry the garlic, then the fish until the flesh turns opaque and flakes.
+- step: 3
+  text: Push aside, scramble the egg, then add the noodles and Chinese broccoli.
+- step: 4
+  text: Season with oyster sauce, dark soy and a pinch of sugar; toss over high heat until smoky.
+  tip: Don't overcrowd — fry in two batches for proper 'wok hei'.
+- step: 5
+  text: Add bean sprouts at the end, toss once and plate. Top with herbs and fried garlic oil.

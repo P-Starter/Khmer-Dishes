@@ -1,0 +1,52 @@
+id: khm-1045
+slug: num-krok-coconut-cakes
+name:
+  km: នំគ្រក
+  romanized: Num Krok
+  en: Num Krok (Coconut Cakes)
+category: snack
+subcategory: street-food
+cuisine: Khmer
+description: Crispy-bottomed, custardy coconut-rice cakes cooked in a dimpled pan.
+descriptionKm: នំគ្រក — នំទឹកដូងស្រួយ ខាងក្នុងទន់ ដុតក្នុងថាសសម្បក។
+image: images/dishes/num-krok-coconut-cakes.jpg
+imageFamily: snack-street-food-num-krok-coconut-cakes
+tags:
+- snack
+- street-food
+- num-krok-coconut-cakes
+dietary: []
+spiceLevel: 0
+difficulty: medium
+servings: 3
+time:
+  prepMinutes: 21
+  cookMinutes: 49
+  totalMinutes: 70
+kroeung: []
+equipment: []
+ingredients:
+- group: main
+  item: rice flour
+  itemKm: ម្សៅអង្ករ
+- group: main
+  item: coconut milk
+  itemKm: ទឹកដូង
+- group: main
+  item: sugar
+  itemKm: ស្ករ
+- group: main
+  item: spring onion
+  itemKm: ស្លឹកខ្ទឹមបារាំង
+- group: main
+  item: salt
+  itemKm: អំបិល
+instructions:
+- step: 1
+  text: Whisk rice flour, coconut milk, a little sugar and salt into a batter.
+- step: 2
+  text: Heat a num krok pan and oil the wells.
+- step: 3
+  text: Fill the wells and cook until the bottoms crisp and tops set.
+- step: 4
+  text: Top with spring onion; serve warm in pairs.

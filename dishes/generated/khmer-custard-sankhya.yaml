@@ -1,0 +1,51 @@
+id: khm-1052
+slug: khmer-custard-sankhya
+name:
+  km: សង់ខ្យា
+  romanized: Sankhya
+  en: Khmer Custard (Sankhya)
+category: dessert
+subcategory: street-food
+cuisine: Khmer
+description: Silky steamed palm-sugar and coconut egg custard.
+descriptionKm: សង់ខ្យា — សង់ខ្យាស្ករត្នោត និងទឹកដូងចំហុយ។
+image: images/dishes/khmer-custard-sankhya.jpg
+imageFamily: snack-street-food-khmer-custard-sankhya
+tags:
+- snack
+- street-food
+- khmer-custard-sankhya
+dietary: []
+spiceLevel: 0
+difficulty: medium
+servings: 5
+time:
+  prepMinutes: 40
+  cookMinutes: 47
+  totalMinutes: 87
+kroeung: []
+equipment: []
+ingredients:
+- group: main
+  item: eggs
+- group: main
+  item: palm sugar
+  itemKm: ស្ករត្នោត
+- group: main
+  item: coconut milk
+  itemKm: ទឹកដូង
+- group: main
+  item: pandan
+  itemKm: ស្លឹកតើយ
+- group: main
+  item: salt
+  itemKm: អំបិល
+instructions:
+- step: 1
+  text: Whisk eggs with palm sugar until dissolved.
+- step: 2
+  text: Stir in coconut milk and pandan extract.
+- step: 3
+  text: Strain into a dish or hollowed pumpkin.
+- step: 4
+  text: Steam gently until just set; chill before serving.

@@ -1,0 +1,83 @@
+id: khm-0588
+slug: crispy-fried-chicken
+name:
+  km: ចៀនសាច់មាន់
+  romanized: Chien Sach Moan
+  en: Crispy Fried Chicken
+category: fried
+subcategory: chien-sot
+cuisine: Khmer
+description: Simply fried until golden and crisp, served with a dipping sauce.
+descriptionKm: ចៀនស្ងួត — ក្រៀម និងឆ្ងាញ់។
+image: images/dishes/crispy-fried-chicken.jpg
+imageFamily: fried-chien-chien-sot
+tags:
+- fried
+- chien
+- chien-sot
+- chicken
+- meat
+dietary: []
+spiceLevel: 0
+difficulty: easy
+servings: 3
+time:
+  prepMinutes: 18
+  cookMinutes: 22
+  totalMinutes: 40
+kroeung: []
+equipment:
+- wok or deep fryer
+equipmentKm:
+- ខ្ទះ ឬ ម៉ាសុីនចៀន
+ingredients:
+- group: main
+  item: chicken
+  quantity: 500
+  unit: g
+  notes: cut into bite-sized pieces
+  itemKm: សាច់មាន់
+  notesKm: កាត់ជាដុំៗតូច
+- group: seasoning
+  item: rice flour
+  quantity: 4
+  unit: tbsp
+  itemKm: ម្សៅអង្ករ
+- group: seasoning
+  item: salt
+  quantity: 1
+  unit: tsp
+  itemKm: អំបិល
+- group: seasoning
+  item: white pepper
+  quantity: 0.5
+  unit: tsp
+  itemKm: ម្រេចស
+- group: seasoning
+  item: oil for frying
+  quantity: 500
+  unit: ml
+  itemKm: ប្រេងសម្រាប់ចៀន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the chicken: cut into bite-sized pieces.'
+  textKm: រៀបចំសាច់មាន់៖ កាត់ជាដុំៗតូច។
+- step: 2
+  text: Pat dry and dust lightly with seasoned rice flour.
+- step: 3
+  text: Heat oil to 170°C. Fry the chicken until cooked through and no longer pink and crisp.
+  tip: Fry in small batches so the oil stays hot and the crust stays crisp.
+- step: 4
+  text: Drain on a rack.
+- step: 5
+  text: Serve with sweet chili sauce or tuk trey p'aem.
+- step: 6
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

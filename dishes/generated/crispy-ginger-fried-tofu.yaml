@@ -1,0 +1,86 @@
+id: khm-0631
+slug: crispy-ginger-fried-tofu
+name:
+  km: ចៀនខ្ញីតៅហ៊ូ
+  romanized: Chien Khnhei Taohu
+  en: Crispy Ginger Fried Tofu
+category: fried
+subcategory: chien-khnhei
+cuisine: Khmer
+description: Fried crisp and showered with crisp-fried shredded ginger and garlic.
+descriptionKm: ចៀនខ្ញី — បាញ់ខ្ញី និងខ្ទឹមហើយក្រៀម។
+image: images/dishes/crispy-ginger-fried-tofu.jpg
+imageFamily: fried-chien-chien-khnhei
+tags:
+- fried
+- chien
+- chien-khnhei
+- tofu
+- veg
+dietary:
+- vegetarian
+spiceLevel: 0
+difficulty: easy
+servings: 5
+time:
+  prepMinutes: 21
+  cookMinutes: 12
+  totalMinutes: 33
+kroeung: []
+equipment:
+- wok or deep fryer
+equipmentKm:
+- ខ្ទះ ឬ ម៉ាសុីនចៀន
+ingredients:
+- group: main
+  item: tofu
+  quantity: 500
+  unit: g
+  notes: cubed and lightly fried until golden
+  itemKm: តៅហ៊ូ
+- group: seasoning
+  item: rice flour
+  quantity: 4
+  unit: tbsp
+  itemKm: ម្សៅអង្ករ
+- group: seasoning
+  item: young ginger
+  quantity: 1
+  unit: thumb
+  notes: finely julienned
+  itemKm: ខ្ញីខ្ចី
+- group: seasoning
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: sliced
+  itemKm: ខ្ទឹមស
+  notesKm: ហាន់
+- group: seasoning
+  item: oil for frying
+  quantity: 500
+  unit: ml
+  itemKm: ប្រេងសម្រាប់ចៀន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the tofu: cubed and lightly fried until golden.'
+  textKm: រៀបចំតៅហ៊ូ៖ ហាន់ជាគូប ហើយចៀនបន្តិចឱ្យលឿង។
+- step: 2
+  text: Pat dry and dust with seasoned flour.
+- step: 3
+  text: Heat oil to 170°C. Fry the tofu until heated through and crisp.
+  tip: Fry in small batches so the oil stays hot and the crust stays crisp.
+- step: 4
+  text: Drain on a rack.
+- step: 5
+  text: Crisp the ginger and garlic in the oil and scatter over the top with spring onion.
+- step: 6
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

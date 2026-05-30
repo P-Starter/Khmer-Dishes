@@ -1,0 +1,164 @@
+id: khm-0469
+slug: coconut-kroeung-soup-with-squid
+name:
+  km: សម្លខ្ទិះមឹក
+  romanized: Samlor Ktis Meuk
+  en: Coconut Kroeung Soup with Squid
+category: soup
+subcategory: samlor
+cuisine: Khmer
+description: A rich, coconut-thickened kroeung soup — mellow, fragrant and a little sweet.
+descriptionKm: សម្លខ្ទិះ — ទឹកដូងក្រាស់ ឈ្ងុយ និងផ្អែមបន្តិច។
+image: images/dishes/coconut-kroeung-soup-with-squid.jpg
+imageFamily: soup-samlor-ktis
+tags:
+- soup
+- samlor
+- ktis
+- squid
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 2
+difficulty: medium
+servings: 6
+time:
+  prepMinutes: 27
+  cookMinutes: 17
+  totalMinutes: 44
+kroeung:
+- lemongrass
+- galangal
+- fresh turmeric
+- kaffir lime leaves
+- garlic
+- shallots
+- dried red chili
+- dried red chili
+equipment:
+- soup pot
+- mortar and pestle
+equipmentKm:
+- ឆ្នាំងស៊ុប
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: squid
+  quantity: 400
+  unit: g
+  notes: cleaned and scored into rings
+  itemKm: មឹក
+  notesKm: សម្អាត ហើយហាន់ជាកង់
+- group: kroeung
+  item: lemongrass
+  quantity: 3
+  unit: stalks
+  notes: tender part, finely sliced
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: យកផ្នែកទន់ ហាន់ស្ដើង
+- group: kroeung
+  item: galangal
+  quantity: 1
+  unit: thumb
+  notes: peeled and sliced
+  itemKm: រំដេង
+  notesKm: ចេញសំបក ហើយហាន់
+- group: kroeung
+  item: fresh turmeric
+  quantity: 1
+  unit: tsp
+  notes: or 1 thumb fresh
+  itemKm: រមៀតស្រស់
+  notesKm: ឬ ១មេដៃស្រស់
+- group: kroeung
+  item: kaffir lime leaves
+  quantity: 4
+  unit: leaves
+  notes: de-stemmed
+  itemKm: ស្លឹកក្រូចសើច
+  notesKm: ដកដើម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  itemKm: ខ្ទឹមស
+- group: kroeung
+  item: shallots
+  quantity: 3
+  unit: whole
+  itemKm: ខ្ទឹមក្រហម
+- group: kroeung
+  item: dried red chili
+  quantity: 2
+  unit: whole
+  notes: soaked, optional for heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (ស្ម័គ្រសម្រាប់ភាពហឹរ)
+- group: kroeung
+  item: dried red chili
+  quantity: 6
+  unit: whole
+  notes: soaked, for colour & heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (សម្រាប់ពណ៌ និងភាពហឹរ)
+- group: main
+  item: coconut milk
+  quantity: 400
+  unit: ml
+  itemKm: ទឹកដូង
+- group: garnish
+  item: coconut cream
+  quantity: 4
+  unit: tbsp
+  notes: for topping
+  itemKm: ខ្ទិះដូង
+  notesKm: សម្រាប់ដាក់ពីលើ
+- group: veg
+  item: eggplant
+  quantity: 3
+  unit: whole
+  notes: quartered
+  itemKm: ត្រប់
+  notesKm: កាត់ជា ៤
+- group: veg
+  item: yardlong beans
+  quantity: 100
+  unit: g
+  itemKm: សណ្ដែកគួរ
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the squid: cleaned and scored into rings.'
+  textKm: រៀបចំមឹក៖ សម្អាត ហើយហាន់ជាកង់។
+- step: 2
+  text: Fry the kroeung in a little coconut cream, then pour in the rest of the coconut milk.
+  tip: Bruising or pounding the aromatics first lets them give up more flavour.
+- step: 3
+  text: Add the squid and simmer until just opaque (do not overcook), about 4 minutes.
+  textKm: ដាក់មឹក ហើយដាំ រហូតទាល់តែទើបឆ្អិន (កុំឆ្អិនពេក) ប្រហែល 4 នាទី។
+- step: 4
+  text: Add the vegetables (eggplant, yardlong beans) and simmer until just tender.
+- step: 5
+  text: Season with fish sauce and palm sugar.
+  textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
+- step: 6
+  text: Taste — it should sing of salty, sweet and sour. Finish with kaffir lime leaf and fresh chili.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

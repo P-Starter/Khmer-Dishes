@@ -227,11 +227,11 @@
   <div class="modal" id="modal"></div>
 </div>
 
-<script src="khmer_data.js"></script>
 <script>
 (function(){
   "use strict";
-  const DATA = (window.KHMER_MENU && window.KHMER_MENU.recipes) || [];
+  let DATA = [];
+  const detailCache = new Map();
   const PAGE = 48;
 
   // ---------- visual maps ----------
@@ -257,13 +257,16 @@
   // ---------- search index ----------
   function norm(s){return (s||"").toLowerCase();}
   function tok(s){return norm(s).split(/[^a-z0-9ក-៿]+/).filter(Boolean);}
-  DATA.forEach(r=>{
-    const mains = (r.ingredients||[]).filter(i=>i.group==="main"||i.group==="kroeung").map(i=>i.item);
-    r._hay = norm([r.name.en,r.name.romanized,r.name.km,(r.tags||[]).join(" "),r.category,r.subcategory,mains.join(" ")].join(" "));
-    r._name = norm([r.name.en,r.name.romanized,r.name.km].join(" "));
-    r._tok = Array.from(new Set(tok(r._hay)));
-    r._prot = (r.tags||[]).filter(t=>PROTEIN_KEYS.has(t));
-  });
+  function buildSearchIndex(){
+    DATA.forEach(r=>{
+      // index doesn't include ingredients; search the fields it does have.
+      r._hay = norm([r.name.en,r.name.romanized,r.name.km,(r.tags||[]).join(" "),
+                     r.category,r.subcategory||"",(r.kroeung||[]).join(" ")].join(" "));
+      r._name = norm([r.name.en,r.name.romanized,r.name.km].join(" "));
+      r._tok = Array.from(new Set(tok(r._hay)));
+      r._prot = (r.tags||[]).filter(t=>PROTEIN_KEYS.has(t));
+    });
+  }
 
   // capped Levenshtein for typo tolerance
   function lev(a,b,max){
@@ -420,8 +423,28 @@
   }
 
   // ---------- modal ----------
-  function openModal(r){
-    const v=catView(r.category), t=r.time||{}, m=document.getElementById("modal");
+  async function getDetail(slug){
+    if(detailCache.has(slug)) return detailCache.get(slug);
+    const res = await fetch("build/dishes/"+encodeURIComponent(slug)+".json");
+    if(!res.ok) throw new Error("HTTP "+res.status+" loading dish detail");
+    const data = await res.json();
+    detailCache.set(slug, data);
+    return data;
+  }
+  async function openModal(rIndex){
+    // open overlay immediately so click feels instant
+    const m=document.getElementById("modal");
+    m.innerHTML='<div style="padding:60px 30px;text-align:center;color:var(--muted);font-size:14px">Loading…</div>';
+    document.getElementById("overlay").classList.add("open");
+    document.body.style.overflow="hidden";
+    let r;
+    try{ r = await getDetail(rIndex.slug); }
+    catch(e){
+      m.innerHTML='<div style="padding:60px 30px;text-align:center"><div style="color:var(--red);font-weight:600">Could not load recipe</div>'+
+        '<div style="margin-top:6px;color:var(--muted);font-size:13px">'+esc(e.message)+'</div></div>';
+      return;
+    }
+    const v=catView(r.category), t=r.time||{};
     const stats=[
       ["Serves",r.servings],["Prep",(t.prepMinutes||0)+"m"],["Cook",(t.cookMinutes||0)+"m"],
       ["Total",(t.totalMinutes||0)+"m"],["Level",cap(r.difficulty)],["Spice",spiceText(r.spiceLevel)]
@@ -487,8 +510,7 @@
           '</div>'+
         '</div>'+
       '</div>';
-    document.getElementById("overlay").classList.add("open");
-    document.body.style.overflow="hidden";
+    // overlay is already open (loader phase); just wire up controls now
     document.getElementById("mclose").onclick=closeModal;
     document.getElementById("modal").scrollTop=0;
     location.hash = r.slug;
@@ -546,12 +568,36 @@
   document.getElementById("overlay").addEventListener("click",e=>{if(e.target.id==="overlay")closeModal();});
   document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
 
-  document.getElementById("totalCount").textContent=DATA.length;
-  document.getElementById("footCount").textContent=DATA.length;
-  buildFilters(); renderDaily(); render();
+  async function loadIndex(){
+    const res = await fetch("build/index.json");
+    if(!res.ok) throw new Error("HTTP "+res.status+" loading build/index.json");
+    const data = await res.json();
+    return data.recipes || [];
+  }
 
-  // open a dish if the URL has a #slug
-  if(location.hash){const slug=location.hash.slice(1);const r=DATA.find(x=>x.slug===slug);if(r)openModal(r);}
+  async function start(){
+    document.getElementById("totalCount").textContent="…";
+    document.getElementById("footCount").textContent="…";
+    try {
+      DATA = await loadIndex();
+    } catch (e) {
+      document.querySelector("main").innerHTML =
+        '<div style="padding:60px 24px;text-align:center;line-height:1.6">'+
+        '<h2 style="color:var(--red)">Could not load the catalog</h2>'+
+        '<p style="color:var(--muted);font-size:14px">'+esc(e.message)+'</p>'+
+        '<p style="color:var(--muted);font-size:13px;margin-top:14px">If you opened this file directly,'+
+        ' serve it instead:<br><code>python -m http.server</code> &middot; then open <code>http://localhost:8000</code></p>'+
+        '</div>';
+      return;
+    }
+    buildSearchIndex();
+    document.getElementById("totalCount").textContent=DATA.length;
+    document.getElementById("footCount").textContent=DATA.length;
+    buildFilters(); renderDaily(); render();
+    // open a dish if the URL has a #slug
+    if(location.hash){const slug=location.hash.slice(1);const r=DATA.find(x=>x.slug===slug);if(r)openModal(r);}
+  }
+  start();
 })();
 </script>
 </body>

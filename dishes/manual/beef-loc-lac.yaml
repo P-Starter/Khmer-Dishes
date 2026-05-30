@@ -1,0 +1,105 @@
+id: khm-0002
+slug: beef-loc-lac
+name:
+  km: ឡុកឡាក់
+  romanized: Loc Lac
+  en: Beef Loc Lac
+category: stir-fry
+subcategory: signature
+cuisine: Khmer
+description: Cubes of seared marinated beef tossed in a tangy sauce, served over lettuce and tomato with a black-pepper-lime dip.
+descriptionKm: សាច់គោកាត់ជាដុំ ប្រឡាក់និងឆាជាមួយទឹកជ្រលក់ឆ្ងាញ់ បរិភោគជាមួយសាឡាត់ ប៉េងប៉ោះ និងទឹកម្រេចក្រូចឆ្មារ។
+image: images/dishes/beef-loc-lac.jpg
+imageFamily: beef-loc-lac
+tags:
+- signature
+- beef
+- stir-fry
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 4
+time:
+  prepMinutes: 20
+  cookMinutes: 10
+  totalMinutes: 30
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: beef sirloin
+  quantity: 500
+  unit: g
+  notes: cut into 2 cm cubes
+  itemKm: សាច់គោកំពូល
+  notesKm: កាត់ជាគូប ២សម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: seasoning
+  item: oyster sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: light soy sauce
+  quantity: 1
+  unit: tbsp
+  itemKm: ទឹកសុីអ៊ីវស្រាល
+- group: seasoning
+  item: tomato ketchup
+  quantity: 1
+  unit: tbsp
+  itemKm: សុីអ៊ីវប៉េងប៉ោះ
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: veg
+  item: lettuce, tomato & onion
+  quantity: 1
+  unit: platter
+  notes: to serve
+  itemKm: សាឡាត់ ប៉េងប៉ោះ និងខ្ទឹមបារាំង
+  notesKm: សម្រាប់បរិភោគ
+- group: garnish
+  item: Kampot black pepper
+  quantity: 1
+  unit: tbsp
+  notes: for the dip
+  itemKm: ម្រេចខ្មៅកំពត
+  notesKm: សម្រាប់ទឹកជ្រលក់
+- group: garnish
+  item: lime
+  quantity: 2
+  unit: whole
+  notes: for the dip
+  itemKm: ក្រូចឆ្មារ
+  notesKm: សម្រាប់ទឹកជ្រលក់
+instructions:
+- step: 1
+  text: Marinate the beef cubes in garlic, oyster sauce, soy, ketchup and palm sugar for 20 minutes.
+  textKm: ប្រឡាក់សាច់គោដុំ ជាមួយខ្ទឹមស ទឹកអយស្ទ័រ ស៊ីអ៊ីវ អ៊ីខាប់ និងស្ករត្នោត រយៈពេល ២០ នាទី។
+- step: 2
+  text: 'Make the dip: mix lime juice with salt and cracked Kampot black pepper.'
+  textKm: ធ្វើទឹកជ្រលក់៖ លាយទឹកក្រូចឆ្មារ ជាមួយអំបិល និងម្រេចខ្មៅកំពតបុក។
+- step: 3
+  text: Sear the beef in a screaming-hot wok in batches until browned but still pink inside.
+  textKm: ឆាសាច់គោក្នុងខ្ទះក្ដៅខ្លាំង ជាដំណាក់ៗ ឱ្យខាងក្រៅលឿង តែខាងក្នុងនៅផ្កាឈូក។
+  tip: High heat and small batches give a good sear without overcooking.
+  tipKm: ភ្លើងខ្លាំង និងឆាម្ដងបន្តិចៗ ដើម្បីសាច់គោក្រៀមខាងក្រៅ តែមិនឆ្អិនពេក។
+- step: 4
+  text: Arrange lettuce, tomato and sliced onion on a plate and pile the beef on top.
+  textKm: រៀបចានដោយដាក់សាឡាត់ ប៉េងប៉ោះ និងខ្ទឹមបារាំងហាន់ បន្ទាប់មកដាក់សាច់គោពីលើ។
+- step: 5
+  text: Serve with rice, a fried egg, and the black-pepper-lime dip.
+  textKm: បរិភោគជាមួយបាយ ពងមាន់ចៀន និងទឹកម្រេចក្រូចឆ្មារ។

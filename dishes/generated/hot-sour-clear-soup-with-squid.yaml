@@ -1,0 +1,123 @@
+id: khm-0491
+slug: hot-sour-clear-soup-with-squid
+name:
+  km: ស្ងោរជ្រក់មឹក
+  romanized: Sngor Chruok Meuk
+  en: Hot & Sour Clear Soup with Squid
+category: soup
+subcategory: samlor
+cuisine: Khmer
+description: A light, tangy clear soup brightened with lime and chili at the table.
+descriptionKm: ស្ងោរជ្រក់ — ស្រាល ជូរ ត្រជាក់ ដោយទឹកក្រូចឆ្មារ។
+image: images/dishes/hot-sour-clear-soup-with-squid.jpg
+imageFamily: soup-samlor-sngor
+tags:
+- soup
+- samlor
+- sngor
+- squid
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 2
+difficulty: medium
+servings: 3
+time:
+  prepMinutes: 20
+  cookMinutes: 15
+  totalMinutes: 35
+kroeung:
+- lemongrass
+- galangal
+equipment:
+- soup pot
+- mortar and pestle
+equipmentKm:
+- ឆ្នាំងស៊ុប
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: squid
+  quantity: 400
+  unit: g
+  notes: cleaned and scored into rings
+  itemKm: មឹក
+  notesKm: សម្អាត ហើយហាន់ជាកង់
+- group: main
+  item: stock or water
+  quantity: 1.2
+  unit: litre
+  itemKm: ទឹកស៊ុប ឬ ទឹក
+- group: kroeung
+  item: lemongrass
+  quantity: 2
+  unit: stalks
+  notes: bruised
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: បុកបន្តិច
+- group: kroeung
+  item: galangal
+  quantity: 3
+  unit: slices
+  itemKm: រំដេង
+- group: veg
+  item: tomato
+  quantity: 2
+  unit: whole
+  notes: wedges
+  itemKm: ប៉េងប៉ោះ
+  notesKm: ចំណិត
+- group: veg
+  item: oyster mushroom
+  quantity: 100
+  unit: g
+  itemKm: ផ្សិតស្រូវ
+- group: veg
+  item: napa cabbage
+  quantity: 150
+  unit: g
+  itemKm: ស្ពៃជ្រក់
+- group: seasoning
+  item: lime juice
+  quantity: 3
+  unit: tbsp
+  notes: added off the heat
+  itemKm: ទឹកក្រូចឆ្មារ
+  notesKm: ដាក់ពេលដកពីភ្លើង
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the squid: cleaned and scored into rings.'
+  textKm: រៀបចំមឹក៖ សម្អាត ហើយហាន់ជាកង់។
+- step: 2
+  text: Bring stock to a boil with bruised lemongrass and galangal.
+  tip: Bruising or pounding the aromatics first lets them give up more flavour.
+- step: 3
+  text: Add the squid and simmer until just opaque (do not overcook), about 4 minutes.
+  textKm: ដាក់មឹក ហើយដាំ រហូតទាល់តែទើបឆ្អិន (កុំឆ្អិនពេក) ប្រហែល 4 នាទី។
+- step: 4
+  text: Add the vegetables (tomato, oyster mushroom, napa cabbage) and simmer until just tender.
+- step: 5
+  text: Season with fish sauce and palm sugar, then balance with lime juice.
+  textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
+- step: 6
+  text: Taste — it should sing of salty, sweet and sour. Finish with coriander, chili and a final squeeze of lime.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

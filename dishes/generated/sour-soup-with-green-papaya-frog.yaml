@@ -1,0 +1,107 @@
+id: khm-0810
+slug: sour-soup-with-green-papaya-frog
+name:
+  km: សម្លម្ជូរល្ហុងកង្កែប
+  romanized: Samlor Machu Lhong Kong Kep
+  en: Sour Soup with Green Papaya & Frog
+category: soup
+subcategory: samlor-machu
+cuisine: Khmer
+description: A bright Khmer sour soup of green papaya with frog.
+descriptionKm: សម្លម្ជូរស្រស់ ផ្សំជាមួយល្ហុង និងកង្កែប។
+image: images/dishes/sour-soup-with-green-papaya-frog.jpg
+imageFamily: soup-samlor-machu-papaya
+tags:
+- soup
+- samlor
+- machu
+- papaya
+- frog
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 20
+  cookMinutes: 34
+  totalMinutes: 54
+kroeung:
+- lemongrass
+equipment:
+- soup pot
+equipmentKm:
+- ឆ្នាំងស៊ុប
+ingredients:
+- group: main
+  item: frog
+  quantity: 350
+  unit: g
+  notes: cleaned and jointed
+  itemKm: កង្កែប
+- group: veg
+  item: green papaya
+  quantity: 300
+  unit: g
+  notes: peeled and cubed
+  itemKm: ល្ហុង
+  notesKm: ចេញសំបក ហើយកាត់ជាគូប
+- group: main
+  item: stock or water
+  quantity: 1.2
+  unit: litre
+  itemKm: ទឹកស៊ុប ឬ ទឹក
+- group: kroeung
+  item: lemongrass
+  quantity: 2
+  unit: stalks
+  notes: bruised
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: បុកបន្តិច
+- group: kroeung
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: smashed
+  itemKm: ខ្ទឹមស
+  notesKm: បុក
+- group: seasoning
+  item: tamarind paste
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកអម្ពិល
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: garnish
+  item: sawtooth coriander & rice-paddy herb
+  quantity: 1
+  unit: handful
+  itemKm: ជីអង្ការ និងម្អម
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: Bring the stock to a boil with bruised lemongrass and smashed garlic.
+  textKm: ដាំទឹកស៊ុបជាមួយស្លឹកគ្រៃបុក និងខ្ទឹមសបុក។
+- step: 2
+  text: Add the frog (cleaned and jointed) and simmer until almost cooked.
+- step: 3
+  text: Add the green papaya and simmer until tender.
+- step: 4
+  text: Season with tamarind, fish sauce and palm sugar; balance to a clean sour-salty-sweet.
+  tip: Add tamarind gradually and taste — sourness should brighten, not dominate.
+- step: 5
+  text: Finish with sawtooth coriander and rice-paddy herb; serve with rice.

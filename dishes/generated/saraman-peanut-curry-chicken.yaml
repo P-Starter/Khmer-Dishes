@@ -1,0 +1,158 @@
+id: khm-0519
+slug: saraman-peanut-curry-chicken
+name:
+  km: សារ៉ាម៉ានសាច់មាន់
+  romanized: Saraman Sach Moan
+  en: Saraman Peanut Curry Chicken
+category: curry
+subcategory: saraman
+cuisine: Khmer
+description: A rich, mild peanut-and-coconut curry of Cham–Khmer heritage, gently spiced.
+descriptionKm: ការីសារាម៉ាន់ — ការីសណ្ដែកដី ស្រាល និងផ្អែម។
+image: images/dishes/saraman-peanut-curry-chicken.jpg
+imageFamily: curry-saraman
+tags:
+- curry
+- saraman
+- chicken
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: medium
+servings: 4
+time:
+  prepMinutes: 36
+  cookMinutes: 37
+  totalMinutes: 73
+kroeung:
+- lemongrass
+- galangal
+- fresh turmeric
+- kaffir lime leaves
+- garlic
+- shallots
+- dried red chili
+- dried red chili
+equipment:
+- pot
+- mortar and pestle
+equipmentKm:
+- ឆ្នាំង
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: chicken
+  quantity: 500
+  unit: g
+  notes: cut into bite-sized pieces
+  itemKm: សាច់មាន់
+  notesKm: កាត់ជាដុំៗតូច
+- group: kroeung
+  item: lemongrass
+  quantity: 3
+  unit: stalks
+  notes: tender part, finely sliced
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: យកផ្នែកទន់ ហាន់ស្ដើង
+- group: kroeung
+  item: galangal
+  quantity: 1
+  unit: thumb
+  notes: peeled and sliced
+  itemKm: រំដេង
+  notesKm: ចេញសំបក ហើយហាន់
+- group: kroeung
+  item: fresh turmeric
+  quantity: 1
+  unit: tsp
+  notes: or 1 thumb fresh
+  itemKm: រមៀតស្រស់
+  notesKm: ឬ ១មេដៃស្រស់
+- group: kroeung
+  item: kaffir lime leaves
+  quantity: 4
+  unit: leaves
+  notes: de-stemmed
+  itemKm: ស្លឹកក្រូចសើច
+  notesKm: ដកដើម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  itemKm: ខ្ទឹមស
+- group: kroeung
+  item: shallots
+  quantity: 3
+  unit: whole
+  itemKm: ខ្ទឹមក្រហម
+- group: kroeung
+  item: dried red chili
+  quantity: 2
+  unit: whole
+  notes: soaked, optional for heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (ស្ម័គ្រសម្រាប់ភាពហឹរ)
+- group: kroeung
+  item: dried red chili
+  quantity: 6
+  unit: whole
+  notes: soaked, for colour & heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (សម្រាប់ពណ៌ និងភាពហឹរ)
+- group: main
+  item: coconut milk
+  quantity: 400
+  unit: ml
+  itemKm: ទឹកដូង
+- group: garnish
+  item: coconut cream
+  quantity: 4
+  unit: tbsp
+  notes: for topping
+  itemKm: ខ្ទិះដូង
+  notesKm: សម្រាប់ដាក់ពីលើ
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: roasted peanuts
+  quantity: 4
+  unit: tbsp
+  notes: ground
+  itemKm: សណ្ដែកដីលីង
+- group: veg
+  item: potato
+  quantity: 2
+  unit: whole
+  notes: chunks
+  itemKm: ដំឡូងបារាំង
+  notesKm: ដុំៗ
+- group: seasoning
+  item: toasted coconut
+  quantity: 2
+  unit: tbsp
+  itemKm: ដូងលីង
+instructions:
+- step: 1
+  text: Fry the red kroeung in a little coconut cream until the oil splits and it smells fragrant.
+- step: 2
+  text: Stir in the ground roasted peanuts and toasted coconut.
+- step: 3
+  text: Add the chicken (cut into bite-sized pieces) and seal in the paste.
+- step: 4
+  text: Pour in the coconut milk and add the potato; simmer gently.
+- step: 5
+  text: Simmer until cooked through and no longer pink and the potato is soft, about 27 minutes.
+- step: 6
+  text: Season with fish sauce and palm sugar; it should be mild, nutty and rich.
+  textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

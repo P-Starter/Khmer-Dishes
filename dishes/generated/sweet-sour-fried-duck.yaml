@@ -1,0 +1,99 @@
+id: khm-0613
+slug: sweet-sour-fried-duck
+name:
+  km: ចៀនជូរផ្អែមសាច់ទា
+  romanized: Chien Chu Paem Sach Tia
+  en: Sweet & Sour Fried Duck
+category: fried
+subcategory: chien-chu-paem
+cuisine: Khmer
+description: Fried crisp and bathed in a bright sweet-and-sour sauce with pineapple.
+descriptionKm: ចៀនជូរផ្អែម — ផ្សំជាមួយម្នាស់ និងទឹកជូរផ្អែម។
+image: images/dishes/sweet-sour-fried-duck.jpg
+imageFamily: fried-chien-chien-chu-paem
+tags:
+- fried
+- chien
+- chien-chu-paem
+- duck
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 5
+time:
+  prepMinutes: 21
+  cookMinutes: 33
+  totalMinutes: 54
+kroeung: []
+equipment:
+- wok or deep fryer
+equipmentKm:
+- ខ្ទះ ឬ ម៉ាសុីនចៀន
+ingredients:
+- group: main
+  item: duck
+  quantity: 500
+  unit: g
+  notes: chopped into pieces
+  itemKm: សាច់ទា
+- group: seasoning
+  item: rice flour
+  quantity: 4
+  unit: tbsp
+  itemKm: ម្សៅអង្ករ
+- group: seasoning
+  item: cornstarch
+  quantity: 2
+  unit: tbsp
+  itemKm: ម្សៅពោត
+- group: veg
+  item: pineapple
+  quantity: 100
+  unit: g
+  notes: chunks
+  itemKm: ម្នាស់
+  notesKm: ដុំៗ
+- group: seasoning
+  item: tomato ketchup
+  quantity: 2
+  unit: tbsp
+  itemKm: សុីអ៊ីវប៉េងប៉ោះ
+- group: seasoning
+  item: rice vinegar
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកខ្មេះអង្ករ
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: oil for frying
+  quantity: 500
+  unit: ml
+  itemKm: ប្រេងសម្រាប់ចៀន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the duck: chopped into pieces.'
+  textKm: រៀបចំសាច់ទា៖ កាត់ជាដុំៗ។
+- step: 2
+  text: Coat in a light tempura-style batter and fry until crisp.
+- step: 3
+  text: Heat oil to 170°C. Fry the duck until tender and crisp.
+  tip: Fry in small batches so the oil stays hot and the crust stays crisp.
+- step: 4
+  text: Drain on a rack.
+- step: 5
+  text: Pour the warm sweet-and-sour sauce over the fried pieces just before serving.
+- step: 6
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

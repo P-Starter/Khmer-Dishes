@@ -1,0 +1,98 @@
+id: khm-0638
+slug: khmer-herb-salad-with-shrimp
+name:
+  km: ញាំបង្គា
+  romanized: Nhoam Bangkea
+  en: Khmer Herb Salad with Shrimp
+category: salad
+subcategory: nhoam
+cuisine: Khmer
+description: A vibrant tossed salad of poached protein, crunchy vegetables and a forest of herbs.
+descriptionKm: ញាំខ្មែរ — សាច់និងបន្លែស្រស់ ផ្សំជាមួយទឹកជ្រលក់។
+image: images/dishes/khmer-herb-salad-with-shrimp.jpg
+imageFamily: salad-nhoam-nhoam
+tags:
+- salad
+- nhoam
+- nhoam
+- shrimp
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 2
+difficulty: easy
+servings: 4
+time:
+  prepMinutes: 22
+  cookMinutes: 1
+  totalMinutes: 23
+kroeung: []
+equipment:
+- mixing bowl
+equipmentKm:
+- ចានលាយ
+ingredients:
+- group: main
+  item: shrimp
+  quantity: 300
+  unit: g
+  notes: peeled and deveined
+  itemKm: បង្គា
+  notesKm: ចេញសំបក ហើយយកសរសៃ
+- group: veg
+  item: shredded cabbage
+  quantity: 200
+  unit: g
+  itemKm: ស្ពៃក្ដោបកាត់
+- group: veg
+  item: carrot
+  quantity: 1
+  unit: whole
+  notes: julienned
+  itemKm: ការ៉ុត
+  notesKm: ហាន់ស្ដើងជាខ្សែ
+- group: veg
+  item: Asian basil & mint
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកមៀន និងស្លឹកសុណ្ដ
+- group: dressing
+  item: lime juice
+  quantity: 4
+  unit: tbsp
+  itemKm: ទឹកក្រូចឆ្មារ
+- group: dressing
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: dressing
+  item: palm sugar
+  quantity: 2
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: dressing
+  item: garlic
+  quantity: 2
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: dressing
+  item: bird's-eye chili
+  quantity: 2
+  unit: whole
+  notes: minced
+  itemKm: ម្ទេសខ្មាំង
+  notesKm: កិន
+instructions:
+- step: 1
+  text: Poach or grill the shrimp (peeled and deveined) until just cooked, then slice thinly.
+- step: 2
+  text: Whisk the dressing — lime juice, fish sauce, palm sugar, garlic and chili — until the sugar dissolves.
+- step: 3
+  text: Combine the shrimp with shredded cabbage, carrot, Asian basil & mint.
+- step: 4
+  text: Pour over the dressing and toss well just before serving.
+- step: 5
+  text: Pile onto a plate and top with extra herbs, peanuts and fried shallots.

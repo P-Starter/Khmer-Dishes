@@ -1,0 +1,105 @@
+id: khm-0376
+slug: stir-fried-napa-cabbage-with-squid
+name:
+  km: ឆាស្ពៃជ្រក់មឹក
+  romanized: Cha Spey Chrok Meuk
+  en: Stir-fried Napa Cabbage with Squid
+category: stir-fry
+subcategory: cha-vegetable
+cuisine: Khmer
+description: A fast, high-heat home stir-fry of napa cabbage with squid.
+descriptionKm: ម្ហូបឆាដ៏លឿនជាមួយស្ពៃជ្រក់ និងមឹក។
+image: images/dishes/stir-fried-napa-cabbage-with-squid.jpg
+imageFamily: stir-fry-cha-napa-cabbage
+tags:
+- stir-fry
+- cha
+- napa-cabbage
+- squid
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 0
+difficulty: easy
+servings: 4
+time:
+  prepMinutes: 19
+  cookMinutes: 9
+  totalMinutes: 28
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: squid
+  quantity: 300
+  unit: g
+  notes: cleaned and scored into rings
+  itemKm: មឹក
+  notesKm: សម្អាត ហើយហាន់ជាកង់
+- group: veg
+  item: napa cabbage
+  quantity: 0.3
+  unit: head
+  notes: roughly chopped
+  itemKm: ស្ពៃជ្រក់
+  notesKm: កាត់ដុំ
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: seasoning
+  item: oyster sauce
+  quantity: 1.5
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: fish sauce (teuk trey)
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: vegetable oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងបន្លែ
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the squid: cleaned and scored into rings.'
+  textKm: រៀបចំមឹក៖ សម្អាត ហើយហាន់ជាកង់។
+- step: 2
+  text: Mince the garlic and have the napa cabbage washed and cut.
+  textKm: កិនខ្ទឹមស ហើយលាង ស្ពៃជ្រក់ ឱ្យស្អាតហើយកាត់រួច។
+- step: 3
+  text: Heat 2 tbsp oil in a wok over high heat; fry the garlic until fragrant.
+  textKm: ដាក់ប្រេង ២ ស្លាបព្រាក្នុងខ្ទះ ហើយដុំឱ្យក្ដៅខ្លាំង។
+- step: 4
+  text: Add the squid and stir-fry until just opaque (do not overcook), about 4 minutes.
+  textKm: ដាក់មឹក ហើយឆា រហូតទាល់តែទើបឆ្អិន (កុំឆ្អិនពេក) ប្រហែល 4 នាទី។
+- step: 5
+  text: Add the napa cabbage and stir-fry over high heat until tender-crisp.
+  tip: Keep the heat high so the vegetable stays bright and never stews.
+  textKm: ដាក់ស្ពៃជ្រក់ ហើយឆាលើភ្លើងខ្លាំង រហូតទាល់តែទន់និងក្រៀម។
+- step: 6
+  text: Season with oyster sauce, fish sauce and a pinch of palm sugar; toss quickly.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

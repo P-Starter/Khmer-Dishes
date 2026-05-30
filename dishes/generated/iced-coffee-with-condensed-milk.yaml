@@ -1,0 +1,44 @@
+id: khm-1034
+slug: iced-coffee-with-condensed-milk
+name:
+  km: កាហ្វេទឹកដោះគោ
+  romanized: Kafe Teuk Dohko
+  en: Iced Coffee with Condensed Milk
+category: drink
+subcategory: beverage
+cuisine: Khmer
+description: A classic Cambodian iced coffee with condensed milk.
+descriptionKm: កាហ្វេទឹកដោះគោ — កាហ្វេក្ដៅខ្លាំង ផ្សំជាមួយទឹកដោះគោផ្អែម ហើយចាក់លើទឹកកក។
+image: images/dishes/iced-coffee-with-condensed-milk.jpg
+imageFamily: drink-iced-coffee-with-condensed-milk
+tags:
+- drink
+- iced-coffee-with-condensed-milk
+dietary:
+- vegetarian
+spiceLevel: 0
+difficulty: easy
+servings: 6
+time:
+  prepMinutes: 8
+  cookMinutes: 1
+  totalMinutes: 9
+kroeung: []
+equipment: []
+ingredients:
+- group: main
+  item: dark-roast coffee
+  itemKm: កាហ្វេលីង
+- group: main
+  item: sweetened condensed milk
+  itemKm: ទឹកដោះគោផ្អែម
+- group: main
+  item: ice
+  itemKm: ទឹកកក
+instructions:
+- step: 1
+  text: Brew strong coffee using a phin or dripper.
+- step: 2
+  text: Stir 2 tbsp condensed milk into the hot coffee.
+- step: 3
+  text: Pour over a glass of ice and stir well.

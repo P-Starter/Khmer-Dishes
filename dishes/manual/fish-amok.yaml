@@ -1,0 +1,158 @@
+id: khm-0001
+slug: fish-amok
+name:
+  km: អាម៉ុកត្រី
+  romanized: Amok Trey
+  en: Fish Amok
+category: curry
+subcategory: amok
+cuisine: Khmer
+description: 'Cambodia''s national dish: a fragrant, mousse-like steamed fish curry set with coconut and yellow kroeung in banana leaf.'
+descriptionKm: ម្ហូបជាតិកម្ពុជា — ការីត្រីចំហុយក្នុងស្លឹកចេក ឈ្ងុយឈ្ងប់ ផ្សំជាមួយទឹកដូងនិងគ្រឿងលឿង។
+image: images/dishes/fish-amok.jpg
+imageFamily: fish-amok
+tags:
+- signature
+- national-dish
+- fish
+- steamed
+- coconut
+dietary:
+- pescatarian
+- gluten-free
+spiceLevel: 1
+difficulty: medium
+servings: 3
+time:
+  prepMinutes: 40
+  cookMinutes: 25
+  totalMinutes: 65
+kroeung:
+- lemongrass
+- galangal
+- fresh turmeric
+- kaffir lime leaves
+- garlic
+- shallots
+- dried red chili
+equipment:
+- steamer
+- banana leaf cups
+- mortar and pestle
+equipmentKm:
+- ឆ្នាំងចំហុយ
+- ពែងស្លឹកចេក
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: snakehead or catfish fillet
+  quantity: 500
+  unit: g
+  notes: sliced
+  itemKm: សាច់ត្រី
+  notesKm: ហាន់
+- group: kroeung
+  item: lemongrass
+  quantity: 3
+  unit: stalks
+  notes: tender part, finely sliced
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: យកផ្នែកទន់ ហាន់ស្ដើង
+- group: kroeung
+  item: galangal
+  quantity: 1
+  unit: thumb
+  notes: peeled and sliced
+  itemKm: រំដេង
+  notesKm: ចេញសំបក ហើយហាន់
+- group: kroeung
+  item: fresh turmeric
+  quantity: 1
+  unit: tsp
+  notes: or 1 thumb fresh
+  itemKm: រមៀតស្រស់
+  notesKm: ឬ ១មេដៃស្រស់
+- group: kroeung
+  item: kaffir lime leaves
+  quantity: 4
+  unit: leaves
+  notes: de-stemmed
+  itemKm: ស្លឹកក្រូចសើច
+  notesKm: ដកដើម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  itemKm: ខ្ទឹមស
+- group: kroeung
+  item: shallots
+  quantity: 3
+  unit: whole
+  itemKm: ខ្ទឹមក្រហម
+- group: kroeung
+  item: dried red chili
+  quantity: 2
+  unit: whole
+  notes: soaked, optional for heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (ស្ម័គ្រសម្រាប់ភាពហឹរ)
+- group: main
+  item: coconut milk
+  quantity: 400
+  unit: ml
+  itemKm: ទឹកដូង
+- group: garnish
+  item: coconut cream
+  quantity: 4
+  unit: tbsp
+  notes: for topping
+  itemKm: ខ្ទិះដូង
+  notesKm: សម្រាប់ដាក់ពីលើ
+- group: seasoning
+  item: egg
+  quantity: 1
+  unit: whole
+  itemKm: ពងមាន់
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: veg
+  item: noni or young cabbage leaves
+  quantity: 6
+  unit: leaves
+  notes: to line the cups
+  itemKm: ស្លឹកនុ ឬ ស្លឹកស្ពៃខ្ចី
+  notesKm: សម្រាប់រៀបក្នុងពែង
+- group: equipment
+  item: banana leaf cups
+  quantity: 4
+  unit: whole
+  itemKm: ពែងស្លឹកចេក
+instructions:
+- step: 1
+  text: Pound the yellow kroeung to a very smooth paste.
+  textKm: បុកគ្រឿងលឿងឱ្យល្អិតៗ។
+- step: 2
+  text: Whisk the kroeung with coconut milk, egg, fish sauce and palm sugar until thick and creamy.
+  textKm: កូរគ្រឿងជាមួយទឹកដូង ពងមាន់ ទឹកត្រី និងស្ករត្នោត ឱ្យក្រាស់និងរលោង។
+  tip: Add coconut milk gradually so the mixture stays emulsified and silky.
+  tipKm: ដាក់ទឹកដូងបន្តិចម្ដងៗ ដើម្បីឱ្យល្បាយនៅរលោងស្អិតគ្នា។
+- step: 3
+  text: Fold the sliced fish through the mixture.
+  textKm: បញ្ចូលសាច់ត្រីហាន់ ហើយលាយចូលគ្នាស្រួលបួល។
+- step: 4
+  text: Line banana-leaf cups with soft leaves and fill with the fish mixture.
+  textKm: តម្រៀបស្លឹកចេកក្នុងពែង បន្ទាប់មកដាក់សាច់ត្រីដែលលាយរួច។
+- step: 5
+  text: Steam over medium heat 20–25 minutes until set like a soft custard.
+  textKm: ចំហុយដោយភ្លើងមធ្យម ២០–២៥ នាទី រហូតទាល់តែកក ដូចសង់ខ្យាទន់។
+- step: 6
+  text: Top with coconut cream and shredded kaffir lime leaf; serve with rice.
+  textKm: ដាក់ខ្ទិះដូងពីលើ និងស្លឹកក្រូចសើច។ បរិភោគជាមួយបាយ។

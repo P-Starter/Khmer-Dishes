@@ -22,8 +22,9 @@ import json
 import hashlib
 import datetime
 import re
+import os
+import sys
 
-OUT_FILE = "khmer_menu.json"
 SCHEMA_FILE = "khmer_menu.schema.json"
 TARGET = 1000
 
@@ -1992,8 +1993,9 @@ def _apply_km(record):
 def generate():
     recipes = []
 
-    # iconic first
-    recipes += iconic()
+    # NOTE: iconic dishes used to be authored in iconic() below, but they are
+    # now hand-edited YAML in dishes/manual/*.yaml (the source of truth). The
+    # iconic() function is kept for historical reference and is NOT called here.
 
     # cha by aromatic style
     for style in CHA_STYLES:
@@ -2113,28 +2115,69 @@ def generate():
     return final
 
 
+FIELD_ORDER = [
+    "id", "slug", "name", "category", "subcategory", "cuisine",
+    "description", "descriptionKm", "image", "imageFamily",
+    "tags", "dietary", "spiceLevel", "difficulty", "servings", "time",
+    "kroeung", "equipment", "equipmentKm",
+    "ingredients", "instructions",
+]
+
+def _ordered(r):
+    out = {}
+    for k in FIELD_ORDER:
+        if k in r:
+            out[k] = r[k]
+    for k, v in r.items():
+        if k not in out:
+            out[k] = v
+    return out
+
+
 def main():
+    import os
+    try:
+        import yaml
+    except ImportError:
+        print("ERROR: requires PyYAML.  pip install pyyaml", file=sys.stderr)
+        raise
+
+    class _Dumper(yaml.SafeDumper):
+        pass
+    _Dumper.add_representer(dict, lambda d, x: d.represent_mapping("tag:yaml.org,2002:map", x.items()))
+
     recipes = generate()
-    meta = {
-        "schemaVersion": "1.0",
-        "title": "Khmer Chief — Cambodian Recipe Catalog",
-        "description": "Website-ready catalog of Cambodian (Khmer) dishes with structured ingredients and step-by-step cooking instructions.",
-        "cuisine": "Khmer",
-        "language": {"primary": "en", "names": ["km", "romanized", "en"]},
-        "count": len(recipes),
-        "categories": sorted({r["category"] for r in recipes}),
-        "generatedAt": datetime.date(2026, 5, 28).isoformat(),
-        "license": "CC-BY-4.0 (recipes are traditional / generated for demonstration)",
-    }
-    doc = {"meta": meta, "recipes": recipes}
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(doc, f, ensure_ascii=False, indent=2)
-    # JS wrapper so the static page works by double-clicking (no server / no fetch needed)
-    with open("khmer_data.js", "w", encoding="utf-8") as f:
-        f.write("window.KHMER_MENU = ")
-        json.dump(doc, f, ensure_ascii=False)
-        f.write(";\n")
-    print("Wrote {} recipes to {} (+ khmer_data.js)".format(len(recipes), OUT_FILE))
+    out_dir = os.path.join("dishes", "generated")
+    manual_dir = os.path.join("dishes", "manual")
+    os.makedirs(out_dir, exist_ok=True)
+
+    # Skip any slug that already lives in dishes/manual/ — manual is the source
+    # of truth there, and we don't want a stale duplicate in generated/.
+    manual_slugs = set()
+    if os.path.isdir(manual_dir):
+        manual_slugs = {f[:-5] for f in os.listdir(manual_dir) if f.endswith(".yaml")}
+
+    # Wipe stale generated files (manual/ is untouched).
+    existing = {f for f in os.listdir(out_dir) if f.endswith(".yaml")}
+    wanted = set()
+    written = 0
+    for r in recipes:
+        if r["slug"] in manual_slugs:
+            continue
+        wanted.add(r["slug"] + ".yaml")
+        path = os.path.join(out_dir, r["slug"] + ".yaml")
+        with open(path, "w", encoding="utf-8") as f:
+            yaml.dump(_ordered(r), f, Dumper=_Dumper, allow_unicode=True,
+                      default_flow_style=False, sort_keys=False, width=1000)
+        written += 1
+    for stale in existing - wanted:
+        os.remove(os.path.join(out_dir, stale))
+
+    print("Wrote {} dish YAMLs to {}/  (skipped {} that exist in manual/)".format(
+        written, out_dir, len(recipes) - written))
+    if existing - wanted:
+        print("  removed {} stale file(s)".format(len(existing - wanted)))
+    print("\nNext: run `python build_catalog.py` to refresh build/index.json and build/dishes/")
     # category breakdown
     from collections import Counter
     c = Counter(r["category"] for r in recipes)

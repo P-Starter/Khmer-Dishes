@@ -1,0 +1,92 @@
+id: khm-0004
+slug: phnom-penh-noodle-soup
+name:
+  km: គុយទាវ
+  romanized: Kuy Teav Phnom Penh
+  en: Phnom Penh Noodle Soup
+category: noodles
+subcategory: signature
+cuisine: Khmer
+description: 'The iconic morning noodle soup: rice noodles in a clear pork-and-dried-seafood broth with all the toppings.'
+descriptionKm: គុយទាវភ្នំពេញ — ភ្ញាក់ព្រឹកដ៏ល្បី គុយទាវក្នុងទឹកស៊ុបស្អាតពីឆ្អឹងជ្រូកនិងសុីហ្វូដស្ងួត ផ្សំជាមួយគ្រឿងគ្រប់យ៉ាង។
+image: images/dishes/phnom-penh-noodle-soup.jpg
+imageFamily: phnom-penh-noodle-soup
+tags:
+- signature
+- noodles
+- breakfast
+- pork
+dietary: []
+spiceLevel: 1
+difficulty: medium
+servings: 6
+time:
+  prepMinutes: 30
+  cookMinutes: 90
+  totalMinutes: 120
+kroeung: []
+equipment:
+- stock pot
+equipmentKm:
+- ឆ្នាំងស៊ុប
+ingredients:
+- group: main
+  item: pork bones
+  quantity: 1
+  unit: kg
+  notes: for the broth
+  itemKm: ឆ្អឹងជ្រូក
+  notesKm: សម្រាប់ទឹកស៊ុប
+- group: main
+  item: dried squid
+  quantity: 30
+  unit: g
+  itemKm: មឹកស្ងួត
+- group: main
+  item: flat rice noodles
+  quantity: 400
+  unit: g
+  itemKm: គុយទាវ
+- group: main
+  item: pork mince & sliced pork
+  quantity: 250
+  unit: g
+  itemKm: សាច់ជ្រូកកិន និងហាន់
+- group: main
+  item: shrimp
+  quantity: 8
+  unit: whole
+  itemKm: បង្គា
+- group: veg
+  item: bean sprouts
+  quantity: 100
+  unit: g
+  itemKm: សណ្ដែកបណ្ដុះ
+- group: garnish
+  item: fried garlic oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងខ្ទឹមចៀន
+- group: garnish
+  item: spring onion, coriander & lime
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកខ្ទឹមបារាំង វ៉ាន់សុយ និងក្រូចឆ្មារ
+instructions:
+- step: 1
+  text: Simmer pork bones and dried squid 1–2 hours into a clear, sweet broth; skim often.
+  textKm: ដាំឆ្អឹងជ្រូក និងមឹកស្ងួត ១–២ ម៉ោង ឱ្យបានទឹកស៊ុបស្អាតផ្អែម។ ច្រោះញឹកញាប់។
+  tip: A clear broth is the mark of a good kuy teav — never let it boil hard.
+  tipKm: ទឹកស៊ុបស្អាត ជាសញ្ញានៃគុយទាវឆ្ងាញ់ — កុំឱ្យទឹកដាំរុះៗខ្លាំង។
+- step: 2
+  text: Season the broth with rock sugar, salt and fish sauce.
+  textKm: បន្ថែមរសជាតិដោយស្ករអំពៅ អំបិល និងទឹកត្រី។
+- step: 3
+  text: Cook the pork and shrimp toppings in the broth.
+  textKm: ដាំសាច់ជ្រូក និងបង្គា ក្នុងទឹកស៊ុបឱ្យឆ្អិន។
+- step: 4
+  text: Blanch the noodles and bean sprouts; divide between bowls and add toppings.
+  textKm: ស្ងោរគុយទាវ និងសណ្ដែកបណ្ដុះ បន្ទាប់មកចែកដាក់ចាន ហើយដាក់គ្រឿងពីលើ។
+- step: 5
+  text: Ladle over the hot broth; finish with fried garlic oil, herbs and lime.
+  textKm: ស្នូរទឹកស៊ុបក្ដៅពីលើ ហើយដាក់ប្រេងខ្ទឹមចៀន ស្លឹក និងក្រូចឆ្មារ។

@@ -1,0 +1,81 @@
+id: khm-0961
+slug: steamed-with-sour-plum-lime-duck
+name:
+  km: ចំហុយម្ជូរសាច់ទា
+  romanized: Chamhoy Machu Sach Tia
+  en: Steamed with Sour Plum & Lime (Duck)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed with pickled sour plum, lime and chili for a tangy lift.
+descriptionKm: ចំហុយម្ជូរ — ផ្លែឈើជូរ និងទឹកក្រូចឆ្មារ។
+image: images/dishes/steamed-with-sour-plum-lime-duck.jpg
+imageFamily: steamed-chhnganh-machu
+tags:
+- steamed
+- chhnganh
+- machu
+- duck
+- meat
+dietary: []
+spiceLevel: 2
+difficulty: easy
+servings: 5
+time:
+  prepMinutes: 19
+  cookMinutes: 37
+  totalMinutes: 56
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: duck
+  quantity: 600
+  unit: g
+  notes: chopped into pieces
+  itemKm: សាច់ទា
+- group: seasoning
+  item: pickled sour plum
+  quantity: 2
+  unit: whole
+  itemKm: ផ្លែព្រូនជ្រក់
+- group: seasoning
+  item: lime juice
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកក្រូចឆ្មារ
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: seasoning
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the duck: chopped into pieces.'
+  textKm: រៀបចំសាច់ទា៖ កាត់ជាដុំៗ។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until tender.
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

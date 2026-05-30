@@ -1,0 +1,52 @@
+id: khm-1048
+slug: fried-banana
+name:
+  km: ចេកចៀន
+  romanized: Chek Chien
+  en: Fried Banana
+category: snack
+subcategory: street-food
+cuisine: Khmer
+description: Batter-fried bananas, crunchy outside and soft within.
+descriptionKm: ចេកចៀន — ចេកចៀន ខាងក្រៅស្រួយ ខាងក្នុងទន់។
+image: images/dishes/fried-banana.jpg
+imageFamily: snack-street-food-fried-banana
+tags:
+- snack
+- street-food
+- fried-banana
+dietary: []
+spiceLevel: 0
+difficulty: medium
+servings: 4
+time:
+  prepMinutes: 38
+  cookMinutes: 27
+  totalMinutes: 65
+kroeung: []
+equipment: []
+ingredients:
+- group: main
+  item: ripe bananas
+  itemKm: ចេកទុំ
+- group: main
+  item: rice flour
+  itemKm: ម្សៅអង្ករ
+- group: main
+  item: sesame seeds
+  itemKm: ល្ង
+- group: main
+  item: sugar
+  itemKm: ស្ករ
+- group: main
+  item: coconut
+  itemKm: ដូង
+instructions:
+- step: 1
+  text: Make a light batter with rice flour, sesame, a little sugar and coconut.
+- step: 2
+  text: Coat the bananas.
+- step: 3
+  text: Deep-fry until deep golden and crisp.
+- step: 4
+  text: Drain and serve hot, optionally with palm-sugar syrup.

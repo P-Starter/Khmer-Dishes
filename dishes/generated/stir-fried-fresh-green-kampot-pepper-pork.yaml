@@ -1,0 +1,125 @@
+id: khm-0030
+slug: stir-fried-fresh-green-kampot-pepper-pork
+name:
+  km: ឆាម្រេចខៀវសាច់ជ្រូក
+  romanized: Cha Marech Khiew Sach Chrouk
+  en: Stir-fried Fresh Green Kampot Pepper Pork
+category: stir-fry
+subcategory: cha
+cuisine: Khmer
+description: Stir-fried with whole strands of fresh green Kampot peppercorns — citrusy, aromatic, pleasantly numbing.
+descriptionKm: ឆាជាមួយម្រេចខៀវកំពត — ភាពឈ្ងុយ និងក្រអូប។
+image: images/dishes/stir-fried-fresh-green-kampot-pepper-pork.jpg
+imageFamily: stir-fry-cha-marech
+tags:
+- stir-fry
+- cha
+- marech
+- pork
+- meat
+dietary: []
+spiceLevel: 2
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 20
+  cookMinutes: 18
+  totalMinutes: 38
+kroeung:
+- fresh green Kampot peppercorns
+- garlic
+equipment:
+- wok
+- mortar and pestle
+equipmentKm:
+- ខ្ទះ
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: pork
+  quantity: 500
+  unit: g
+  notes: cut into thin slices
+  itemKm: សាច់ជ្រូក
+- group: kroeung
+  item: fresh green Kampot peppercorns
+  quantity: 3
+  unit: tbsp
+  notes: on the stalk if possible
+  itemKm: ម្រេចខៀវកំពតស្រស់
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: smashed
+  itemKm: ខ្ទឹមស
+  notesKm: បុក
+- group: veg
+  item: fresh red chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសក្រហមស្រស់
+  notesKm: ហាន់
+- group: veg
+  item: holy basil
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកជាក់
+- group: seasoning
+  item: fish sauce (teuk trey)
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: vegetable oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងបន្លែ
+- group: seasoning
+  item: oyster sauce
+  quantity: 1
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: light soy sauce
+  quantity: 1
+  unit: tbsp
+  itemKm: ទឹកសុីអ៊ីវស្រាល
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: Smash the garlic and rinse the fresh green peppercorn strands.
+  tip: Pounding releases more aroma than blending, but a blender is fine.
+- step: 2
+  text: 'Prepare the pork: cut into thin slices.'
+  textKm: រៀបចំសាច់ជ្រូក៖ ហាន់ជាបន្ទះស្ដើង។
+- step: 3
+  text: Heat 2 tbsp oil in a wok over high heat until shimmering.
+  textKm: ដាក់ប្រេង ២ ស្លាបព្រាក្នុងខ្ទះ ហើយដុំឱ្យក្ដៅខ្លាំង។
+- step: 4
+  text: Add the aromatics and stir-fry 1–2 minutes until fragrant and the raw smell is gone.
+  textKm: ដាក់គ្រឿងផ្សំ ហើយឆា ១–២ នាទី រហូតទាល់តែឈ្ងុយ និងបាត់ក្លិនឆៅ។
+- step: 5
+  text: Add the pork and stir-fry until cooked through, about 12 minutes.
+  textKm: ដាក់សាច់ជ្រូក ហើយឆា រហូតទាល់តែឆ្អិន ប្រហែល 12 នាទី។
+- step: 6
+  text: Add sliced chili and a handful of holy basil.
+- step: 7
+  text: Season with fish sauce, palm sugar and oyster sauce, light soy sauce and a small splash of water; toss to coat.
+- step: 8
+  text: Taste and adjust, then finish with extra green peppercorns.
+- step: 9
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

@@ -1,0 +1,77 @@
+id: khm-0950
+slug: steamed-in-black-bean-sauce-beef
+name:
+  km: ចំហុយទឹកខ្មៅសាច់គោ
+  romanized: Chamhoy Tuk Khmav Sach Ko
+  en: Steamed in Black Bean Sauce (Beef)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed over fermented black beans, garlic and chili.
+descriptionKm: ចំហុយជាមួយទឹកខ្មៅ — សណ្ដែកខ្មៅ ខ្ទឹមស និងម្ទេស។
+image: images/dishes/steamed-in-black-bean-sauce-beef.jpg
+imageFamily: steamed-chhnganh-khmav
+tags:
+- steamed
+- chhnganh
+- khmav
+- beef
+- meat
+dietary: []
+spiceLevel: 1
+difficulty: easy
+servings: 5
+time:
+  prepMinutes: 15
+  cookMinutes: 14
+  totalMinutes: 29
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: beef
+  quantity: 600
+  unit: g
+  notes: sliced thin against the grain
+  itemKm: សាច់គោ
+- group: seasoning
+  item: fermented black beans
+  quantity: 2
+  unit: tbsp
+  notes: rinsed
+  itemKm: សណ្ដែកខ្មៅជ្រក់
+- group: seasoning
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the beef: sliced thin against the grain.'
+  textKm: រៀបចំសាច់គោ៖ ហាន់ស្ដើងបញ្ច្រាសខ្សែ។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until just browned but still tender.
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

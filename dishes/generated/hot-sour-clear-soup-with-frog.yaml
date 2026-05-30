@@ -1,0 +1,121 @@
+id: khm-0488
+slug: hot-sour-clear-soup-with-frog
+name:
+  km: ស្ងោរជ្រក់កង្កែប
+  romanized: Sngor Chruok Kong Kep
+  en: Hot & Sour Clear Soup with Frog
+category: soup
+subcategory: samlor
+cuisine: Khmer
+description: A light, tangy clear soup brightened with lime and chili at the table.
+descriptionKm: ស្ងោរជ្រក់ — ស្រាល ជូរ ត្រជាក់ ដោយទឹកក្រូចឆ្មារ។
+image: images/dishes/hot-sour-clear-soup-with-frog.jpg
+imageFamily: soup-samlor-sngor
+tags:
+- soup
+- samlor
+- sngor
+- frog
+- meat
+dietary: []
+spiceLevel: 2
+difficulty: medium
+servings: 3
+time:
+  prepMinutes: 25
+  cookMinutes: 29
+  totalMinutes: 54
+kroeung:
+- lemongrass
+- galangal
+equipment:
+- soup pot
+- mortar and pestle
+equipmentKm:
+- ឆ្នាំងស៊ុប
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: frog
+  quantity: 400
+  unit: g
+  notes: cleaned and jointed
+  itemKm: កង្កែប
+- group: main
+  item: stock or water
+  quantity: 1.2
+  unit: litre
+  itemKm: ទឹកស៊ុប ឬ ទឹក
+- group: kroeung
+  item: lemongrass
+  quantity: 2
+  unit: stalks
+  notes: bruised
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: បុកបន្តិច
+- group: kroeung
+  item: galangal
+  quantity: 3
+  unit: slices
+  itemKm: រំដេង
+- group: veg
+  item: tomato
+  quantity: 2
+  unit: whole
+  notes: wedges
+  itemKm: ប៉េងប៉ោះ
+  notesKm: ចំណិត
+- group: veg
+  item: oyster mushroom
+  quantity: 100
+  unit: g
+  itemKm: ផ្សិតស្រូវ
+- group: veg
+  item: napa cabbage
+  quantity: 150
+  unit: g
+  itemKm: ស្ពៃជ្រក់
+- group: seasoning
+  item: lime juice
+  quantity: 3
+  unit: tbsp
+  notes: added off the heat
+  itemKm: ទឹកក្រូចឆ្មារ
+  notesKm: ដាក់ពេលដកពីភ្លើង
+- group: seasoning
+  item: fish sauce
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the frog: cleaned and jointed.'
+  textKm: រៀបចំកង្កែប៖ សម្អាត ហើយកាត់តាមសន្លាក់។
+- step: 2
+  text: Bring stock to a boil with bruised lemongrass and galangal.
+  tip: Bruising or pounding the aromatics first lets them give up more flavour.
+- step: 3
+  text: Add the frog and simmer until tender, about 15 minutes.
+  textKm: ដាក់កង្កែប ហើយដាំ រហូតទាល់តែទន់ ប្រហែល 15 នាទី។
+- step: 4
+  text: Add the vegetables (tomato, oyster mushroom, napa cabbage) and simmer until just tender.
+- step: 5
+  text: Season with fish sauce and palm sugar, then balance with lime juice.
+  textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
+- step: 6
+  text: Taste — it should sing of salty, sweet and sour. Finish with coriander, chili and a final squeeze of lime.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

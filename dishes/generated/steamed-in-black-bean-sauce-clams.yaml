@@ -1,0 +1,79 @@
+id: khm-0957
+slug: steamed-in-black-bean-sauce-clams
+name:
+  km: ចំហុយទឹកខ្មៅងាវ
+  romanized: Chamhoy Tuk Khmav Ngiev
+  en: Steamed in Black Bean Sauce (Clams)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed over fermented black beans, garlic and chili.
+descriptionKm: ចំហុយជាមួយទឹកខ្មៅ — សណ្ដែកខ្មៅ ខ្ទឹមស និងម្ទេស។
+image: images/dishes/steamed-in-black-bean-sauce-clams.jpg
+imageFamily: steamed-chhnganh-khmav
+tags:
+- steamed
+- chhnganh
+- khmav
+- clam
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 1
+difficulty: easy
+servings: 3
+time:
+  prepMinutes: 17
+  cookMinutes: 17
+  totalMinutes: 34
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: clams
+  quantity: 600
+  unit: g
+  notes: scrubbed
+  itemKm: ងាវ
+  notesKm: សម្អាតសំបក
+- group: seasoning
+  item: fermented black beans
+  quantity: 2
+  unit: tbsp
+  notes: rinsed
+  itemKm: សណ្ដែកខ្មៅជ្រក់
+- group: seasoning
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the clams: scrubbed.'
+  textKm: រៀបចំងាវ៖ សម្អាតសំបក។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until the shells open.
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

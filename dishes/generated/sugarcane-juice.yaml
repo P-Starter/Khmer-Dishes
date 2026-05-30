@@ -1,0 +1,44 @@
+id: khm-1035
+slug: sugarcane-juice
+name:
+  km: ទឹកអំពៅ
+  romanized: Teuk Ampov
+  en: Sugarcane Juice
+category: drink
+subcategory: beverage
+cuisine: Khmer
+description: A classic Cambodian sugarcane juice.
+descriptionKm: ទឹកអំពៅ — ស្រស់ត្រជាក់ ផ្អែមធម្មជាតិ ផ្សំជាមួយក្រូចសើច។
+image: images/dishes/sugarcane-juice.jpg
+imageFamily: drink-sugarcane-juice
+tags:
+- drink
+- sugarcane-juice
+dietary:
+- vegetarian
+spiceLevel: 0
+difficulty: easy
+servings: 6
+time:
+  prepMinutes: 9
+  cookMinutes: 11
+  totalMinutes: 20
+kroeung: []
+equipment: []
+ingredients:
+- group: main
+  item: fresh sugarcane
+  itemKm: អំពៅស្រស់
+- group: main
+  item: kumquat or lime
+  itemKm: កុមកាត់ ឬ ក្រូចឆ្មារ
+- group: main
+  item: ice
+  itemKm: ទឹកកក
+instructions:
+- step: 1
+  text: Press the sugarcane through a juicer.
+- step: 2
+  text: Squeeze in a kumquat or lime for brightness.
+- step: 3
+  text: Serve very cold over ice.

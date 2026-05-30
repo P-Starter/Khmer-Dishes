@@ -1,0 +1,80 @@
+id: khm-0989
+slug: sweet-sticky-rice-with-sweet-corn
+name:
+  km: បាយដំណើបពោត
+  romanized: Bai Damnaeb Poat
+  en: Sweet Sticky Rice with Sweet Corn
+category: dessert
+subcategory: sticky-rice
+cuisine: Khmer
+description: Fragrant coconut sticky rice served with sweet corn.
+descriptionKm: បាយដំណើបទឹកដូងក្រអូប ផ្សំជាមួយពោត។
+image: images/dishes/sweet-sticky-rice-with-sweet-corn.jpg
+imageFamily: dessert-sticky-rice-sweet-corn
+tags:
+- dessert
+- sticky-rice
+- sweet-corn
+dietary:
+- vegetarian
+- vegan
+- gluten-free
+spiceLevel: 0
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 480
+  cookMinutes: 40
+  totalMinutes: 520
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: glutinous (sticky) rice
+  quantity: 2
+  unit: cups
+  notes: soaked overnight
+  itemKm: បាយដំណើប
+  notesKm: ត្រាំមួយយប់
+- group: main
+  item: coconut milk
+  quantity: 400
+  unit: ml
+  itemKm: ទឹកដូង
+- group: seasoning
+  item: palm sugar
+  quantity: 4
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: salt
+  quantity: 0.5
+  unit: tsp
+  itemKm: អំបិល
+- group: seasoning
+  item: pandan leaf
+  quantity: 2
+  unit: leaves
+  notes: knotted
+  itemKm: ស្លឹកតើយ
+  notesKm: ចំរូង
+- group: main
+  item: sweet corn
+  quantity: 1
+  unit: portion
+  notes: to serve
+  itemKm: ពោតផ្អែម
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: Steam the soaked sticky rice over high heat 25–30 minutes until tender.
+- step: 2
+  text: Warm the coconut milk with palm sugar, salt and pandan until the sugar dissolves (do not boil).
+- step: 3
+  text: Fold most of the sweet coconut milk through the hot rice and rest 15 minutes to absorb.
+  tip: Keep a little coconut sauce back to spoon over at the end.
+- step: 4
+  text: Serve the sticky rice with the sweet corn and the reserved coconut sauce.

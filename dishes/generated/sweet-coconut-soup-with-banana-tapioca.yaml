@@ -1,0 +1,79 @@
+id: khm-0999
+slug: sweet-coconut-soup-with-banana-tapioca
+name:
+  km: បបរផ្អែមចេកខ្ទិះ
+  romanized: Bobor Pongaem Chek Ktis
+  en: Sweet Coconut Soup with Banana & Tapioca
+category: dessert
+subcategory: sweet-soup
+cuisine: Khmer
+description: A warm Khmer sweet soup of banana & tapioca in pandan-scented coconut milk.
+descriptionKm: បបរផ្អែមចេកខ្ទិះ ក្នុងទឹកដូងស្លឹកតើយ។
+image: images/dishes/sweet-coconut-soup-with-banana-tapioca.jpg
+imageFamily: dessert-sweet-soup-bong-aem-banana-tapioca
+tags:
+- dessert
+- sweet-soup
+- bong-aem
+- banana-tapioca
+dietary:
+- vegetarian
+- vegan
+- gluten-free
+spiceLevel: 0
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 12
+  cookMinutes: 36
+  totalMinutes: 48
+kroeung: []
+equipment:
+- pot
+equipmentKm:
+- ឆ្នាំង
+ingredients:
+- group: main
+  item: banana & tapioca
+  quantity: 250
+  unit: g
+  notes: prepared / soaked as needed
+- group: main
+  item: coconut milk
+  quantity: 400
+  unit: ml
+  itemKm: ទឹកដូង
+- group: seasoning
+  item: palm sugar
+  quantity: 5
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: salt
+  quantity: 0.25
+  unit: tsp
+  itemKm: អំបិល
+- group: seasoning
+  item: pandan leaf
+  quantity: 2
+  unit: leaves
+  notes: knotted
+  itemKm: ស្លឹកតើយ
+  notesKm: ចំរូង
+- group: main
+  item: tapioca pearls
+  quantity: 3
+  unit: tbsp
+  notes: optional, for body
+  itemKm: សាគូ
+  notesKm: ស្ម័គ្រ សម្រាប់រាងក្រាស់
+instructions:
+- step: 1
+  text: Simmer the banana & tapioca in water with pandan until soft.
+- step: 2
+  text: Add palm sugar and a pinch of salt; stir until dissolved.
+- step: 3
+  text: Pour in the coconut milk and warm through gently without hard-boiling.
+  tip: Boiling can split the coconut milk — keep it at a gentle simmer.
+- step: 4
+  text: Serve warm or over ice as a sweet dessert soup (bong-aem).

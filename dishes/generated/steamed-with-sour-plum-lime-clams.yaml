@@ -1,0 +1,83 @@
+id: khm-0967
+slug: steamed-with-sour-plum-lime-clams
+name:
+  km: ចំហុយម្ជូរងាវ
+  romanized: Chamhoy Machu Ngiev
+  en: Steamed with Sour Plum & Lime (Clams)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed with pickled sour plum, lime and chili for a tangy lift.
+descriptionKm: ចំហុយម្ជូរ — ផ្លែឈើជូរ និងទឹកក្រូចឆ្មារ។
+image: images/dishes/steamed-with-sour-plum-lime-clams.jpg
+imageFamily: steamed-chhnganh-machu
+tags:
+- steamed
+- chhnganh
+- machu
+- clam
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 2
+difficulty: easy
+servings: 6
+time:
+  prepMinutes: 15
+  cookMinutes: 15
+  totalMinutes: 30
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: clams
+  quantity: 600
+  unit: g
+  notes: scrubbed
+  itemKm: ងាវ
+  notesKm: សម្អាតសំបក
+- group: seasoning
+  item: pickled sour plum
+  quantity: 2
+  unit: whole
+  itemKm: ផ្លែព្រូនជ្រក់
+- group: seasoning
+  item: lime juice
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកក្រូចឆ្មារ
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: seasoning
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the clams: scrubbed.'
+  textKm: រៀបចំងាវ៖ សម្អាតសំបក។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until the shells open.
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

@@ -1,0 +1,147 @@
+id: khm-0714
+slug: khmer-rice-noodles-with-chicken
+name:
+  km: នំបញ្ចុកសាច់មាន់
+  romanized: Num Banh Chok Sach Moan
+  en: Khmer Rice Noodles with Chicken
+category: noodles
+subcategory: num-banh-chok
+cuisine: Khmer
+description: Fresh fermented rice vermicelli under a lemongrass fish gravy, piled with raw herbs.
+descriptionKm: នំបញ្ចុក — នំបញ្ចុកស្រស់ ផ្សំជាមួយទឹកគ្រឿង និងបន្លែ។
+image: images/dishes/khmer-rice-noodles-with-chicken.jpg
+imageFamily: noodles-num-banh-chok
+tags:
+- noodles
+- num-banh-chok
+- chicken
+- meat
+dietary: []
+spiceLevel: 2
+difficulty: medium
+servings: 4
+time:
+  prepMinutes: 29
+  cookMinutes: 26
+  totalMinutes: 55
+kroeung:
+- lemongrass
+- galangal
+- fresh turmeric
+- kaffir lime leaves
+- garlic
+- shallots
+- dried red chili
+equipment:
+- stock pot
+equipmentKm:
+- ឆ្នាំងស៊ុប
+ingredients:
+- group: main
+  item: fresh rice vermicelli (num banh chok)
+  quantity: 400
+  unit: g
+  itemKm: នំបញ្ចុក
+- group: main
+  item: chicken
+  quantity: 250
+  unit: g
+  notes: cut into bite-sized pieces
+  itemKm: សាច់មាន់
+  notesKm: កាត់ជាដុំៗតូច
+- group: veg
+  item: bean sprouts
+  quantity: 100
+  unit: g
+  itemKm: សណ្ដែកបណ្ដុះ
+- group: garnish
+  item: spring onion & coriander
+  quantity: 1
+  unit: handful
+  itemKm: ស្លឹកខ្ទឹមបារាំង និងវ៉ាន់សុយ
+- group: garnish
+  item: fried garlic oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងខ្ទឹមចៀន
+- group: kroeung
+  item: lemongrass
+  quantity: 3
+  unit: stalks
+  notes: tender part, finely sliced
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: យកផ្នែកទន់ ហាន់ស្ដើង
+- group: kroeung
+  item: galangal
+  quantity: 1
+  unit: thumb
+  notes: peeled and sliced
+  itemKm: រំដេង
+  notesKm: ចេញសំបក ហើយហាន់
+- group: kroeung
+  item: fresh turmeric
+  quantity: 1
+  unit: tsp
+  notes: or 1 thumb fresh
+  itemKm: រមៀតស្រស់
+  notesKm: ឬ ១មេដៃស្រស់
+- group: kroeung
+  item: kaffir lime leaves
+  quantity: 4
+  unit: leaves
+  notes: de-stemmed
+  itemKm: ស្លឹកក្រូចសើច
+  notesKm: ដកដើម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  itemKm: ខ្ទឹមស
+- group: kroeung
+  item: shallots
+  quantity: 3
+  unit: whole
+  itemKm: ខ្ទឹមក្រហម
+- group: kroeung
+  item: dried red chili
+  quantity: 2
+  unit: whole
+  notes: soaked, optional for heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (ស្ម័គ្រសម្រាប់ភាពហឹរ)
+- group: main
+  item: coconut milk
+  quantity: 200
+  unit: ml
+  itemKm: ទឹកដូង
+- group: main
+  item: grilled fish
+  quantity: 300
+  unit: g
+  notes: flaked
+  itemKm: ត្រីអាំង
+- group: seasoning
+  item: prahok
+  quantity: 1
+  unit: tbsp
+  notes: strained
+  itemKm: ប្រហុក
+  notesKm: ច្រោះ
+- group: veg
+  item: banana blossom, cucumber, long beans & herbs
+  quantity: 1
+  unit: platter
+  notes: raw, to serve
+  itemKm: ត្រយោងចេក ត្រសក់ សណ្ដែកគួរ និងស្លឹក
+instructions:
+- step: 1
+  text: Pound the kroeung smooth and simmer in stock with strained prahok.
+- step: 2
+  text: Add the flaked grilled fish (and your chosen chicken) and the coconut milk; simmer into a fragrant gravy.
+- step: 3
+  text: Season with fish sauce and palm sugar to a savoury, slightly sweet balance.
+  textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
+- step: 4
+  text: Loosen the fresh rice vermicelli into nests in each bowl.
+- step: 5
+  text: Ladle the warm gravy over and pile high with raw banana blossom, cucumber, long beans and herbs.

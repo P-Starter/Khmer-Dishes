@@ -1,0 +1,81 @@
+id: khm-0959
+slug: steamed-with-sour-plum-lime-pork
+name:
+  km: ចំហុយម្ជូរសាច់ជ្រូក
+  romanized: Chamhoy Machu Sach Chrouk
+  en: Steamed with Sour Plum & Lime (Pork)
+category: steamed
+subcategory: chhnganh
+cuisine: Khmer
+description: Steamed with pickled sour plum, lime and chili for a tangy lift.
+descriptionKm: ចំហុយម្ជូរ — ផ្លែឈើជូរ និងទឹកក្រូចឆ្មារ។
+image: images/dishes/steamed-with-sour-plum-lime-pork.jpg
+imageFamily: steamed-chhnganh-machu
+tags:
+- steamed
+- chhnganh
+- machu
+- pork
+- meat
+dietary: []
+spiceLevel: 2
+difficulty: easy
+servings: 3
+time:
+  prepMinutes: 16
+  cookMinutes: 22
+  totalMinutes: 38
+kroeung: []
+equipment:
+- steamer
+equipmentKm:
+- ឆ្នាំងចំហុយ
+ingredients:
+- group: main
+  item: pork
+  quantity: 600
+  unit: g
+  notes: cut into thin slices
+  itemKm: សាច់ជ្រូក
+- group: seasoning
+  item: pickled sour plum
+  quantity: 2
+  unit: whole
+  itemKm: ផ្លែព្រូនជ្រក់
+- group: seasoning
+  item: lime juice
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកក្រូចឆ្មារ
+- group: garnish
+  item: fresh chili
+  quantity: 2
+  unit: whole
+  notes: sliced
+  itemKm: ម្ទេសស្រស់
+  notesKm: ហាន់
+- group: seasoning
+  item: garlic
+  quantity: 3
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the pork: cut into thin slices.'
+  textKm: រៀបចំសាច់ជ្រូក៖ ហាន់ជាបន្ទះស្ដើង។
+- step: 2
+  text: Arrange on a heatproof plate and scatter over the aromatics.
+- step: 3
+  text: Steam over rapidly boiling water until cooked through.
+  tip: Don't over-steam — pull it the moment it is just cooked to keep it tender.
+- step: 4
+  text: Drizzle over the sauce, top with the fresh garnish, and serve with rice.

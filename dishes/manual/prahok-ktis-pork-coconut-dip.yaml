@@ -1,0 +1,153 @@
+id: khm-0003
+slug: prahok-ktis-pork-coconut-dip
+name:
+  km: ប្រហុកខ្ទិះ
+  romanized: Prahok Ktis
+  en: Prahok Ktis (Pork & Coconut Dip)
+category: dip
+subcategory: signature
+cuisine: Khmer
+description: A rich coconut, pork and fermented-fish dip eaten with a big platter of raw vegetables.
+descriptionKm: ប្រហុកខ្ទិះ — ទឹកជ្រលក់ប្រហុក ផ្សំជាមួយសាច់ជ្រូក និងទឹកដូងក្រាស់ បរិភោគជាមួយបន្លែស្រស់។
+image: images/dishes/prahok-ktis-pork-coconut-dip.jpg
+imageFamily: prahok-ktis-pork-coconut-dip
+tags:
+- signature
+- prahok
+- dip
+- pork
+- coconut
+dietary: []
+spiceLevel: 2
+difficulty: medium
+servings: 5
+time:
+  prepMinutes: 20
+  cookMinutes: 25
+  totalMinutes: 45
+kroeung:
+- lemongrass
+- galangal
+- fresh turmeric
+- kaffir lime leaves
+- garlic
+- shallots
+- dried red chili
+- dried red chili
+equipment:
+- pan
+- mortar and pestle
+equipmentKm:
+- ខ្ទះតូច
+- អង្គ្រែ
+ingredients:
+- group: main
+  item: ground pork
+  quantity: 300
+  unit: g
+  itemKm: សាច់ជ្រូកកិន
+- group: seasoning
+  item: prahok (fermented fish)
+  quantity: 2
+  unit: tbsp
+  notes: mashed & strained
+  itemKm: ប្រហុក
+  notesKm: បុក និងច្រោះ
+- group: kroeung
+  item: lemongrass
+  quantity: 3
+  unit: stalks
+  notes: tender part, finely sliced
+  itemKm: ស្លឹកគ្រៃ
+  notesKm: យកផ្នែកទន់ ហាន់ស្ដើង
+- group: kroeung
+  item: galangal
+  quantity: 1
+  unit: thumb
+  notes: peeled and sliced
+  itemKm: រំដេង
+  notesKm: ចេញសំបក ហើយហាន់
+- group: kroeung
+  item: fresh turmeric
+  quantity: 1
+  unit: tsp
+  notes: or 1 thumb fresh
+  itemKm: រមៀតស្រស់
+  notesKm: ឬ ១មេដៃស្រស់
+- group: kroeung
+  item: kaffir lime leaves
+  quantity: 4
+  unit: leaves
+  notes: de-stemmed
+  itemKm: ស្លឹកក្រូចសើច
+  notesKm: ដកដើម
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  itemKm: ខ្ទឹមស
+- group: kroeung
+  item: shallots
+  quantity: 3
+  unit: whole
+  itemKm: ខ្ទឹមក្រហម
+- group: kroeung
+  item: dried red chili
+  quantity: 2
+  unit: whole
+  notes: soaked, optional for heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (ស្ម័គ្រសម្រាប់ភាពហឹរ)
+- group: kroeung
+  item: dried red chili
+  quantity: 6
+  unit: whole
+  notes: soaked, for colour & heat
+  itemKm: ម្ទេសក្រហមស្ងួត
+  notesKm: ត្រាំ (សម្រាប់ពណ៌ និងភាពហឹរ)
+- group: main
+  item: coconut milk
+  quantity: 400
+  unit: ml
+  itemKm: ទឹកដូង
+- group: garnish
+  item: coconut cream
+  quantity: 4
+  unit: tbsp
+  notes: for topping
+  itemKm: ខ្ទិះដូង
+  notesKm: សម្រាប់ដាក់ពីលើ
+- group: seasoning
+  item: palm sugar
+  quantity: 2
+  unit: tbsp
+  itemKm: ស្ករត្នោត
+- group: veg
+  item: eggplant
+  quantity: 3
+  unit: whole
+  notes: diced
+  itemKm: ត្រប់
+  notesKm: កាត់ជាគូបតូច
+- group: serving
+  item: raw vegetable platter
+  quantity: 1
+  unit: platter
+  notes: cucumber, long beans, cabbage, herbs
+  itemKm: ចានបន្លែស្រស់
+instructions:
+- step: 1
+  text: Fry the red kroeung in coconut cream until the oil splits and it is fragrant.
+  textKm: ឆាគ្រឿងក្រហមជាមួយខ្ទិះដូង រហូតទាល់តែប្រេងបែក ហើយឈ្ងុយ។
+- step: 2
+  text: Add the ground pork and cook until browned.
+  textKm: ដាក់សាច់ជ្រូកកិន ហើយឆារហូតទាល់តែលឿង។
+- step: 3
+  text: Stir in the strained prahok and the rest of the coconut milk; simmer to a thick dip.
+  textKm: ដាក់ប្រហុកដែលច្រោះរួច និងទឹកដូងដែលនៅសល់។ ដាំឱ្យក្រាស់ជាទឹកជ្រលក់។
+- step: 4
+  text: Add diced eggplant and palm sugar; simmer until thick and glossy.
+  textKm: ដាក់ត្រប់ហាន់ និងស្ករត្នោត។ ដាំបន្តរហូតទាល់តែក្រាស់ និងភ្លឺ។
+- step: 5
+  text: Serve warm with a generous platter of raw and blanched vegetables and rice.
+  textKm: បរិភោគក្ដៅៗ ជាមួយចានបន្លែស្រស់ បន្លែស្ងោរ និងបាយ។

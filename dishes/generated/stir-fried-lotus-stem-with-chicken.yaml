@@ -1,0 +1,103 @@
+id: khm-0381
+slug: stir-fried-lotus-stem-with-chicken
+name:
+  km: ឆាដើមឈូកសាច់មាន់
+  romanized: Cha Daem Chhouk Sach Moan
+  en: Stir-fried Lotus Stem with Chicken
+category: stir-fry
+subcategory: cha-vegetable
+cuisine: Khmer
+description: A fast, high-heat home stir-fry of lotus stem with chicken.
+descriptionKm: ម្ហូបឆាដ៏លឿនជាមួយដើមឈូក និងសាច់មាន់។
+image: images/dishes/stir-fried-lotus-stem-with-chicken.jpg
+imageFamily: stir-fry-cha-lotus-stem
+tags:
+- stir-fry
+- cha
+- lotus-stem
+- chicken
+- meat
+dietary: []
+spiceLevel: 0
+difficulty: easy
+servings: 2
+time:
+  prepMinutes: 10
+  cookMinutes: 16
+  totalMinutes: 26
+kroeung:
+- garlic
+equipment:
+- wok
+equipmentKm:
+- ខ្ទះ
+ingredients:
+- group: main
+  item: chicken
+  quantity: 300
+  unit: g
+  notes: cut into bite-sized pieces
+  itemKm: សាច់មាន់
+  notesKm: កាត់ជាដុំៗតូច
+- group: veg
+  item: lotus stem
+  quantity: 200
+  unit: g
+  notes: peeled and sliced diagonally
+  itemKm: ដើមឈូក
+- group: kroeung
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: minced
+  itemKm: ខ្ទឹមស
+  notesKm: កិន
+- group: seasoning
+  item: oyster sauce
+  quantity: 1.5
+  unit: tbsp
+  itemKm: ទឹកអយស្ទ័រ
+- group: seasoning
+  item: fish sauce (teuk trey)
+  quantity: 2
+  unit: tbsp
+  itemKm: ទឹកត្រី
+- group: seasoning
+  item: palm sugar
+  quantity: 1
+  unit: tsp
+  itemKm: ស្ករត្នោត
+- group: seasoning
+  item: vegetable oil
+  quantity: 2
+  unit: tbsp
+  itemKm: ប្រេងបន្លែ
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the chicken: cut into bite-sized pieces.'
+  textKm: រៀបចំសាច់មាន់៖ កាត់ជាដុំៗតូច។
+- step: 2
+  text: Mince the garlic and have the lotus stem washed and cut.
+  textKm: កិនខ្ទឹមស ហើយលាង ដើមឈូក ឱ្យស្អាតហើយកាត់រួច។
+- step: 3
+  text: Heat 2 tbsp oil in a wok over high heat; fry the garlic until fragrant.
+  textKm: ដាក់ប្រេង ២ ស្លាបព្រាក្នុងខ្ទះ ហើយដុំឱ្យក្ដៅខ្លាំង។
+- step: 4
+  text: Add the chicken and stir-fry until cooked through and no longer pink, about 12 minutes.
+  textKm: ដាក់សាច់មាន់ ហើយឆា រហូតទាល់តែឆ្អិន ហើយបាត់ពណ៌ផ្កាឈូក ប្រហែល 12 នាទី។
+- step: 5
+  text: Add the lotus stem and stir-fry over high heat until tender-crisp.
+  tip: Keep the heat high so the vegetable stays bright and never stews.
+  textKm: ដាក់ដើមឈូក ហើយឆាលើភ្លើងខ្លាំង រហូតទាល់តែទន់និងក្រៀម។
+- step: 6
+  text: Season with oyster sauce, fish sauce and a pinch of palm sugar; toss quickly.
+- step: 7
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

@@ -1,0 +1,87 @@
+id: khm-0629
+slug: crispy-ginger-fried-crab
+name:
+  km: ចៀនខ្ញីក្ដាម
+  romanized: Chien Khnhei Kdam
+  en: Crispy Ginger Fried Crab
+category: fried
+subcategory: chien-khnhei
+cuisine: Khmer
+description: Fried crisp and showered with crisp-fried shredded ginger and garlic.
+descriptionKm: ចៀនខ្ញី — បាញ់ខ្ញី និងខ្ទឹមហើយក្រៀម។
+image: images/dishes/crispy-ginger-fried-crab.jpg
+imageFamily: fried-chien-chien-khnhei
+tags:
+- fried
+- chien
+- chien-khnhei
+- crab
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 0
+difficulty: easy
+servings: 6
+time:
+  prepMinutes: 18
+  cookMinutes: 17
+  totalMinutes: 35
+kroeung: []
+equipment:
+- wok or deep fryer
+equipmentKm:
+- ខ្ទះ ឬ ម៉ាសុីនចៀន
+ingredients:
+- group: main
+  item: crab
+  quantity: 500
+  unit: g
+  notes: cleaned and quartered
+  itemKm: ក្ដាម
+  notesKm: សម្អាត ហើយកាត់ជា ៤
+- group: seasoning
+  item: rice flour
+  quantity: 4
+  unit: tbsp
+  itemKm: ម្សៅអង្ករ
+- group: seasoning
+  item: young ginger
+  quantity: 1
+  unit: thumb
+  notes: finely julienned
+  itemKm: ខ្ញីខ្ចី
+- group: seasoning
+  item: garlic
+  quantity: 4
+  unit: cloves
+  notes: sliced
+  itemKm: ខ្ទឹមស
+  notesKm: ហាន់
+- group: seasoning
+  item: oil for frying
+  quantity: 500
+  unit: ml
+  itemKm: ប្រេងសម្រាប់ចៀន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the crab: cleaned and quartered.'
+  textKm: រៀបចំក្ដាម៖ សម្អាត ហើយកាត់ជា ៤។
+- step: 2
+  text: Pat dry and dust with seasoned flour.
+- step: 3
+  text: Heat oil to 170°C. Fry the crab until the shells turn bright orange and crisp.
+  tip: Fry in small batches so the oil stays hot and the crust stays crisp.
+- step: 4
+  text: Drain on a rack.
+- step: 5
+  text: Crisp the ginger and garlic in the oil and scatter over the top with spring onion.
+- step: 6
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

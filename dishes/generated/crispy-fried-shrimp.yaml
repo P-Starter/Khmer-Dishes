@@ -1,0 +1,84 @@
+id: khm-0594
+slug: crispy-fried-shrimp
+name:
+  km: ចៀនបង្គា
+  romanized: Chien Bangkea
+  en: Crispy Fried Shrimp
+category: fried
+subcategory: chien-sot
+cuisine: Khmer
+description: Simply fried until golden and crisp, served with a dipping sauce.
+descriptionKm: ចៀនស្ងួត — ក្រៀម និងឆ្ងាញ់។
+image: images/dishes/crispy-fried-shrimp.jpg
+imageFamily: fried-chien-chien-sot
+tags:
+- fried
+- chien
+- chien-sot
+- shrimp
+- seafood
+dietary:
+- pescatarian
+spiceLevel: 0
+difficulty: easy
+servings: 3
+time:
+  prepMinutes: 19
+  cookMinutes: 15
+  totalMinutes: 34
+kroeung: []
+equipment:
+- wok or deep fryer
+equipmentKm:
+- ខ្ទះ ឬ ម៉ាសុីនចៀន
+ingredients:
+- group: main
+  item: shrimp
+  quantity: 500
+  unit: g
+  notes: peeled and deveined
+  itemKm: បង្គា
+  notesKm: ចេញសំបក ហើយយកសរសៃ
+- group: seasoning
+  item: rice flour
+  quantity: 4
+  unit: tbsp
+  itemKm: ម្សៅអង្ករ
+- group: seasoning
+  item: salt
+  quantity: 1
+  unit: tsp
+  itemKm: អំបិល
+- group: seasoning
+  item: white pepper
+  quantity: 0.5
+  unit: tsp
+  itemKm: ម្រេចស
+- group: seasoning
+  item: oil for frying
+  quantity: 500
+  unit: ml
+  itemKm: ប្រេងសម្រាប់ចៀន
+- group: serving
+  item: steamed jasmine rice
+  quantity: 4
+  unit: servings
+  notes: to serve
+  itemKm: បាយម្លិះ
+  notesKm: សម្រាប់បរិភោគ
+instructions:
+- step: 1
+  text: 'Prepare the shrimp: peeled and deveined.'
+  textKm: រៀបចំបង្គា៖ ចេញសំបក និងសរសៃ។
+- step: 2
+  text: Pat dry and dust lightly with seasoned rice flour.
+- step: 3
+  text: Heat oil to 170°C. Fry the shrimp until they curl and turn pink and crisp.
+  tip: Fry in small batches so the oil stays hot and the crust stays crisp.
+- step: 4
+  text: Drain on a rack.
+- step: 5
+  text: Serve with sweet chili sauce or tuk trey p'aem.
+- step: 6
+  text: Serve hot with steamed jasmine rice.
+  textKm: បរិភោគជាមួយបាយក្ដៅ។

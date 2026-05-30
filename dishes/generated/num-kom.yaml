@@ -1,0 +1,49 @@
+id: khm-1056
+slug: num-kom
+name:
+  km: នំគម
+  romanized: Num Kom
+  en: Num Kom
+category: dessert
+subcategory: street-food
+cuisine: Khmer
+description: Pyramid-shaped sticky-rice dumplings with sweet coconut or savoury filling.
+descriptionKm: នំគម — នំដំណើបរូបពីរ៉ាមីត ផ្ទុកសណ្ដែកផ្អែម រុំស្លឹកចេក ហើយចំហុយ។
+image: images/dishes/num-kom.jpg
+imageFamily: snack-street-food-num-kom
+tags:
+- snack
+- street-food
+- num-kom
+dietary: []
+spiceLevel: 0
+difficulty: medium
+servings: 5
+time:
+  prepMinutes: 31
+  cookMinutes: 52
+  totalMinutes: 83
+kroeung: []
+equipment: []
+ingredients:
+- group: main
+  item: glutinous rice flour
+  itemKm: ម្សៅអង្ករដំណើប
+- group: main
+  item: grated coconut
+  itemKm: ដូងកោសក
+- group: main
+  item: palm sugar
+  itemKm: ស្ករត្នោត
+- group: main
+  item: banana leaf
+  itemKm: ស្លឹកចេក
+instructions:
+- step: 1
+  text: Make a soft glutinous dough.
+- step: 2
+  text: Fill with sweet coconut-palm-sugar paste.
+- step: 3
+  text: Shape into pyramids and wrap in banana leaf.
+- step: 4
+  text: Steam until cooked through.
