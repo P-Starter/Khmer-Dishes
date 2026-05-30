@@ -26,6 +26,7 @@ import time
 import argparse
 import urllib.parse
 import urllib.request
+import urllib.error
 
 MENU_FILE = "khmer_menu.json"
 OUT_DIR = os.path.join("images", "dishes")
@@ -73,10 +74,27 @@ def build_families(recipes):
     return fams
 
 
+# Use a real browser-like UA. Pexels/Unsplash sit behind Cloudflare, which
+# blocks the default "Python-urllib/X.Y" fingerprint with a 403.
+USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36")
+
 def http_json(url, headers):
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    h = dict(headers)
+    h.setdefault("User-Agent", USER_AGENT)
+    h.setdefault("Accept", "application/json")
+    req = urllib.request.Request(url, headers=h)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        # Surface the actual API error body so 403/401 reasons are visible.
+        body = ""
+        try:
+            body = e.read().decode("utf-8", errors="replace")[:400]
+        except Exception:
+            pass
+        raise RuntimeError("HTTP {} {} — {}".format(e.code, e.reason, body or "(no body)"))
 
 
 def search_pexels(query, key):
@@ -114,7 +132,7 @@ def search_unsplash(query, key):
 
 
 def download(url, path):
-    req = urllib.request.Request(url, headers={"User-Agent": "khmer-chief/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=60) as resp, open(path, "wb") as f:
         f.write(resp.read())
 
@@ -194,8 +212,15 @@ def main():
                 print("  saved   : {:34s} <- {}".format(fam, hit["source"]))
                 fetched += 1
         except Exception as e:
-            print("  ERROR   : {:34s} {}".format(fam, str(e)[:80]))
+            print("  ERROR   : {:34s} {}".format(fam, str(e)[:240]))
             errored += 1
+            # If the very first request is failing, bail early — almost certainly
+            # an auth/quota issue, no point hammering the API.
+            if errored >= 3 and fetched == 0:
+                print("\nAborting: 3 consecutive failures with no successes. "
+                      "The error message above is from the API itself — "
+                      "check your key, account status, and quota.")
+                break
         time.sleep(args.delay)
 
     write_credits(attribution)
