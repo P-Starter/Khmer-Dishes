@@ -44,9 +44,13 @@ ingredients:
 instructions:
 - step: 1
   text: Whisk rice flour, coconut milk, a little sugar and salt into a batter.
+  textKm: កូរម្សៅអង្ករ ទឹកដូង ស្ករបន្តិច និងអំបិលជាម្សៅរលុង។
 - step: 2
   text: Heat a num krok pan and oil the wells.
+  textKm: កម្ដៅខ្ទះនំគ្រក ហើយលាបប្រេងក្នុងរន្ធ។
 - step: 3
   text: Fill the wells and cook until the bottoms crisp and tops set.
+  textKm: ដាក់ម្សៅចូលរន្ធ ហើយចៀនរហូតបាតក្រៀម និងលើកក។
 - step: 4
   text: Top with spring onion; serve warm in pairs.
+  textKm: ដាក់ស្លឹកខ្ទឹមបារាំងនៅខាងលើ; បរិភោគក្ដៅៗជាគូ។

@@ -88,11 +88,16 @@ ingredients:
 instructions:
 - step: 1
   text: Poach or grill the crab (cleaned and quartered) until just cooked, then slice thinly.
+  textKm: ស្ងោរ ឬ អាំង ក្ដាម (សម្អាត ហើយកាត់ជា ៤) រហូតទើបឆ្អិន បន្ទាប់មកហាន់ស្ដើង។
 - step: 2
   text: Whisk the dressing — lime juice, fish sauce, palm sugar, garlic and chili — until the sugar dissolves.
+  textKm: កូរទឹកជ្រលក់ — ទឹកក្រូចឆ្មារ ទឹកត្រី ស្ករត្នោត ខ្ទឹមស និងម្ទេស — រហូតស្កររលាយ។
 - step: 3
   text: Combine the crab with shredded cabbage, carrot, Asian basil & mint.
+  textKm: លាយ ក្ដាម ជាមួយ shredded cabbage, carrot, Asian basil & mint។
 - step: 4
   text: Pour over the dressing and toss well just before serving.
+  textKm: ស្នូរទឹកជ្រលក់ពីលើ ហើយលាយឱ្យស្មើ មុនពេលបរិភោគ។
 - step: 5
   text: Pile onto a plate and top with extra herbs, peanuts and fried shallots.
+  textKm: ដាក់លើចាន ហើយរោយស្លឹក សណ្ដែកដី និងខ្ទឹមក្រហមចៀននៅខាងលើ។

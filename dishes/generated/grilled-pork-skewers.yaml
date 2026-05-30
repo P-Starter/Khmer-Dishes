@@ -47,9 +47,13 @@ ingredients:
 instructions:
 - step: 1
   text: Marinate sliced pork in lemongrass, garlic, fish sauce, palm sugar and honey.
+  textKm: ប្រឡាក់សាច់ជ្រូកហាន់ជាមួយស្លឹកគ្រៃ ខ្ទឹមស ទឹកត្រី ស្ករត្នោត និងទឹកឃ្មុំ។
 - step: 2
   text: Thread onto soaked skewers.
+  textKm: ចាក់ឈ្នាន់ឫស្សីដែលត្រាំ។
 - step: 3
   text: Grill over charcoal, basting, until caramelised.
+  textKm: អាំងលើធ្យូងភ្លើង លាបទឹកប្រឡាក់ រហូតមានពណ៌ត្នោត។
 - step: 4
   text: Serve with rice or in a baguette.
+  textKm: បរិភោគជាមួយ rice or in a baguette។

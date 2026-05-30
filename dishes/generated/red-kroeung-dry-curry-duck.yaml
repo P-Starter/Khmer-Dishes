@@ -142,15 +142,19 @@ ingredients:
 instructions:
 - step: 1
   text: Fry the red kroeung in oil over medium-high heat until deeply fragrant and darkened.
+  textKm: ឆាគ្រឿងក្រហមក្នុងប្រេងលើភ្លើងមធ្យម-ខ្លាំង រហូតឈ្ងុយខ្លាំង និងពណ៌ចាស់។
 - step: 2
   text: Add the duck (chopped into pieces) and stir-fry to coat in the paste.
+  textKm: បន្ថែម សាច់ទា (កាត់ជាដុំៗ) ហើយឆាឱ្យសាច់ស្រូបនឹងគ្រឿង។
 - step: 3
   text: Add a splash of coconut cream and the long beans; stir-fry until the sauce clings, about 25 minutes.
+  textKm: បន្ថែមខ្ទិះដូងបន្តិច និងសណ្ដែកគួរ; ឆាឱ្យទឹកស្ងួតស្រូបនឹងសាច់ ប្រហែល 25 នាទី។
 - step: 4
   text: Season with fish sauce and palm sugar; cook until almost dry and glossy.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 5
   text: Finish with shredded kaffir lime leaf and sliced chili.
+  textKm: ដាក់ស្លឹកក្រូចសើចហាន់ និងម្ទេសហាន់នៅខាងលើ។
 - step: 6
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

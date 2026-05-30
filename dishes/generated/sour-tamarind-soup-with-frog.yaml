@@ -115,16 +115,19 @@ instructions:
 - step: 2
   text: Bring stock to a boil with smashed garlic and lemongrass.
   tip: Bruising or pounding the aromatics first lets them give up more flavour.
+  textKm: ដាំទឹកស៊ុបជាមួយខ្ទឹមសបុក និងស្លឹកគ្រៃ។
 - step: 3
   text: Add the frog and simmer until tender, about 15 minutes.
   textKm: ដាក់កង្កែប ហើយដាំ រហូតទាល់តែទន់ ប្រហែល 15 នាទី។
 - step: 4
   text: Add the vegetables (pineapple, tomato, bean sprouts, taro stem) and simmer until just tender.
+  textKm: បន្ថែមបន្លែ (pineapple, tomato, bean sprouts, taro stem) ហើយដាំរហូតទើបទន់។
 - step: 5
   text: Season with fish sauce and palm sugar, then balance with tamarind paste.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 6
   text: Taste — it should sing of salty, sweet and sour. Finish with fried garlic, sawtooth coriander and rice-paddy herb.
+  textKm: ភ្លក់ — រសជាតិគួរតែឈ្ងុយ ប្រៃ ផ្អែម ជូរ។ ដាក់ fried garlic, sawtooth coriander and rice-paddy herb នៅខាងលើ។
 - step: 7
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

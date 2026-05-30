@@ -46,9 +46,13 @@ ingredients:
 instructions:
 - step: 1
   text: Marinate thinly sliced pork in garlic, coconut water and a little sugar.
+  textKm: ប្រឡាក់សាច់ជ្រូកហាន់ស្ដើងជាមួយខ្ទឹមស ទឹកដូងខ្ចី និងស្ករបន្តិច។
 - step: 2
   text: Grill over charcoal until caramelised.
+  textKm: អាំងលើធ្យូងភ្លើងរហូតមានពណ៌ត្នោត។
 - step: 3
   text: Serve over warm broken rice with pickled vegetables.
+  textKm: បរិភោគលើបាយចំការក្ដៅជាមួយបន្លែជ្រក់។
 - step: 4
   text: Add a small bowl of clear broth on the side.
+  textKm: ដាក់ចានទឹកស៊ុបស្អាតមួយតូចនៅខាង។

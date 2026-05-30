@@ -89,12 +89,17 @@ ingredients:
 instructions:
 - step: 1
   text: Soak or loosen the noodles so they don't clump.
+  textKm: ត្រាំ ឬ លាត់នូដឯុលឱ្យស្បែកមិនជាប់គ្នា។
 - step: 2
   text: Heat a wok screaming hot; fry the garlic, then the frog until tender.
+  textKm: ដុំខ្ទះឱ្យក្ដៅខ្លាំង។ ឆាខ្ទឹមស រួចបន្ថែម កង្កែប រហូតទាល់តែទន់។
 - step: 3
   text: Push aside, scramble the egg, then add the noodles and Chinese broccoli.
+  textKm: រុញទៅខាង រួចកូរពងមាន់ បន្ទាប់មកដាក់នូដឯុល និងស្ពៃខៀវ។
 - step: 4
   text: Season with oyster sauce, dark soy and a pinch of sugar; toss over high heat until smoky.
   tip: Don't overcrowd — fry in two batches for proper 'wok hei'.
+  textKm: បន្ថែមទឹកអយស្ទ័រ ស៊ីអ៊ីវខ្មៅ និងស្ករបន្តិច។ កូរលើភ្លើងខ្លាំងរហូតមានក្លិនឈ្ងុយ។
 - step: 5
   text: Add bean sprouts at the end, toss once and plate. Top with herbs and fried garlic oil.
+  textKm: ដាក់សណ្ដែកបណ្ដុះនៅចុង លាយម្ដង ហើយដាក់ចាន។ ដាក់ស្លឹក និងប្រេងខ្ទឹមចៀននៅខាងលើ។

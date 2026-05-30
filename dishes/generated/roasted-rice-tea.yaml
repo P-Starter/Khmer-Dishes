@@ -38,7 +38,10 @@ ingredients:
 instructions:
 - step: 1
   text: Toast rice until deep golden and fragrant.
+  textKm: លីងអង្ករឱ្យមានពណ៌មាសចាស់ និងឈ្ងុយ។
 - step: 2
   text: Simmer with pandan and a little rock sugar.
+  textKm: ដាំជាមួយស្លឹកតើយ និងស្ករអំពៅបន្តិច។
 - step: 3
   text: Strain and serve hot or iced.
+  textKm: ច្រោះ ហើយបរិភោគក្ដៅ ឬ ត្រជាក់។

@@ -108,16 +108,19 @@ instructions:
 - step: 2
   text: Bring stock to a boil with bruised lemongrass and galangal.
   tip: Bruising or pounding the aromatics first lets them give up more flavour.
+  textKm: ដាំទឹកស៊ុបជាមួយស្លឹកគ្រៃបុក និងរំដេង។
 - step: 3
   text: Add the crab and simmer until the shells turn bright orange, about 12 minutes.
   textKm: ដាក់ក្ដាម ហើយដាំ រហូតទាល់តែសំបកក្ដាមមានពណ៌ទឹកក្រូច ប្រហែល 12 នាទី។
 - step: 4
   text: Add the vegetables (tomato, oyster mushroom, napa cabbage) and simmer until just tender.
+  textKm: បន្ថែមបន្លែ (tomato, oyster mushroom, napa cabbage) ហើយដាំរហូតទើបទន់។
 - step: 5
   text: Season with fish sauce and palm sugar, then balance with lime juice.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 6
   text: Taste — it should sing of salty, sweet and sour. Finish with coriander, chili and a final squeeze of lime.
+  textKm: ភ្លក់ — រសជាតិគួរតែឈ្ងុយ ប្រៃ ផ្អែម ជូរ។ ដាក់ coriander, chili and a final squeeze of lime នៅខាងលើ។
 - step: 7
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

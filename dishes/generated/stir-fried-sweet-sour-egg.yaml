@@ -117,6 +117,7 @@ instructions:
 - step: 1
   text: Fry the garlic until fragrant.
   tip: Pounding releases more aroma than blending, but a blender is fine.
+  textKm: ឆាខ្ទឹមសឱ្យឈ្ងុយ។
 - step: 2
   text: 'Prepare the egg: lightly beaten.'
   textKm: រៀបចំពងមាន់៖ វាយបន្តិច។
@@ -131,10 +132,13 @@ instructions:
   textKm: ដាក់ពងមាន់ ហើយឆា រហូតទាល់តែទន់ ហើយកក ប្រហែល 4 នាទី។
 - step: 6
   text: Add pineapple, tomato, cucumber and onion.
+  textKm: បន្ថែមម្នាស់ ប៉េងប៉ោះ ត្រសក់ និងខ្ទឹមបារាំង។
 - step: 7
   text: Season with fish sauce, palm sugar and tomato ketchup, rice vinegar, palm sugar and a small splash of water; toss to coat.
+  textKm: បន្ថែមទឹកត្រី ស្ករត្នោត និងគ្រឿងផ្សំផ្សេងៗ។ កូរឱ្យសម។
 - step: 8
   text: Taste and adjust, then finish with spring onion.
+  textKm: ភ្លក់ ហើយកែតម្រូវរសជាតិ បន្ទាប់មកដាក់ spring onion។
 - step: 9
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

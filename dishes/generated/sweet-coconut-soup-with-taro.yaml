@@ -71,10 +71,14 @@ ingredients:
 instructions:
 - step: 1
   text: Simmer the taro in water with pandan until soft.
+  textKm: ដាំ ត្រាវ ក្នុងទឹកជាមួយស្លឹកតើយរហូតទន់។
 - step: 2
   text: Add palm sugar and a pinch of salt; stir until dissolved.
+  textKm: បន្ថែមស្ករត្នោត និងអំបិលបន្តិច; កូររហូតស្កររលាយ។
 - step: 3
   text: Pour in the coconut milk and warm through gently without hard-boiling.
   tip: Boiling can split the coconut milk — keep it at a gentle simmer.
+  textKm: ស្នូរទឹកដូងចូល កម្ដៅថ្នមៗ កុំឱ្យដាំខ្លាំង។
 - step: 4
   text: Serve warm or over ice as a sweet dessert soup (bong-aem).
+  textKm: បរិភោគក្ដៅ ឬ លើទឹកកកជាបបរផ្អែម (បង្អែម)។

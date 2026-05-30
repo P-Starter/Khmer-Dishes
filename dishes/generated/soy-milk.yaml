@@ -38,7 +38,10 @@ ingredients:
 instructions:
 - step: 1
   text: Blend soaked soybeans with water and strain.
+  textKm: កិនសណ្ដែកសៀងត្រាំជាមួយទឹក ហើយច្រោះ។
 - step: 2
   text: Simmer with pandan, skimming foam.
+  textKm: ដាំជាមួយស្លឹកតើយ ហើយដួសពពោះ។
 - step: 3
   text: Sweeten and serve hot or cold.
+  textKm: ផ្អែម ហើយបរិភោគក្ដៅ ឬ ត្រជាក់។

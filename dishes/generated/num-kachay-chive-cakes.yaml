@@ -40,7 +40,10 @@ ingredients:
 instructions:
 - step: 1
   text: Make a soft rice-flour batter and steam into rounds with chopped chives.
+  textKm: ធ្វើម្សៅអង្ករទន់ ហើយចំហុយជារាងមូលជាមួយកុយឆាយកាត់។
 - step: 2
   text: Pan-fry until crisp and golden on both sides.
+  textKm: ចៀនក្នុងខ្ទះរហូតក្រៀម និងមានពណ៌មាសសងខាង។
 - step: 3
   text: Serve hot with a sweet-sour fish-sauce dip.
+  textKm: បរិភោគក្ដៅៗជាមួយទឹកត្រីផ្អែមជូរ។

@@ -47,9 +47,13 @@ ingredients:
 instructions:
 - step: 1
   text: Mix soaked sticky rice with beans, coconut milk and salt.
+  textKm: លាយបាយដំណើបត្រាំជាមួយសណ្ដែក ទឹកដូង និងអំបិល។
 - step: 2
   text: Pack loosely into a bamboo tube lined with banana leaf.
+  textKm: បំពេញក្នុងបំពង់ឫស្សីដែលរៀបស្លឹកចេក។
 - step: 3
   text: Roast over charcoal, turning, until cooked and fragrant.
+  textKm: ដុតលើធ្យូងភ្លើង ត្រលប់ រហូតឆ្អិន និងឈ្ងុយ។
 - step: 4
   text: Peel back the bamboo and slice to serve.
+  textKm: ដោះបំពង់ឫស្សី ហើយហាន់បរិភោគ។

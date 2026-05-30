@@ -115,6 +115,7 @@ instructions:
 - step: 1
   text: Fry minced lemongrass and garlic, then stir in strained prahok liquid.
   tip: Pounding releases more aroma than blending, but a blender is fine.
+  textKm: ឆាស្លឹកគ្រៃកិន និងខ្ទឹមស រួចកូរទឹកប្រហុកច្រោះ។
 - step: 2
   text: 'Prepare the egg: lightly beaten.'
   textKm: រៀបចំពងមាន់៖ វាយបន្តិច។
@@ -129,10 +130,13 @@ instructions:
   textKm: ដាក់ពងមាន់ ហើយឆា រហូតទាល់តែទន់ ហើយកក ប្រហែល 4 នាទី។
 - step: 6
   text: Add sliced chili and pea eggplant.
+  textKm: បន្ថែមម្ទេសហាន់ និងត្រប់ខ្ចី។
 - step: 7
   text: Season with fish sauce, palm sugar and palm sugar and a small splash of water; toss to coat.
+  textKm: បន្ថែមទឹកត្រី ស្ករត្នោត និងគ្រឿងផ្សំផ្សេងៗ។ កូរឱ្យសម។
 - step: 8
   text: Taste and adjust, then finish with shredded kaffir lime leaf.
+  textKm: ភ្លក់ ហើយកែតម្រូវរសជាតិ បន្ទាប់មកដាក់ shredded kaffir lime leaf។
 - step: 9
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

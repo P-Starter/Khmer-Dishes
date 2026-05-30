@@ -41,7 +41,10 @@ ingredients:
 instructions:
 - step: 1
   text: Brew strong black tea and cool.
+  textKm: ដាំតែខ្មៅខ្លាំង ហើយត្រជាក់។
 - step: 2
   text: Sweeten with palm sugar syrup.
+  textKm: ផ្អែមដោយស៊ីរ៉ូត្នោត។
 - step: 3
   text: Serve over ice with a squeeze of lime.
+  textKm: បរិភោគលើទឹកកកជាមួយទឹកក្រូចឆ្មារ។

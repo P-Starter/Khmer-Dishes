@@ -71,14 +71,20 @@ ingredients:
 instructions:
 - step: 1
   text: Rub generously with salt, smashed garlic and white pepper.
+  textKm: ប្រឡាក់ដោយអំបិល ខ្ទឹមសបុក និងម្រេចស។
 - step: 2
   text: Coat the crab (cleaned and quartered) in the marinade and rest at least 30 minutes (overnight is better).
   tip: Marinating overnight gives the deepest flavour and colour.
+  textKm: ប្រឡាក់ ក្ដាម (សម្អាត ហើយកាត់ជា ៤) ជាមួយទឹកប្រឡាក់ ហើយទុកយ៉ាងតិច ៣០ នាទី (ប្រសើរបើទុកមួយយប់)។
 - step: 3
   text: Light a charcoal grill and let it burn down to glowing embers (or heat a grill pan).
+  textKm: ដុំភ្លើងធ្យូងឱ្យស្ងាត់ និងក្ដៅ (ឬ ដុំខ្ទះអាំង)។
 - step: 4
   text: Grill the crab over medium coals, turning and basting, until the shells turn bright orange.
+  textKm: អាំង ក្ដាម លើធ្យូងភ្លើងមធ្យម ត្រលប់ និងលាបទឹកប្រឡាក់ រហូតទាល់តែសំបកក្ដាមមានពណ៌ទឹកក្រូច។
 - step: 5
   text: Serve with tuk trey p'aem — sweet-sour fish-sauce dip with chili and peanuts.
+  textKm: បរិភោគជាមួយទឹកត្រីផ្អែម — ទឹកត្រីផ្អែមជូរជាមួយម្ទេស និងសណ្ដែកដី។
 - step: 6
   text: Serve with steamed rice and fresh herbs and cucumber.
+  textKm: បរិភោគជាមួយបាយក្ដៅ ស្លឹកស្រស់ និងត្រសក់។

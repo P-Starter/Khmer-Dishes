@@ -39,7 +39,10 @@ ingredients:
 instructions:
 - step: 1
   text: Squeeze fresh lime into a glass with syrup.
+  textKm: ច្របាច់ក្រូចឆ្មារស្រស់ចូលកែវជាមួយស៊ីរ៉ូ។
 - step: 2
   text: Add a small pinch of salt.
+  textKm: បន្ថែមអំបិលបន្តិច។
 - step: 3
   text: Top with soda water and ice.
+  textKm: ដាក់ទឹកសូដា និងទឹកកកនៅខាងលើ។

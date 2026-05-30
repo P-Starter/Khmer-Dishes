@@ -44,9 +44,13 @@ ingredients:
 instructions:
 - step: 1
   text: Make a light batter with rice flour, sesame, a little sugar and coconut.
+  textKm: ធ្វើម្សៅរលុងជាមួយម្សៅអង្ករ ល្ង ស្ករបន្តិច និងដូង។
 - step: 2
   text: Coat the bananas.
+  textKm: ស្រោបចេក។
 - step: 3
   text: Deep-fry until deep golden and crisp.
+  textKm: ចៀនជ្រៅរហូតមានពណ៌មាសចាស់ និងក្រៀម។
 - step: 4
   text: Drain and serve hot, optionally with palm-sugar syrup.
+  textKm: ច្រោះ ហើយបរិភោគក្ដៅៗ ស្រេចចិត្តជាមួយស៊ីរ៉ូត្នោត។

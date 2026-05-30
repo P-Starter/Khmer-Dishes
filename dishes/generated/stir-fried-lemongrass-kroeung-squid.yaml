@@ -138,6 +138,7 @@ instructions:
 - step: 1
   text: Pound or blend the kroeung — lemongrass, galangal, turmeric, kaffir lime leaf, garlic and shallot — into a fragrant yellow paste.
   tip: Pounding releases more aroma than blending, but a blender is fine.
+  textKm: បុក ឬ កិនគ្រឿង — ស្លឹកគ្រៃ រំដេង រមៀត ស្លឹកក្រូចសើច ខ្ទឹមស និងខ្ទឹមក្រហម — ឱ្យបានគ្រឿងលឿងឈ្ងុយ។
 - step: 2
   text: 'Prepare the squid: cleaned and scored into rings.'
   textKm: រៀបចំមឹក៖ សម្អាត ហើយហាន់ជាកង់។
@@ -152,10 +153,13 @@ instructions:
   textKm: ដាក់មឹក ហើយឆា រហូតទាល់តែទើបឆ្អិន (កុំឆ្អិនពេក) ប្រហែល 4 នាទី។
 - step: 6
   text: Toss in yardlong beans and sweet pepper and stir-fry until tender-crisp.
+  textKm: បន្ថែមសណ្ដែកគួរ និងម្ទេសផ្អែម ហើយឆាឱ្យទន់និងក្រៀម។
 - step: 7
   text: Season with fish sauce, palm sugar and oyster sauce and a small splash of water; toss to coat.
+  textKm: បន្ថែមទឹកត្រី ស្ករត្នោត និងគ្រឿងផ្សំផ្សេងៗ។ កូរឱ្យសម។
 - step: 8
   text: Taste and adjust, then finish with holy basil and sliced fresh chili.
+  textKm: ភ្លក់ ហើយកែតម្រូវរសជាតិ បន្ទាប់មកដាក់ holy basil and sliced fresh chili។
 - step: 9
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

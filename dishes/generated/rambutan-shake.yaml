@@ -63,8 +63,11 @@ ingredients:
 instructions:
 - step: 1
   text: Add the rambutan, condensed milk, ice and a little syrup to a blender.
+  textKm: ដាក់ rambutan ទឹកដោះគោផ្អែម ទឹកកក និងស៊ីរ៉ូបន្តិចចូលម៉ាសុីនកិន។
 - step: 2
   text: Blend until smooth and frothy; taste and adjust sweetness with a pinch of salt.
   tip: A pinch of salt makes tropical fruit taste sweeter and rounder.
+  textKm: កិនរហូតរលោង និងព្រួស; ភ្លក់ ហើយកែតម្រូវភាពផ្អែមដោយអំបិលបន្តិច។
 - step: 3
   text: Pour into a tall glass and serve immediately over ice.
+  textKm: ស្នូរចូលកែវវែង ហើយបរិភោគភ្លាមៗលើទឹកកក។

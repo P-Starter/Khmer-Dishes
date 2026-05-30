@@ -38,7 +38,10 @@ ingredients:
 instructions:
 - step: 1
   text: Brew strong coffee using a phin or dripper.
+  textKm: ដាំកាហ្វេខ្លាំងដោយប្រើព្រន ឬ ឧបករណ៍ស្រក់។
 - step: 2
   text: Stir 2 tbsp condensed milk into the hot coffee.
+  textKm: កូរទឹកដោះគោផ្អែម ២ ស្លាបព្រាចូលកាហ្វេក្ដៅ។
 - step: 3
   text: Pour over a glass of ice and stir well.
+  textKm: ស្នូរលើកែវទឹកកក ហើយកូរឱ្យសម។

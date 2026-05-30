@@ -149,14 +149,19 @@ ingredients:
 instructions:
 - step: 1
   text: Fry the red kroeung and curry powder in coconut cream until aromatic and the oil splits.
+  textKm: ឆាគ្រឿងក្រហម និងម្សៅការីជាមួយខ្ទិះដូងរហូតឈ្ងុយ និងប្រេងបែក។
 - step: 2
   text: Add the duck (chopped into pieces) and brown lightly.
+  textKm: បន្ថែម សាច់ទា (កាត់ជាដុំៗ) ហើយឆាឱ្យលឿងបន្តិច។
 - step: 3
   text: Pour in coconut milk and enough water to cover; add sweet potato and onion.
+  textKm: ស្នូរទឹកដូងចូល និងទឹកគ្រប់ជាប់សាច់; បន្ថែមដំឡូងជ្វា និងខ្ទឹមបារាំង។
 - step: 4
   text: Simmer until until tender and the vegetables are tender, about 40 minutes.
+  textKm: ដាំរហូត រហូតទាល់តែទន់ ហើយបន្លែទន់ ប្រហែល 40 នាទី។
 - step: 5
   text: Season with fish sauce and palm sugar.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 6
   text: Serve hot with crusty baguette or fresh rice noodles (num banh chok).
+  textKm: បរិភោគក្ដៅៗជាមួយនំបុ័ងស្រួយ ឬ នំបញ្ចុកស្រស់។

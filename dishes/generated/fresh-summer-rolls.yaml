@@ -45,9 +45,13 @@ ingredients:
 instructions:
 - step: 1
   text: Dip rice paper briefly to soften.
+  textKm: ត្រាំក្រដាសអង្ករបន្តិចឱ្យទន់។
 - step: 2
   text: Layer lettuce, herbs, vermicelli, pork and shrimp.
+  textKm: តម្រៀបសាឡាត់ ស្លឹក មីសួ សាច់ជ្រូក និងបង្គា។
 - step: 3
   text: Roll tightly, folding in the sides.
+  textKm: រុំឱ្យតឹង ហើយបត់ចំហៀង។
 - step: 4
   text: Serve with a peanut-hoisin dipping sauce.
+  textKm: បរិភោគជាមួយទឹកជ្រលក់សណ្ដែកដី និងហោសុីន។

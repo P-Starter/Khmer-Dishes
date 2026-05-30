@@ -97,6 +97,7 @@ instructions:
 - step: 1
   text: Fry the minced garlic in hot oil until pale gold and fragrant.
   tip: Pounding releases more aroma than blending, but a blender is fine.
+  textKm: ឆាខ្ទឹមសកិនក្នុងប្រេងក្ដៅរហូតមានពណ៌មាស និងឈ្ងុយ។
 - step: 2
   text: 'Prepare the duck: chopped into pieces.'
   textKm: រៀបចំសាច់ទា៖ កាត់ជាដុំៗ។
@@ -111,10 +112,13 @@ instructions:
   textKm: ដាក់សាច់ទា ហើយឆា រហូតទាល់តែទន់ ប្រហែល 25 នាទី។
 - step: 6
   text: Add big lengths of spring onion and sliced onion.
+  textKm: បន្ថែមស្លឹកខ្ទឹមបារាំងកាត់ដុំធំ និងខ្ទឹមបារាំងហាន់។
 - step: 7
   text: Season with fish sauce, palm sugar and oyster sauce, light soy sauce and a small splash of water; toss to coat.
+  textKm: បន្ថែមទឹកត្រី ស្ករត្នោត និងគ្រឿងផ្សំផ្សេងៗ។ កូរឱ្យសម។
 - step: 8
   text: Taste and adjust, then finish with ground white pepper.
+  textKm: ភ្លក់ ហើយកែតម្រូវរសជាតិ បន្ទាប់មកដាក់ ground white pepper។
 - step: 9
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

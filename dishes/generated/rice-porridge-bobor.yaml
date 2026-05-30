@@ -46,9 +46,13 @@ ingredients:
 instructions:
 - step: 1
   text: Simmer rice in plenty of stock with ginger until broken down and creamy.
+  textKm: ដាំបាយក្នុងទឹកស៊ុបច្រើនជាមួយខ្ញីរហូតបែក និងរលោង។
 - step: 2
   text: Season with fish sauce and white pepper.
+  textKm: បន្ថែមទឹកត្រី និងម្រេចស។
 - step: 3
   text: Add cooked chicken or fish if using.
+  textKm: បន្ថែមសាច់មាន់ ឬ ត្រីដាំស្រាប់ បើប្រើ។
 - step: 4
   text: Top with spring onion, fried garlic and herbs.
+  textKm: ដាក់ស្លឹកខ្ទឹមបារាំង ខ្ទឹមសចៀន និងស្លឹកនៅខាងលើ។

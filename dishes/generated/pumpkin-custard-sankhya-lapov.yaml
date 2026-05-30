@@ -43,9 +43,13 @@ ingredients:
 instructions:
 - step: 1
   text: Cut a lid in the pumpkin and scoop out the seeds.
+  textKm: កាត់គម្របផ្លែល្ពៅ ហើយយកគ្រាប់ចេញ។
 - step: 2
   text: Whisk eggs, palm sugar, coconut milk and pandan; strain.
+  textKm: កូរពងមាន់ ស្ករត្នោត ទឹកដូង និងស្លឹកតើយ; ច្រោះ។
 - step: 3
   text: Pour the custard into the pumpkin.
+  textKm: ស្នូរសង់ខ្យាចូលក្នុងផ្លែល្ពៅ។
 - step: 4
   text: Steam 45–60 minutes until set; cool and slice into wedges.
+  textKm: ចំហុយ ៤៥–៦០ នាទីរហូតកក; ត្រជាក់ ហើយកាត់ជាចំណិត។

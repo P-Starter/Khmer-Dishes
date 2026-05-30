@@ -38,7 +38,10 @@ ingredients:
 instructions:
 - step: 1
   text: Press the sugarcane through a juicer.
+  textKm: កិតអំពៅជាមួយម៉ាសុីនកិត។
 - step: 2
   text: Squeeze in a kumquat or lime for brightness.
+  textKm: ច្របាច់កុមកាត់ ឬ ក្រូចឆ្មារដើម្បីភាពស្រស់។
 - step: 3
   text: Serve very cold over ice.
+  textKm: បរិភោគត្រជាក់លើទឹកកក។

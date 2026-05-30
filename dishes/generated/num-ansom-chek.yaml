@@ -44,9 +44,13 @@ ingredients:
 instructions:
 - step: 1
   text: Season soaked sticky rice with coconut and salt.
+  textKm: ប្រឡាក់បាយដំណើបត្រាំជាមួយដូង និងអំបិល។
 - step: 2
   text: Wrap around a banana and beans in banana leaf into a log.
+  textKm: រុំជុំវិញចេក និងសណ្ដែកក្នុងស្លឹកចេកជារាងបំពង់។
 - step: 3
   text: Tie firmly and boil several hours.
+  textKm: ចងឱ្យតឹង ហើយដាំជាច្រើនម៉ោង។
 - step: 4
   text: Cool, unwrap and slice into rounds.
+  textKm: ត្រជាក់ ដោះ ហើយហាន់ជារាងមូល។

@@ -45,9 +45,13 @@ ingredients:
 instructions:
 - step: 1
   text: Mix the pork, soaked glass noodles, grated carrot and mushroom.
+  textKm: លាយសាច់ជ្រូក មីសួត្រាំ ការ៉ុតកោស និងផ្សិត។
 - step: 2
   text: Roll tightly in wrappers, sealing with egg.
+  textKm: រុំក្នុងស្បែករុំ ហើយបិទដោយពងមាន់។
 - step: 3
   text: Deep-fry until golden and crisp.
+  textKm: ចៀននៅប្រេងជ្រៅរហូតមានពណ៌មាស និងក្រៀម។
 - step: 4
   text: Serve with lettuce, herbs and a sweet-sour dip.
+  textKm: បរិភោគជាមួយសាឡាត់ ស្លឹក និងទឹកជ្រលក់ជូរផ្អែម។

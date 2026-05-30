@@ -129,11 +129,16 @@ ingredients:
 instructions:
 - step: 1
   text: Fry the red kroeung in coconut cream until the oil splits and it is fragrant.
+  textKm: ឆាគ្រឿងក្រហមជាមួយខ្ទិះដូងរហូតប្រេងបែក និងឈ្ងុយ។
 - step: 2
   text: Add the beef (sliced thin against the grain), then the coconut milk and a little stock; simmer into a rich gravy.
+  textKm: បន្ថែម សាច់គោ (ហាន់ស្ដើងបញ្ច្រាសខ្សែ) រួចទឹកដូង និងទឹកស៊ុបបន្តិច; ដាំឱ្យបានទឹកក្រាស់ឆ្ងាញ់។
 - step: 3
   text: Stir in ground peanuts and season with fish sauce and palm sugar.
+  textKm: កូរសណ្ដែកដីបុក ហើយបន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 4
   text: Blanch the vermicelli into bowls and ladle over the coconut gravy.
+  textKm: ស្ងោរនំបញ្ចុកដាក់ចាន ហើយស្នូរទឹកដូងពីលើ។
 - step: 5
   text: Top with bean sprouts, herbs and fried garlic oil.
+  textKm: ដាក់សណ្ដែកបណ្ដុះ ស្លឹក និងប្រេងខ្ទឹមចៀននៅខាងលើ។

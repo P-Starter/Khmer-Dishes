@@ -44,9 +44,13 @@ ingredients:
 instructions:
 - step: 1
   text: Combine sliced banana with soaked sticky rice, coconut milk and sugar.
+  textKm: លាយចេកហាន់ជាមួយបាយដំណើបត្រាំ ទឹកដូង និងស្ករ។
 - step: 2
   text: Wrap in banana leaf parcels.
+  textKm: រុំក្នុងកញ្ចប់ស្លឹកចេក។
 - step: 3
   text: Steam 30–40 minutes until set.
+  textKm: ចំហុយ ៣០–៤០ នាទីរហូតកក។
 - step: 4
   text: Cool slightly and serve.
+  textKm: ត្រជាក់បន្តិច ហើយបរិភោគ។

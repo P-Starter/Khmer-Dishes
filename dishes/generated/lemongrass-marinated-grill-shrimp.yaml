@@ -121,14 +121,20 @@ ingredients:
 instructions:
 - step: 1
   text: Blend lemongrass kroeung with fish sauce, palm sugar and a little oil into a marinade.
+  textKm: កិនគ្រឿងស្លឹកគ្រៃជាមួយទឹកត្រី ស្ករត្នោត និងប្រេងបន្តិចជាទឹកប្រឡាក់។
 - step: 2
   text: Coat the shrimp (peeled and deveined) in the marinade and rest at least 30 minutes (overnight is better).
   tip: Marinating overnight gives the deepest flavour and colour.
+  textKm: ប្រឡាក់ បង្គា (ចេញសំបក និងសរសៃ) ជាមួយទឹកប្រឡាក់ ហើយទុកយ៉ាងតិច ៣០ នាទី (ប្រសើរបើទុកមួយយប់)។
 - step: 3
   text: Light a charcoal grill and let it burn down to glowing embers (or heat a grill pan).
+  textKm: ដុំភ្លើងធ្យូងឱ្យស្ងាត់ និងក្ដៅ (ឬ ដុំខ្ទះអាំង)។
 - step: 4
   text: Grill the shrimp over medium coals, turning and basting, until they curl and turn pink.
+  textKm: អាំង បង្គា លើធ្យូងភ្លើងមធ្យម ត្រលប់ និងលាបទឹកប្រឡាក់ រហូតទាល់តែបង្គាក្រឡុំ និងមានពណ៌ផ្កាឈូក។
 - step: 5
   text: Serve with tuk meric — lime juice, salt, black Kampot pepper and chili.
+  textKm: បរិភោគជាមួយទឹកម្រេច — ទឹកក្រូចឆ្មារ អំបិល ម្រេចខ្មៅកំពត និងម្ទេស។
 - step: 6
   text: Serve with steamed rice and fresh herbs and cucumber.
+  textKm: បរិភោគជាមួយបាយក្ដៅ ស្លឹកស្រស់ និងត្រសក់។

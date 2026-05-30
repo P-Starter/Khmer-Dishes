@@ -111,6 +111,7 @@ instructions:
 - step: 1
   text: Fry the garlic and onion, then bloom the curry powder in the oil.
   tip: Pounding releases more aroma than blending, but a blender is fine.
+  textKm: ឆាខ្ទឹមស និងខ្ទឹមបារាំង រួចដាក់ម្សៅការីក្នុងប្រេងឱ្យឈ្ងុយ។
 - step: 2
   text: 'Prepare the mushroom: torn or sliced.'
   textKm: រៀបចំផ្សិត៖ កាត់ ឬ ហាន់។
@@ -125,10 +126,13 @@ instructions:
   textKm: ដាក់ផ្សិត ហើយឆា រហូតទាល់តែទន់ និងភ្លឺ ប្រហែល 6 នាទី។
 - step: 6
   text: Add celery and beaten egg, tossing until the egg ribbons through.
+  textKm: បន្ថែមអង្គាមភ្នំ និងពងមាន់វាយ កូរឱ្យពងមាន់សន្លឹក។
 - step: 7
   text: Season with fish sauce, palm sugar and oyster sauce, evaporated milk and a small splash of water; toss to coat.
+  textKm: បន្ថែមទឹកត្រី ស្ករត្នោត និងគ្រឿងផ្សំផ្សេងៗ។ កូរឱ្យសម។
 - step: 8
   text: Taste and adjust, then finish with spring onion and ground white pepper.
+  textKm: ភ្លក់ ហើយកែតម្រូវរសជាតិ បន្ទាប់មកដាក់ spring onion and ground white pepper។
 - step: 9
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

@@ -154,17 +154,23 @@ ingredients:
 instructions:
 - step: 1
   text: Pound the red kroeung to a very smooth paste — smoothness is everything in amok.
+  textKm: បុកគ្រឿងក្រហមឱ្យល្អិតៗ — ភាពល្អិតគឺជាគន្លឹះនៃអាម៉ុក។
 - step: 2
   text: 'Prepare the clams: scrubbed.'
   textKm: រៀបចំងាវ៖ សម្អាតសំបក។
 - step: 3
   text: In a bowl, whisk the kroeung with coconut milk, egg, fish sauce and palm sugar until thick and creamy.
   tip: Add the coconut milk a little at a time so the mixture emulsifies.
+  textKm: ក្នុងចាន កូរគ្រឿងជាមួយទឹកដូង ពងមាន់ ទឹកត្រី និងស្ករត្នោតរហូតក្រាស់ និងរលោង។
 - step: 4
   text: Fold in the clams until well coated.
+  textKm: បញ្ចូល ងាវ ហើយលាយឱ្យសាច់ស្រូបនឹងគ្រឿង។
 - step: 5
   text: Line banana-leaf cups with a soft leaf, spoon in the mixture and top with coconut cream.
+  textKm: តម្រៀបស្លឹកចេកក្នុងពែង ដាក់ល្បាយចូល ហើយដាក់ខ្ទិះដូងពីលើ។
 - step: 6
   text: Steam over medium heat 20–25 minutes until set like a soft custard.
+  textKm: ចំហុយលើភ្លើងមធ្យម ២០–២៥ នាទីរហូតកកដូចសង់ខ្យាទន់។
 - step: 7
   text: Garnish with coconut cream and shredded kaffir lime leaf; serve with rice.
+  textKm: ដាក់ខ្ទិះដូង និងស្លឹកក្រូចសើចហាន់ពីលើ; បរិភោគជាមួយបាយ។

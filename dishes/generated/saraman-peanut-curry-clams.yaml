@@ -143,14 +143,19 @@ ingredients:
 instructions:
 - step: 1
   text: Fry the red kroeung in a little coconut cream until the oil splits and it smells fragrant.
+  textKm: ឆាគ្រឿងក្រហមជាមួយខ្ទិះដូងបន្តិចរហូតប្រេងបែក និងឈ្ងុយ។
 - step: 2
   text: Stir in the ground roasted peanuts and toasted coconut.
+  textKm: កូរសណ្ដែកដីលីង និងដូងលីង។
 - step: 3
   text: Add the clams (scrubbed) and seal in the paste.
+  textKm: បន្ថែម ងាវ (សម្អាតសំបក) ហើយចូលក្នុងគ្រឿង។
 - step: 4
   text: Pour in the coconut milk and add the potato; simmer gently.
+  textKm: ស្នូរទឹកដូងចូល និងបន្ថែមដំឡូងបារាំង; ដាំថ្នមៗ។
 - step: 5
   text: Simmer until the shells open and the potato is soft, about 21 minutes.
+  textKm: ដាំ រហូតទាល់តែសំបករបោះ ហើយដំឡូងបារាំងទន់ ប្រហែល 21 នាទី។
 - step: 6
   text: Season with fish sauce and palm sugar; it should be mild, nutty and rich.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។

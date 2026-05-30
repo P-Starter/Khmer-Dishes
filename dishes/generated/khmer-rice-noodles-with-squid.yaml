@@ -137,12 +137,16 @@ ingredients:
 instructions:
 - step: 1
   text: Pound the kroeung smooth and simmer in stock with strained prahok.
+  textKm: បុកគ្រឿងឱ្យល្អិត ហើយដាំក្នុងទឹកស៊ុបជាមួយប្រហុកច្រោះ។
 - step: 2
   text: Add the flaked grilled fish (and your chosen squid) and the coconut milk; simmer into a fragrant gravy.
+  textKm: បន្ថែមត្រីអាំងបុក (និង មឹក ដែលបានជ្រើស) និងទឹកដូង; ដាំឱ្យបានទឹកក្រាស់ឈ្ងុយ។
 - step: 3
   text: Season with fish sauce and palm sugar to a savoury, slightly sweet balance.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 4
   text: Loosen the fresh rice vermicelli into nests in each bowl.
+  textKm: លាត់នំបញ្ចុកស្រស់ជារាងសំបុកក្នុងចានម្នាក់ៗ។
 - step: 5
   text: Ladle the warm gravy over and pile high with raw banana blossom, cucumber, long beans and herbs.
+  textKm: ស្នូរទឹកគ្រឿងក្ដៅពីលើ ហើយដាក់ត្រយោងចេក ត្រសក់ សណ្ដែកគួរ និងស្លឹកជាច្រើនពីលើ។

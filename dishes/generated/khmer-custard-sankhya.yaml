@@ -43,9 +43,13 @@ ingredients:
 instructions:
 - step: 1
   text: Whisk eggs with palm sugar until dissolved.
+  textKm: កូរពងមាន់ជាមួយស្ករត្នោតរហូតស្កររលាយ។
 - step: 2
   text: Stir in coconut milk and pandan extract.
+  textKm: កូរទឹកដូង និងសារធាតុស្លឹកតើយចូល។
 - step: 3
   text: Strain into a dish or hollowed pumpkin.
+  textKm: ច្រោះចូលចាន ឬ ផ្លែល្ពៅដែលហួស។
 - step: 4
   text: Steam gently until just set; chill before serving.
+  textKm: ចំហុយថ្នមៗរហូតទើបកក; ត្រជាក់មុនពេលបរិភោគ។

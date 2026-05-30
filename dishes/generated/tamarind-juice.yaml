@@ -41,7 +41,10 @@ ingredients:
 instructions:
 - step: 1
   text: Soak tamarind pulp in warm water and strain.
+  textKm: ត្រាំសាច់អម្ពិលក្នុងទឹកក្ដៅ ហើយច្រោះ។
 - step: 2
   text: Sweeten and add a pinch of salt.
+  textKm: ផ្អែម ហើយបន្ថែមអំបិលបន្តិច។
 - step: 3
   text: Serve cold over ice.
+  textKm: បរិភោគត្រជាក់លើទឹកកក។

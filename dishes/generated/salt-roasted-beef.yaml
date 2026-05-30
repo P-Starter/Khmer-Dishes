@@ -69,14 +69,20 @@ ingredients:
 instructions:
 - step: 1
   text: Rub generously with salt, smashed garlic and white pepper.
+  textKm: ប្រឡាក់ដោយអំបិល ខ្ទឹមសបុក និងម្រេចស។
 - step: 2
   text: Coat the beef (sliced thin against the grain) in the marinade and rest at least 30 minutes (overnight is better).
   tip: Marinating overnight gives the deepest flavour and colour.
+  textKm: ប្រឡាក់ សាច់គោ (ហាន់ស្ដើងបញ្ច្រាសខ្សែ) ជាមួយទឹកប្រឡាក់ ហើយទុកយ៉ាងតិច ៣០ នាទី (ប្រសើរបើទុកមួយយប់)។
 - step: 3
   text: Light a charcoal grill and let it burn down to glowing embers (or heat a grill pan).
+  textKm: ដុំភ្លើងធ្យូងឱ្យស្ងាត់ និងក្ដៅ (ឬ ដុំខ្ទះអាំង)។
 - step: 4
   text: Grill the beef over medium coals, turning and basting, until just browned but still tender.
+  textKm: អាំង សាច់គោ លើធ្យូងភ្លើងមធ្យម ត្រលប់ និងលាបទឹកប្រឡាក់ រហូតទាល់តែលឿងស្រាល តែនៅទន់។
 - step: 5
   text: Serve with tuk trey p'aem — sweet-sour fish-sauce dip with chili and peanuts.
+  textKm: បរិភោគជាមួយទឹកត្រីផ្អែម — ទឹកត្រីផ្អែមជូរជាមួយម្ទេស និងសណ្ដែកដី។
 - step: 6
   text: Serve with steamed rice and fresh herbs and cucumber.
+  textKm: បរិភោគជាមួយបាយក្ដៅ ស្លឹកស្រស់ និងត្រសក់។

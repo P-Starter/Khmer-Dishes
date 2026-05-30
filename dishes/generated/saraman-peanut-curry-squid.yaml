@@ -143,14 +143,19 @@ ingredients:
 instructions:
 - step: 1
   text: Fry the red kroeung in a little coconut cream until the oil splits and it smells fragrant.
+  textKm: ឆាគ្រឿងក្រហមជាមួយខ្ទិះដូងបន្តិចរហូតប្រេងបែក និងឈ្ងុយ។
 - step: 2
   text: Stir in the ground roasted peanuts and toasted coconut.
+  textKm: កូរសណ្ដែកដីលីង និងដូងលីង។
 - step: 3
   text: Add the squid (cleaned and scored into rings) and seal in the paste.
+  textKm: បន្ថែម មឹក (សម្អាត ហើយហាន់ជាកង់) ហើយចូលក្នុងគ្រឿង។
 - step: 4
   text: Pour in the coconut milk and add the potato; simmer gently.
+  textKm: ស្នូរទឹកដូងចូល និងបន្ថែមដំឡូងបារាំង; ដាំថ្នមៗ។
 - step: 5
   text: Simmer until just opaque (do not overcook) and the potato is soft, about 19 minutes.
+  textKm: ដាំ រហូតទាល់តែទើបឆ្អិន (កុំឆ្អិនពេក) ហើយដំឡូងបារាំងទន់ ប្រហែល 19 នាទី។
 - step: 6
   text: Season with fish sauce and palm sugar; it should be mild, nutty and rich.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។

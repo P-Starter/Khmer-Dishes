@@ -89,13 +89,19 @@ instructions:
 - step: 1
   text: Use cold, day-old rice and break up any clumps.
   tip: Fresh rice turns mushy — day-old rice fries up separate and light.
+  textKm: ប្រើបាយត្រជាក់ដែលឆ្អិនពីមួយថ្ងៃ ហើយលាត់ឱ្យលែងជាប់គ្នា។
 - step: 2
   text: Heat a wok very hot; fry the garlic, then the crab until the shells turn bright orange.
+  textKm: ដុំខ្ទះឱ្យក្ដៅខ្លាំង; ឆាខ្ទឹមស រួចបន្ថែម ក្ដាម រហូតទាល់តែសំបកក្ដាមមានពណ៌ទឹកក្រូច។
 - step: 3
   text: Push aside and scramble the eggs.
+  textKm: រុញទៅខាង ហើយកូរពងមាន់។
 - step: 4
   text: Add the rice and onion; toss over high heat to coat and heat through.
+  textKm: បន្ថែមបាយ និងខ្ទឹមបារាំង; ឆាលើភ្លើងខ្លាំងឱ្យសាច់ស្រូប និងក្ដៅ។
 - step: 5
   text: Season with soy, oyster and fish sauces; toss until smoky and fragrant.
+  textKm: បន្ថែមទឹកសុីអ៊ីវ ទឹកអយស្ទ័រ និងទឹកត្រី។ កូរលើភ្លើងខ្លាំងរហូតមានក្លិនឈ្ងុយ។
 - step: 6
   text: Finish with spring onion. Serve with sliced cucumber, lime and chili sauce.
+  textKm: ដាក់ស្លឹកខ្ទឹមបារាំងនៅខាងលើ។ បរិភោគជាមួយត្រសក់ហាន់ ក្រូចឆ្មារ និងទឹកម្ទេស។

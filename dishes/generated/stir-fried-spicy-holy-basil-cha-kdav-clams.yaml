@@ -101,6 +101,7 @@ instructions:
 - step: 1
   text: Pound the bird's-eye chili and garlic to a rough paste.
   tip: Pounding releases more aroma than blending, but a blender is fine.
+  textKm: បុកម្ទេសខ្មាំង និងខ្ទឹមសឱ្យបានគ្រឿងបុកសុះៗ។
 - step: 2
   text: 'Prepare the clams: scrubbed.'
   textKm: រៀបចំងាវ៖ សម្អាតសំបក។
@@ -115,10 +116,13 @@ instructions:
   textKm: ដាក់ងាវ ហើយឆា រហូតទាល់តែសំបករបោះ ប្រហែល 6 នាទី។
 - step: 6
   text: Add long beans, then pile in holy basil at the end.
+  textKm: បន្ថែមសណ្ដែកគួរ រួចដាក់ស្លឹកជាក់ច្រើននៅចុង។
 - step: 7
   text: Season with fish sauce, palm sugar and oyster sauce, dark soy sauce and a small splash of water; toss to coat.
+  textKm: បន្ថែមទឹកត្រី ស្ករត្នោត និងគ្រឿងផ្សំផ្សេងៗ។ កូរឱ្យសម។
 - step: 8
   text: Taste and adjust, then finish with more holy basil.
+  textKm: ភ្លក់ ហើយកែតម្រូវរសជាតិ បន្ទាប់មកដាក់ more holy basil។
 - step: 9
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

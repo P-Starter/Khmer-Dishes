@@ -147,16 +147,19 @@ instructions:
 - step: 2
   text: Fry the kroeung in a little coconut cream, then pour in the rest of the coconut milk.
   tip: Bruising or pounding the aromatics first lets them give up more flavour.
+  textKm: ឆាគ្រឿងជាមួយខ្ទិះដូងបន្តិច រួចស្នូរទឹកដូងដែលនៅសល់។
 - step: 3
   text: Add the frog and simmer until tender, about 15 minutes.
   textKm: ដាក់កង្កែប ហើយដាំ រហូតទាល់តែទន់ ប្រហែល 15 នាទី។
 - step: 4
   text: Add the vegetables (eggplant, yardlong beans) and simmer until just tender.
+  textKm: បន្ថែមបន្លែ (eggplant, yardlong beans) ហើយដាំរហូតទើបទន់។
 - step: 5
   text: Season with fish sauce and palm sugar.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 6
   text: Taste — it should sing of salty, sweet and sour. Finish with kaffir lime leaf and fresh chili.
+  textKm: ភ្លក់ — រសជាតិគួរតែឈ្ងុយ ប្រៃ ផ្អែម ជូរ។ ដាក់ kaffir lime leaf and fresh chili នៅខាងលើ។
 - step: 7
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

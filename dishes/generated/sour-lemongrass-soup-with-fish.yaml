@@ -146,16 +146,19 @@ instructions:
 - step: 2
   text: Bring stock to a boil and stir in the lemongrass kroeung.
   tip: Bruising or pounding the aromatics first lets them give up more flavour.
+  textKm: ដាំទឹកស៊ុប ហើយកូរគ្រឿងស្លឹកគ្រៃចូល។
 - step: 3
   text: Add the fish and simmer until the flesh turns opaque and flakes, about 10 minutes.
   textKm: ដាក់ត្រី ហើយដាំ រហូតទាល់តែសាច់ត្រីពណ៌ស និងបែកជាដុំៗ ប្រហែល 10 នាទី។
 - step: 4
   text: Add the vegetables (water mimosa, tomato, pineapple) and simmer until just tender.
+  textKm: បន្ថែមបន្លែ (water mimosa, tomato, pineapple) ហើយដាំរហូតទើបទន់។
 - step: 5
   text: Season with fish sauce and palm sugar, then balance with tamarind paste.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 6
   text: Taste — it should sing of salty, sweet and sour. Finish with rice-paddy herb (ngo om) and sawtooth coriander.
+  textKm: ភ្លក់ — រសជាតិគួរតែឈ្ងុយ ប្រៃ ផ្អែម ជូរ។ ដាក់ rice-paddy herb (ngo om) and sawtooth coriander នៅខាងលើ។
 - step: 7
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

@@ -50,9 +50,13 @@ ingredients:
 instructions:
 - step: 1
   text: Split a crisp baguette and toast lightly.
+  textKm: ពុះនំបុ័ងស្រួយ ហើយរំងាស់បន្តិច។
 - step: 2
   text: Spread with pâté and a swipe of butter.
+  textKm: លាបប៉ាតេ និងបឺរបន្តិច។
 - step: 3
   text: Layer the sliced pork roll, pickled vegetables and cucumber.
+  textKm: តម្រៀបសាច់ជ្រូកហាន់ បន្លែជ្រក់ និងត្រសក់។
 - step: 4
   text: Top with coriander, chili and a dash of soy; close and serve.
+  textKm: ដាក់វ៉ាន់សុយ ម្ទេស និងទឹកសុីអ៊ីវបន្តិចនៅខាងលើ; បិទ ហើយបរិភោគ។

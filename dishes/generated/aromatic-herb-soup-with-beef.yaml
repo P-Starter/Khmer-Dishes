@@ -102,16 +102,19 @@ instructions:
 - step: 2
   text: Simmer stock with bruised lemongrass, galangal and kaffir lime leaf.
   tip: Bruising or pounding the aromatics first lets them give up more flavour.
+  textKm: ដាំទឹកស៊ុបជាមួយស្លឹកគ្រៃបុក រំដេង និងស្លឹកក្រូចសើច។
 - step: 3
   text: Add the beef and simmer until just browned but still tender, about 8 minutes.
   textKm: ដាក់សាច់គោ ហើយដាំ រហូតទាល់តែលឿងស្រាល តែនៅទន់ ប្រហែល 8 នាទី។
 - step: 4
   text: Add the vegetables (napa cabbage, daikon) and simmer until just tender.
+  textKm: បន្ថែមបន្លែ (napa cabbage, daikon) ហើយដាំរហូតទើបទន់។
 - step: 5
   text: Season with fish sauce and palm sugar.
   textKm: បន្ថែមទឹកត្រី និងស្ករត្នោត។
 - step: 6
   text: Taste — it should sing of salty, sweet and sour. Finish with Asian basil and spring onion.
+  textKm: ភ្លក់ — រសជាតិគួរតែឈ្ងុយ ប្រៃ ផ្អែម ជូរ។ ដាក់ Asian basil and spring onion នៅខាងលើ។
 - step: 7
   text: Serve hot with steamed jasmine rice.
   textKm: បរិភោគជាមួយបាយក្ដៅ។

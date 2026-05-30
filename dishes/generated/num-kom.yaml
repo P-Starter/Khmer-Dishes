@@ -41,9 +41,13 @@ ingredients:
 instructions:
 - step: 1
   text: Make a soft glutinous dough.
+  textKm: ធ្វើម្សៅដំណើបទន់។
 - step: 2
   text: Fill with sweet coconut-palm-sugar paste.
+  textKm: ដាក់សាច់ផ្អែមដូងស្ករត្នោតចូល។
 - step: 3
   text: Shape into pyramids and wrap in banana leaf.
+  textKm: ធ្វើជារាងពីរ៉ាមីត ហើយរុំស្លឹកចេក។
 - step: 4
   text: Steam until cooked through.
+  textKm: ចំហុយរហូតឆ្អិន។

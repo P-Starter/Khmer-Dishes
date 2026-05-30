@@ -84,11 +84,16 @@ instructions:
 - step: 1
   text: Simmer the stock with dried seafood, rock sugar and a little fish sauce for 30 minutes; keep hot.
   tip: Skim the broth often to keep it crystal clear.
+  textKm: ដាំទឹកស៊ុបជាមួយសុីហ្វូដស្ងួត ស្ករអំពៅ និងទឹកត្រីបន្តិច រយៈពេល ៣០ នាទី; ទុកក្ដៅ។
 - step: 2
   text: Cook the crab (cleaned and quartered) in the broth until done; slice if needed.
+  textKm: ដាំ ក្ដាម (សម្អាត ហើយកាត់ជា ៤) ក្នុងទឹកស៊ុបឱ្យឆ្អិន; ហាន់បើចាំបាច់។
 - step: 3
   text: Blanch the noodles and bean sprouts; divide between bowls.
+  textKm: ស្ងោរនូដឯុល និងសណ្ដែកបណ្ដុះ; ចែកដាក់ចាន។
 - step: 4
   text: Top with the crab and ladle over the hot broth.
+  textKm: ដាក់ ក្ដាម ខាងលើ ហើយស្នូរទឹកស៊ុបក្ដៅពីលើ។
 - step: 5
   text: Finish with fried garlic oil, spring onion and coriander; serve with lime, chili and herbs on the side.
+  textKm: ដាក់ប្រេងខ្ទឹមចៀន ស្លឹកខ្ទឹមបារាំង និងវ៉ាន់សុយ; បរិភោគជាមួយក្រូចឆ្មារ ម្ទេស និងស្លឹក។

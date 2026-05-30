@@ -85,14 +85,20 @@ ingredients:
 instructions:
 - step: 1
   text: Marinate in honey, soy, garlic and lemongrass, then thread onto skewers.
+  textKm: ប្រឡាក់ជាមួយទឹកឃ្មុំ ទឹកសុីអ៊ីវ ខ្ទឹមស និងស្លឹកគ្រៃ រួចចាក់ឈ្នាន់។
 - step: 2
   text: Coat the frog (cleaned and jointed) in the marinade and rest at least 30 minutes (overnight is better).
   tip: Marinating overnight gives the deepest flavour and colour.
+  textKm: ប្រឡាក់ កង្កែប (សម្អាត ហើយកាត់តាមសន្លាក់) ជាមួយទឹកប្រឡាក់ ហើយទុកយ៉ាងតិច ៣០ នាទី (ប្រសើរបើទុកមួយយប់)។
 - step: 3
   text: Light a charcoal grill and let it burn down to glowing embers (or heat a grill pan).
+  textKm: ដុំភ្លើងធ្យូងឱ្យស្ងាត់ និងក្ដៅ (ឬ ដុំខ្ទះអាំង)។
 - step: 4
   text: Grill the frog over medium coals, turning and basting, until tender.
+  textKm: អាំង កង្កែប លើធ្យូងភ្លើងមធ្យម ត្រលប់ និងលាបទឹកប្រឡាក់ រហូតទាល់តែទន់។
 - step: 5
   text: Serve with pickled vegetables and a chili-lime dip.
+  textKm: បរិភោគជាមួយបន្លែជ្រក់ និងទឹកជ្រលក់ម្ទេសក្រូចឆ្មារ។
 - step: 6
   text: Serve with steamed rice and fresh herbs and cucumber.
+  textKm: បរិភោគជាមួយបាយក្ដៅ ស្លឹកស្រស់ និងត្រសក់។

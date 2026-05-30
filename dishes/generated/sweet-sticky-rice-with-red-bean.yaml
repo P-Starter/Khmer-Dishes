@@ -70,10 +70,14 @@ ingredients:
 instructions:
 - step: 1
   text: Steam the soaked sticky rice over high heat 25–30 minutes until tender.
+  textKm: ចំហុយបាយដំណើបត្រាំលើភ្លើងខ្លាំង ២៥–៣០ នាទីរហូតទន់។
 - step: 2
   text: Warm the coconut milk with palm sugar, salt and pandan until the sugar dissolves (do not boil).
+  textKm: កម្ដៅទឹកដូងជាមួយស្ករត្នោត អំបិល និងស្លឹកតើយរហូតស្កររលាយ (កុំដាំ)។
 - step: 3
   text: Fold most of the sweet coconut milk through the hot rice and rest 15 minutes to absorb.
   tip: Keep a little coconut sauce back to spoon over at the end.
+  textKm: លាយទឹកដូងផ្អែមភាគច្រើនជាមួយបាយក្ដៅ ហើយទុក ១៥ នាទីឱ្យជ្រាប។
 - step: 4
   text: Serve the sticky rice with the red bean and the reserved coconut sauce.
+  textKm: បរិភោគបាយដំណើបជាមួយ សណ្ដែកក្រហម និងទឹកដូងដែលទុកសល់។
