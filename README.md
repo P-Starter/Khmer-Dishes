@@ -19,27 +19,34 @@ home cooking — and to recommend a **daily Khmer dish** to anyone learning to c
 - **Bilingual content** (EN + ខ្មែរ) — Khmer translations of descriptions, cooking steps + chef's tips, ingredient items and notes, equipment, and section titles. Native readers can follow the recipe end-to-end in Khmer.
 - **Real cooking steps** — grouped ingredients + numbered instructions with chef's tips.
 - **Searchable webview** — typo-tolerant fuzzy search, filters (category / protein / diet / spice), a deterministic **dish of the day**, and a **full-screen recipe dialog** on big screens (sticky ingredients sidebar + roomy method area).
-- **Open data** — one clean JSON file validated by a published [JSON Schema](#-data--schema).
+- **Open data** — slim catalog index + per-dish JSON files, all validated by a published [JSON Schema](#-data--schema). Lazy-loaded so the page stays fast as the catalog grows.
 - **Zero backend** — pure static files; deploys free on GitHub Pages.
 
 ---
 
 ## 🚀 Quick start
 
-**View the site locally** — the page lazy-loads data from `build/`, so it needs
-to be served (a file-system page can't `fetch()`):
+**Just want to use it?** Open the live site:
+👉 **https://p-starter.github.io/Khmer-Dishes/**
+
+**Want to run it locally?** The page lazy-loads from `build/`, so it needs to be
+**served** — opening `index.html` directly via `file://` will fail with
+*"Failed to fetch"* (browsers block local file fetches by design).
 
 ```bash
+# from inside the project folder
 python -m http.server 8000
-# then open http://localhost:8000
+# then open http://localhost:8000  (not the file path)
 ```
 
-**Re-build from sources** (only needed if you edit a YAML or extend the generator):
+**Re-build from sources** (only when you edit a YAML or extend the generator):
 
 ```bash
 python generate_khmer_menu.py   # regenerate combinatorial YAMLs (optional)
 python build_catalog.py         # merge dishes/* into build/
 ```
+
+`build/` is committed so GitHub Pages serves the latest build without any CI step.
 
 ---
 
@@ -65,9 +72,14 @@ python build_catalog.py         # merge dishes/* into build/
 
 ## 🧾 Data & schema
 
-The catalog is a single JSON document validated against
-[`khmer_menu.schema.json`](./khmer_menu.schema.json). Use it as a dataset or a
-read-only API — point your app straight at `khmer_menu.json`.
+Every dish is validated against [`khmer_menu.schema.json`](./khmer_menu.schema.json).
+You can consume the catalog three ways:
+
+- **Bulk dataset** — [`build/khmer_menu.json`](./build/khmer_menu.json) (`{ meta, recipes[] }`, all dishes).
+- **Slim index** — [`build/index.json`](./build/index.json) (~620 KB, drives the webview's grid + search).
+- **Per-dish JSON** — `build/dishes/<slug>.json` (~3–6 KB each, fetched on demand).
+
+The bulk file looks like:
 
 ```jsonc
 {
@@ -165,7 +177,7 @@ first-contribution targets (see [Contributing](#-contributing--submit-more-dishe
 
 ```bash
 pip install jsonschema
-python -c "import json,jsonschema; d=json.load(open('khmer_menu.json',encoding='utf-8')); \
+python -c "import json,jsonschema; d=json.load(open('build/khmer_menu.json',encoding='utf-8')); \
 s=json.load(open('khmer_menu.schema.json',encoding='utf-8')); jsonschema.validate(d,s); print('valid')"
 ```
 
@@ -300,7 +312,8 @@ Open a Pull Request with a short note on the dish and its region/source. 🇰�
 1. **Settings → Pages → Build and deployment → Source:** *Deploy from a branch*.
 2. **Branch:** `main` · **Folder:** `/ (root)` → **Save**.
 3. The repo must be **public** for free Pages (private needs GitHub Pro).
-4. Pages auto-rebuilds on every push to `main`. A `.nojekyll` file ships the assets as-is.
+4. Pages auto-rebuilds on every push to `main`. A `.nojekyll` file ships the assets as-is, and `build/` is committed so deploys need zero CI.
+5. To refresh the deployed site after editing dishes, run `python build_catalog.py`, commit `build/`, push.
 
 ---
 
