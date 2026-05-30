@@ -135,6 +135,9 @@
   ol.steps li .txt{font-size:15px}
   ol.steps li .tip{margin-top:6px;background:#fff;border-left:3px solid var(--gold);padding:8px 12px;border-radius:6px;font-size:13px;color:#6c635b}
   ol.steps li .tip b{color:var(--gold)}
+  .km-line{font-family:var(--khmer);color:#7a6f64;font-size:14px;margin-top:3px;line-height:1.55}
+  ol.steps li .km-line{font-size:14px}
+  .mhead .desc-km{font-family:var(--khmer);opacity:.92;font-size:14px;margin-top:6px;max-width:62ch}
   .spice{color:var(--red);letter-spacing:1px}
   footer{text-align:center;color:var(--muted);font-size:13px;padding:30px 16px 50px}
 
@@ -404,7 +407,10 @@
 
     const stepsHtml=(r.instructions||[]).map(s=>
       '<li><div class="txt">'+esc(s.text)+'</div>'+
-      (s.tip?'<div class="tip"><b>Tip:</b> '+esc(s.tip)+'</div>':'')+'</li>'
+      (s.textKm?'<div class="km-line">'+esc(s.textKm)+'</div>':'')+
+      (s.tip?'<div class="tip"><b>Tip:</b> '+esc(s.tip)+
+        (s.tipKm?'<div class="km-line"><b>គន្លឹះ៖</b> '+esc(s.tipKm)+'</div>':'')+
+        '</div>':'')+'</li>'
     ).join("");
 
     const diet=(r.dietary||[]).map(d=>'<span class="diet">'+d+'</span>').join("");
@@ -420,6 +426,7 @@
         '<div class="rom">'+esc(r.name.romanized)+'</div>'+
         '<div class="km">'+esc(r.name.km)+'</div>'+
         '<div class="desc">'+esc(r.description||"")+'</div>'+
+        (r.descriptionKm?'<div class="desc-km">'+esc(r.descriptionKm)+'</div>':'')+
         '<div style="margin-top:10px">'+diet+'</div>'+
       '</div>'+
       '<div class="mbody">'+
@@ -457,7 +464,9 @@
       '<div><div class="label">🍴 Dish of the day</div>'+
       '<h2>'+esc(r.name.en)+'</h2>'+
       '<div class="rom">'+esc(r.name.romanized)+' · <span class="km">'+esc(r.name.km)+'</span></div>'+
-      '<div class="desc">'+esc(r.description||"")+'</div></div>';
+      '<div class="desc">'+esc(r.description||"")+'</div>'+
+      (r.descriptionKm?'<div class="km-line" style="margin-top:4px">'+esc(r.descriptionKm)+'</div>':'')+
+      '</div>';
     el.onclick=()=>openModal(r);
   }
 

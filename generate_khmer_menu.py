@@ -21,6 +21,7 @@ Run:  python generate_khmer_menu.py
 import json
 import hashlib
 import datetime
+import re
 
 OUT_FILE = "khmer_menu.json"
 SCHEMA_FILE = "khmer_menu.schema.json"
@@ -1336,6 +1337,7 @@ def iconic():
         name_km="អាម៉ុកត្រី", name_rom="Amok Trey", name_en="Fish Amok",
         category="curry", subcategory="amok",
         description="Cambodia's national dish: a fragrant, mousse-like steamed fish curry set with coconut and yellow kroeung in banana leaf.",
+        description_km="ម្ហូបជាតិកម្ពុជា — ការីត្រីចំហុយក្នុងស្លឹកចេក ឈ្ងុយឈ្ងប់ ផ្សំជាមួយទឹកដូងនិងគ្រឿងលឿង។",
         spice=1, difficulty="medium", prep=40, cook=25,
         tags=["signature", "national-dish", "fish", "steamed", "coconut"],
         dietary=["pescatarian", "gluten-free"],
@@ -1349,13 +1351,20 @@ def iconic():
             ing("banana leaf cups", 4, "whole", "equipment"),
         ],
         instructions=[
-            {"step": 1, "text": "Pound the yellow kroeung to a very smooth paste."},
+            {"step": 1, "text": "Pound the yellow kroeung to a very smooth paste.",
+             "textKm": "បុកគ្រឿងលឿងឱ្យល្អិតៗ។"},
             {"step": 2, "text": "Whisk the kroeung with coconut milk, egg, fish sauce and palm sugar until thick and creamy.",
-             "tip": "Add coconut milk gradually so the mixture stays emulsified and silky."},
-            {"step": 3, "text": "Fold the sliced fish through the mixture."},
-            {"step": 4, "text": "Line banana-leaf cups with soft leaves and fill with the fish mixture."},
-            {"step": 5, "text": "Steam over medium heat 20–25 minutes until set like a soft custard."},
-            {"step": 6, "text": "Top with coconut cream and shredded kaffir lime leaf; serve with rice."},
+             "textKm": "កូរគ្រឿងជាមួយទឹកដូង ពងមាន់ ទឹកត្រី និងស្ករត្នោត ឱ្យក្រាស់និងរលោង។",
+             "tip": "Add coconut milk gradually so the mixture stays emulsified and silky.",
+             "tipKm": "ដាក់ទឹកដូងបន្តិចម្ដងៗ ដើម្បីឱ្យល្បាយនៅរលោងស្អិតគ្នា។"},
+            {"step": 3, "text": "Fold the sliced fish through the mixture.",
+             "textKm": "បញ្ចូលសាច់ត្រីហាន់ ហើយលាយចូលគ្នាស្រួលបួល។"},
+            {"step": 4, "text": "Line banana-leaf cups with soft leaves and fill with the fish mixture.",
+             "textKm": "តម្រៀបស្លឹកចេកក្នុងពែង បន្ទាប់មកដាក់សាច់ត្រីដែលលាយរួច។"},
+            {"step": 5, "text": "Steam over medium heat 20–25 minutes until set like a soft custard.",
+             "textKm": "ចំហុយដោយភ្លើងមធ្យម ២០–២៥ នាទី រហូតទាល់តែកក ដូចសង់ខ្យាទន់។"},
+            {"step": 6, "text": "Top with coconut cream and shredded kaffir lime leaf; serve with rice.",
+             "textKm": "ដាក់ខ្ទិះដូងពីលើ និងស្លឹកក្រូចសើច។ បរិភោគជាមួយបាយ។"},
         ],
         equipment=["steamer", "banana leaf cups", "mortar and pestle"],
         kroeung=[i["item"] for i in KROEUNG_YELLOW],
@@ -1364,6 +1373,7 @@ def iconic():
         name_km="ឡុកឡាក់", name_rom="Loc Lac", name_en="Beef Loc Lac",
         category="stir-fry", subcategory="signature",
         description="Cubes of seared marinated beef tossed in a tangy sauce, served over lettuce and tomato with a black-pepper-lime dip.",
+        description_km="សាច់គោកាត់ជាដុំ ប្រឡាក់និងឆាជាមួយទឹកជ្រលក់ឆ្ងាញ់ បរិភោគជាមួយសាឡាត់ ប៉េងប៉ោះ និងទឹកម្រេចក្រូចឆ្មារ។",
         spice=1, difficulty="easy", prep=20, cook=10,
         tags=["signature", "beef", "stir-fry"],
         dietary=[],
@@ -1379,12 +1389,18 @@ def iconic():
             ing("lime", 2, "whole", "garnish", "for the dip"),
         ],
         instructions=[
-            {"step": 1, "text": "Marinate the beef cubes in garlic, oyster sauce, soy, ketchup and palm sugar for 20 minutes."},
-            {"step": 2, "text": "Make the dip: mix lime juice with salt and cracked Kampot black pepper."},
+            {"step": 1, "text": "Marinate the beef cubes in garlic, oyster sauce, soy, ketchup and palm sugar for 20 minutes.",
+             "textKm": "ប្រឡាក់សាច់គោដុំ ជាមួយខ្ទឹមស ទឹកអយស្ទ័រ ស៊ីអ៊ីវ អ៊ីខាប់ និងស្ករត្នោត រយៈពេល ២០ នាទី។"},
+            {"step": 2, "text": "Make the dip: mix lime juice with salt and cracked Kampot black pepper.",
+             "textKm": "ធ្វើទឹកជ្រលក់៖ លាយទឹកក្រូចឆ្មារ ជាមួយអំបិល និងម្រេចខ្មៅកំពតបុក។"},
             {"step": 3, "text": "Sear the beef in a screaming-hot wok in batches until browned but still pink inside.",
-             "tip": "High heat and small batches give a good sear without overcooking."},
-            {"step": 4, "text": "Arrange lettuce, tomato and sliced onion on a plate and pile the beef on top."},
-            {"step": 5, "text": "Serve with rice, a fried egg, and the black-pepper-lime dip."},
+             "textKm": "ឆាសាច់គោក្នុងខ្ទះក្ដៅខ្លាំង ជាដំណាក់ៗ ឱ្យខាងក្រៅលឿង តែខាងក្នុងនៅផ្កាឈូក។",
+             "tip": "High heat and small batches give a good sear without overcooking.",
+             "tipKm": "ភ្លើងខ្លាំង និងឆាម្ដងបន្តិចៗ ដើម្បីសាច់គោក្រៀមខាងក្រៅ តែមិនឆ្អិនពេក។"},
+            {"step": 4, "text": "Arrange lettuce, tomato and sliced onion on a plate and pile the beef on top.",
+             "textKm": "រៀបចានដោយដាក់សាឡាត់ ប៉េងប៉ោះ និងខ្ទឹមបារាំងហាន់ បន្ទាប់មកដាក់សាច់គោពីលើ។"},
+            {"step": 5, "text": "Serve with rice, a fried egg, and the black-pepper-lime dip.",
+             "textKm": "បរិភោគជាមួយបាយ ពងមាន់ចៀន និងទឹកម្រេចក្រូចឆ្មារ។"},
         ],
         equipment=["wok"], kroeung=["garlic"],
     ))
@@ -1392,6 +1408,7 @@ def iconic():
         name_km="ប្រហុកខ្ទិះ", name_rom="Prahok Ktis", name_en="Prahok Ktis (Pork & Coconut Dip)",
         category="dip", subcategory="signature",
         description="A rich coconut, pork and fermented-fish dip eaten with a big platter of raw vegetables.",
+        description_km="ប្រហុកខ្ទិះ — ទឹកជ្រលក់ប្រហុក ផ្សំជាមួយសាច់ជ្រូក និងទឹកដូងក្រាស់ បរិភោគជាមួយបន្លែស្រស់។",
         spice=2, difficulty="medium", prep=20, cook=25,
         tags=["signature", "prahok", "dip", "pork", "coconut"],
         dietary=[],
@@ -1404,11 +1421,16 @@ def iconic():
             ing("raw vegetable platter", 1, "platter", "serving", "cucumber, long beans, cabbage, herbs"),
         ],
         instructions=[
-            {"step": 1, "text": "Fry the red kroeung in coconut cream until the oil splits and it is fragrant."},
-            {"step": 2, "text": "Add the ground pork and cook until browned."},
-            {"step": 3, "text": "Stir in the strained prahok and the rest of the coconut milk; simmer to a thick dip."},
-            {"step": 4, "text": "Add diced eggplant and palm sugar; simmer until thick and glossy."},
-            {"step": 5, "text": "Serve warm with a generous platter of raw and blanched vegetables and rice."},
+            {"step": 1, "text": "Fry the red kroeung in coconut cream until the oil splits and it is fragrant.",
+             "textKm": "ឆាគ្រឿងក្រហមជាមួយខ្ទិះដូង រហូតទាល់តែប្រេងបែក ហើយឈ្ងុយ។"},
+            {"step": 2, "text": "Add the ground pork and cook until browned.",
+             "textKm": "ដាក់សាច់ជ្រូកកិន ហើយឆារហូតទាល់តែលឿង។"},
+            {"step": 3, "text": "Stir in the strained prahok and the rest of the coconut milk; simmer to a thick dip.",
+             "textKm": "ដាក់ប្រហុកដែលច្រោះរួច និងទឹកដូងដែលនៅសល់។ ដាំឱ្យក្រាស់ជាទឹកជ្រលក់។"},
+            {"step": 4, "text": "Add diced eggplant and palm sugar; simmer until thick and glossy.",
+             "textKm": "ដាក់ត្រប់ហាន់ និងស្ករត្នោត។ ដាំបន្តរហូតទាល់តែក្រាស់ និងភ្លឺ។"},
+            {"step": 5, "text": "Serve warm with a generous platter of raw and blanched vegetables and rice.",
+             "textKm": "បរិភោគក្ដៅៗ ជាមួយចានបន្លែស្រស់ បន្លែស្ងោរ និងបាយ។"},
         ],
         equipment=["pan", "mortar and pestle"], kroeung=[i["item"] for i in KROEUNG_RED],
     ))
@@ -1416,6 +1438,7 @@ def iconic():
         name_km="គុយទាវ", name_rom="Kuy Teav Phnom Penh", name_en="Phnom Penh Noodle Soup",
         category="noodles", subcategory="signature",
         description="The iconic morning noodle soup: rice noodles in a clear pork-and-dried-seafood broth with all the toppings.",
+        description_km="គុយទាវភ្នំពេញ — ភ្ញាក់ព្រឹកដ៏ល្បី គុយទាវក្នុងទឹកស៊ុបស្អាតពីឆ្អឹងជ្រូកនិងសុីហ្វូដស្ងួត ផ្សំជាមួយគ្រឿងគ្រប់យ៉ាង។",
         spice=1, difficulty="medium", prep=30, cook=90,
         tags=["signature", "noodles", "breakfast", "pork"],
         dietary=[],
@@ -1431,11 +1454,17 @@ def iconic():
         ],
         instructions=[
             {"step": 1, "text": "Simmer pork bones and dried squid 1–2 hours into a clear, sweet broth; skim often.",
-             "tip": "A clear broth is the mark of a good kuy teav — never let it boil hard."},
-            {"step": 2, "text": "Season the broth with rock sugar, salt and fish sauce."},
-            {"step": 3, "text": "Cook the pork and shrimp toppings in the broth."},
-            {"step": 4, "text": "Blanch the noodles and bean sprouts; divide between bowls and add toppings."},
-            {"step": 5, "text": "Ladle over the hot broth; finish with fried garlic oil, herbs and lime."},
+             "textKm": "ដាំឆ្អឹងជ្រូក និងមឹកស្ងួត ១–២ ម៉ោង ឱ្យបានទឹកស៊ុបស្អាតផ្អែម។ ច្រោះញឹកញាប់។",
+             "tip": "A clear broth is the mark of a good kuy teav — never let it boil hard.",
+             "tipKm": "ទឹកស៊ុបស្អាត ជាសញ្ញានៃគុយទាវឆ្ងាញ់ — កុំឱ្យទឹកដាំរុះៗខ្លាំង។"},
+            {"step": 2, "text": "Season the broth with rock sugar, salt and fish sauce.",
+             "textKm": "បន្ថែមរសជាតិដោយស្ករអំពៅ អំបិល និងទឹកត្រី។"},
+            {"step": 3, "text": "Cook the pork and shrimp toppings in the broth.",
+             "textKm": "ដាំសាច់ជ្រូក និងបង្គា ក្នុងទឹកស៊ុបឱ្យឆ្អិន។"},
+            {"step": 4, "text": "Blanch the noodles and bean sprouts; divide between bowls and add toppings.",
+             "textKm": "ស្ងោរគុយទាវ និងសណ្ដែកបណ្ដុះ បន្ទាប់មកចែកដាក់ចាន ហើយដាក់គ្រឿងពីលើ។"},
+            {"step": 5, "text": "Ladle over the hot broth; finish with fried garlic oil, herbs and lime.",
+             "textKm": "ស្នូរទឹកស៊ុបក្ដៅពីលើ ហើយដាក់ប្រេងខ្ទឹមចៀន ស្លឹក និងក្រូចឆ្មារ។"},
         ],
         equipment=["stock pot"], kroeung=[],
     ))
@@ -1443,6 +1472,7 @@ def iconic():
         name_km="សម្លម្ជូរគ្រឿងសាច់គោ", name_rom="Samlor Machu Kreung Sach Ko", name_en="Sour Lemongrass Beef Soup",
         category="soup", subcategory="signature",
         description="A deeply aromatic sour soup of beef and lemongrass kroeung — a Khmer comfort-food classic.",
+        description_km="សម្លម្ជូរគ្រឿងសាច់គោ — សម្លម្ជូរឈ្ងុយជាមួយសាច់គោ និងគ្រឿងលឿង ម្ហូបបោះតាមទម្លាប់របស់ខ្មែរ។",
         spice=2, difficulty="medium", prep=30, cook=60,
         tags=["signature", "soup", "beef", "sour"],
         dietary=[],
@@ -1454,11 +1484,16 @@ def iconic():
             ing("rice-paddy herb & sawtooth coriander", 1, "handful", "garnish"),
         ],
         instructions=[
-            {"step": 1, "text": "Simmer the beef until tender, 45–60 minutes."},
-            {"step": 2, "text": "Stir in the lemongrass kroeung and simmer until fragrant."},
-            {"step": 3, "text": "Add tamarind, fish sauce and palm sugar; balance the sour-salty-sweet."},
-            {"step": 4, "text": "Add the vegetables and simmer until just tender."},
-            {"step": 5, "text": "Finish with rice-paddy herb and sawtooth coriander; serve with rice."},
+            {"step": 1, "text": "Simmer the beef until tender, 45–60 minutes.",
+             "textKm": "ដាំសាច់គោឱ្យទន់ ៤៥–៦០ នាទី។"},
+            {"step": 2, "text": "Stir in the lemongrass kroeung and simmer until fragrant.",
+             "textKm": "ដាក់គ្រឿងស្លឹកគ្រៃ ហើយដាំបន្តរហូតទាល់តែឈ្ងុយ។"},
+            {"step": 3, "text": "Add tamarind, fish sauce and palm sugar; balance the sour-salty-sweet.",
+             "textKm": "បន្ថែមអំពិល ទឹកត្រី និងស្ករត្នោត។ ដាក់ឱ្យរសជាតិសម — ជូរ ប្រៃ ផ្អែម។"},
+            {"step": 4, "text": "Add the vegetables and simmer until just tender.",
+             "textKm": "ដាក់បន្លែ ហើយដាំរហូតទាល់តែទើបទន់។"},
+            {"step": 5, "text": "Finish with rice-paddy herb and sawtooth coriander; serve with rice.",
+             "textKm": "ដាក់ម្អមនិងជីអង្កាមពីលើ បរិភោគជាមួយបាយ។"},
         ],
         equipment=["soup pot", "mortar and pestle"], kroeung=[i["item"] for i in KROEUNG_YELLOW],
     ))
@@ -1475,6 +1510,218 @@ def _dietary(prot):
     if prot["group"] == "seafood":
         return ["pescatarian"]
     return []
+
+# --------------------------------------------------------------------------- #
+# Khmer translation layer
+# Centralized so the bulk of the catalog gets Khmer text without authoring it
+# per-recipe. Coverage is partial — iconic dishes are fully translated inline,
+# combinatorial dishes get Khmer descriptions via family lookup and Khmer step
+# text via regex phrase rules. Contributions to widen coverage are welcome.
+# --------------------------------------------------------------------------- #
+KM_DESC_BY_FAMILY = {
+    # cha aromatic
+    "stir-fry-cha-kreung":      "ឆាជាមួយគ្រឿងលឿង — ភាពឈ្ងុយឈ្ងប់ដ៏ប្រពៃណីរបស់ខ្មែរ។",
+    "stir-fry-cha-khnhei":      "ឆាជាមួយខ្ញី — ភាពស្រស់ និងស្រាល។",
+    "stir-fry-cha-marech":      "ឆាជាមួយម្រេចខៀវកំពត — ភាពឈ្ងុយ និងក្រអូប។",
+    "stir-fry-cha-kdav":        "ឆាហឹរ — ម្ទេស ខ្ទឹមស និងស្លឹកជាក់ច្រើន។",
+    "stir-fry-cha-kapi":        "ឆាជាមួយកាពិ — រសជាតិឆ្ងាញ់ ជ្រាលជ្រៅ។",
+    "stir-fry-cha-khtum":       "ឆាជាមួយខ្ទឹមស និងស្លឹកខ្ទឹមបារាំង — ម្ហូបប្រចាំថ្ងៃ។",
+    "stir-fry-cha-prahok":      "ឆាជាមួយប្រហុក — រសជាតិប្រពៃណីខ្មែរដ៏ខ្លាំង។",
+    "stir-fry-cha-chu_paem":    "ឆាជូរផ្អែម — ម្នាស់ ប៉េងប៉ោះ និងការ៉ុត។",
+    "stir-fry-cha-kari-powder": "ឆាការី — ម្សៅការី ខ្ទឹមបារាំង និងពងមាន់។",
+    "stir-fry-cha-tao-jiew":    "ឆាជាមួយតៅជ្យូ — រសជាតិប្រៃ ស្ទីលខ្មែរ-ចិន។",
+    # samlor
+    "soup-samlor-machu-kreung": "សម្លម្ជូរគ្រឿង — សម្លម្ជូរឈ្ងុយ ផ្សំជាមួយគ្រឿងលឿង។",
+    "soup-samlor-korko":        "សម្លការ — សម្លប្រពៃណីខ្មែរ ផ្សំជាមួយបន្លែច្រើនយ៉ាង។",
+    "soup-samlor-machu-youn":   "សម្លម្ជូរយួន — ស្រាល ត្រជាក់ និងរសជូរច្បាស់។",
+    "soup-samlor-ktis":         "សម្លខ្ទិះ — ទឹកដូងក្រាស់ ឈ្ងុយ និងផ្អែមបន្តិច។",
+    "soup-samlor-proher":       "សម្លប្រហើរ — ស្រាល ឈ្ងុយក្រអូបនៃស្លឹក។",
+    "soup-samlor-sngor":        "ស្ងោរជ្រក់ — ស្រាល ជូរ ត្រជាក់ ដោយទឹកក្រូចឆ្មារ។",
+    # curry
+    "curry-amok":         "ការីអាម៉ុក — ការីចំហុយក្នុងស្លឹកចេក ផ្សំទឹកដូងនិងគ្រឿងលឿង។",
+    "curry-kari":         "ការីក្រហមខ្មែរ — ឈ្ងុយ ផ្អែមបន្តិច បរិភោគជាមួយនំបុ័ងឬនំបញ្ចុក។",
+    "curry-saraman":      "ការីសារាម៉ាន់ — ការីសណ្ដែកដី ស្រាល និងផ្អែម។",
+    "curry-char-krohom":  "ឆាការីក្រហម — ការីក្រហមឈ្ងុយ ឆាស្ងួត។",
+    "curry-kari-khiew":   "ការីខៀវ — ការីបៃតង ស្រស់ និងឈ្ងុយ។",
+    # grilled
+    "grilled-aing-aing-kreung": "អាំងជាមួយគ្រឿង — ប្រឡាក់ឱ្យឈ្ងុយ ហើយអាំងលើភ្លើងធ្យូង។",
+    "grilled-aing-dot":         "ដុតអំបិល — ដុតលើភ្លើងធ្យូងរហូតក្រអូប។",
+    "grilled-aing-chakak":      "ចាក់ឈ្នាន់ — ឈ្នាន់សាច់ ប្រឡាក់ជាមួយទឹកឃ្មុំ ហើយអាំង។",
+    # fried
+    "fried-chien-chien-sot":       "ចៀនស្ងួត — ក្រៀម និងឆ្ងាញ់។",
+    "fried-chien-chien-teuk-trey": "ចៀនទឹកត្រី — លាបទឹកត្រី និងស្ករត្នោត។",
+    "fried-chien-chien-chu-paem":  "ចៀនជូរផ្អែម — ផ្សំជាមួយម្នាស់ និងទឹកជូរផ្អែម។",
+    "fried-chien-chien-khnhei":    "ចៀនខ្ញី — បាញ់ខ្ញី និងខ្ទឹមហើយក្រៀម។",
+    # salad
+    "salad-nhoam-nhoam":           "ញាំខ្មែរ — សាច់និងបន្លែស្រស់ ផ្សំជាមួយទឹកជ្រលក់។",
+    "salad-nhoam-nhoam-svay":      "ញាំស្វាយ — ស្វាយខ្ចីជូរ ម្ទេស និងសណ្ដែកដី។",
+    "salad-nhoam-nhoam-trayong":   "ញាំត្រយោងចេក — ត្រយោងចេក ផ្សំជាមួយទឹកក្រូចឆ្មារ។",
+    "salad-nhoam-pleah":           "ភ្លៀ — សាច់ស្រស់ មុជទឹកក្រូចឆ្មារ បៀបឆាសុីវី។",
+    "salad-nhoam-nhoam-trayoung":  "ញាំក្រូចថ្លុង — ផ្អែម ត្រជាក់ និងស្រស់។",
+    # noodles
+    "noodles-kuy-teav":      "គុយទាវ — ភ្ញាក់ព្រឹកដ៏ល្បីរបស់ខ្មែរ។",
+    "noodles-mi-cha":        "មីឆា — មីពណ៌លឿង ឆាជាមួយសាច់និងបន្លែ។",
+    "noodles-kuy-teav-cha":  "គុយទាវឆា — ឆាលើភ្លើងខ្លាំង ផ្សំជាមួយស៊ីអ៊ីវខ្មៅ។",
+    "noodles-num-banh-chok": "នំបញ្ចុក — នំបញ្ចុកស្រស់ ផ្សំជាមួយទឹកគ្រឿង និងបន្លែ។",
+    "noodles-ka-tieu":       "ខាវប៉ុន — នំបញ្ចុក ផ្សំជាមួយទឹកដូងគ្រឿងក្រហម។",
+    "noodles-kuy-teav-kho":  "គុយទាវខ — គុយទាវខ្លាប់ ផ្សំជាមួយទឹកជ្រលក់។",
+    "noodles-banh-hoy":      "បាញ់ហយ — នំបញ្ចុកស្រស់ ផ្សំជាមួយសាច់អាំង។",
+    # kho (caramel braise)
+    "braised-kho-kho":        "ខ — ឆ្ងាញ់ផ្អែម ផ្សំជាមួយស្ករត្នោត និងទឹកដូងខ្ចី។",
+    "braised-kho-kho-khmav":  "ខខ្មៅ — លាបជាមួយស៊ីអ៊ីវខ្មៅ និងស្ករត្នោត។",
+    "braised-kho-kho-khnhei": "ខខ្ញី — ផ្សំជាមួយខ្ញី ឱ្យទន់ និងឈ្ងុយ។",
+    "braised-kho-kho-marech": "ខម្រេច — ផ្សំជាមួយម្រេចកំពត។",
+    # steamed
+    "steamed-chhnganh-khnhei": "ចំហុយជាមួយខ្ញី — ស្រស់ និងស្រាល។",
+    "steamed-chhnganh-khmav":  "ចំហុយជាមួយទឹកខ្មៅ — សណ្ដែកខ្មៅ ខ្ទឹមស និងម្ទេស។",
+    "steamed-chhnganh-machu":  "ចំហុយម្ជូរ — ផ្លែឈើជូរ និងទឹកក្រូចឆ្មារ។",
+    # rice
+    "rice-bai-cha": "បាយឆា — ឆាក្ដៅជាមួយសាច់ បន្លែ និងពងមាន់។",
+    # other drinks (hand-written, not smoothies)
+    "drink-iced-coffee-with-condensed-milk": "កាហ្វេទឹកដោះគោ — កាហ្វេក្ដៅខ្លាំង ផ្សំជាមួយទឹកដោះគោផ្អែម ហើយចាក់លើទឹកកក។",
+    "drink-sugarcane-juice":                 "ទឹកអំពៅ — ស្រស់ត្រជាក់ ផ្អែមធម្មជាតិ ផ្សំជាមួយក្រូចសើច។",
+    "drink-palm-sugar-iced-tea":             "តែទឹកត្នោត — តែខ្មៅ ផ្អែមដោយស្ករត្នោត ផ្សំទឹកក្រូចឆ្មារ។",
+    "drink-young-coconut-water":             "ទឹកដូងខ្ចី — ស្រស់ ត្រជាក់ និងផ្អែមធម្មជាតិ។",
+    "drink-lime-soda":                       "ទឹកក្រូចឆ្មារសូដា — ស្រស់ ត្រជាក់ ផ្សំអំបិលបន្តិច។",
+    "drink-roasted-rice-tea":                "តែអង្ករលីង — អង្ករលីង ផ្សំជាមួយស្លឹកតើយ និងស្ករអំពៅ។",
+    "drink-tamarind-juice":                  "ទឹកអម្ពិល — ផ្អែម ជូរ ត្រជាក់ លាយជាមួយស្ករ និងអំបិលបន្តិច។",
+    "drink-soy-milk":                        "ទឹកសណ្ដែក — ទឹកសណ្ដែកសៀង ផ្សំជាមួយស្លឹកតើយ ផ្អែមៗ បរិភោគក្ដៅឬត្រជាក់។",
+    # snacks / street food (hand-written)
+    "snack-street-food-num-pang-pâté":                       "នំបុ័ងប៉ាតេ — នំបុ័ងខ្មែរ លាបប៉ាតេ ផ្សំសាច់ បន្លែជ្រក់ និងម្ទេស។",
+    "snack-street-food-grilled-pork-skewers":                "សាច់ជ្រូកអាំង — សាច់ជ្រូកប្រឡាក់ស្លឹកគ្រៃ អាំងលើភ្លើងធ្យូង។",
+    "snack-street-food-num-kachay-chive-cakes":              "នំកុយឆាយ — នំម្សៅអង្ករ ផ្ទុកស្លឹកគុយឆាយ បរិភោគជាមួយទឹកជ្រលក់ជូរផ្អែម។",
+    "snack-street-food-num-krok-coconut-cakes":              "នំគ្រក — នំទឹកដូងស្រួយ ខាងក្នុងទន់ ដុតក្នុងថាសសម្បក។",
+    "snack-street-food-fried-spring-rolls":                  "នំចចេវ — នំចៀនស្រួយ ផ្ទុកសាច់ជ្រូក មីស និងបន្លែ។",
+    "snack-street-food-fresh-summer-rolls":                  "នំចារ — នំខ្ចប់ស្រួយ ផ្ទុកសាច់ បង្គា និងបន្លែស្រស់។",
+    "snack-street-food-fried-banana":                        "ចេកចៀន — ចេកចៀន ខាងក្រៅស្រួយ ខាងក្នុងទន់។",
+    "snack-street-food-grilled-sticky-rice-in-bamboo":       "ក្រឡាន — បាយដំណើប សណ្ដែក និងទឹកដូង ដុតក្នុងបំពង់ឫស្សី។",
+    "snack-street-food-steamed-banana-cake":                 "នំចេក — នំចំហុយ ផ្សំជាមួយចេក បាយដំណើប និងទឹកដូង។",
+    "snack-street-food-pork-rice-bai-sach-chrouk":           "បាយសាច់ជ្រូក — ភ្ញាក់ព្រឹកដ៏ល្បី សាច់ជ្រូកអាំងលើបាយចំការ។",
+    "snack-street-food-khmer-custard-sankhya":               "សង់ខ្យា — សង់ខ្យាស្ករត្នោត និងទឹកដូងចំហុយ។",
+    "snack-street-food-pumpkin-custard-sankhya-lapov":       "សង់ខ្យាល្ពៅ — សង់ខ្យាចំហុយក្នុងផ្លែល្ពៅ។",
+    "snack-street-food-rice-porridge-bobor":                 "បបរ — បបរស្រូវឆ្អិន ផ្សំជាមួយសាច់ ឬ ត្រី បរិភោគក្ដៅៗ។",
+    "snack-street-food-num-ansom-chek":                      "នំអន្សមចេក — បាយដំណើប ផ្សំជាមួយចេក រុំស្លឹកចេក ហើយស្ងោរ។",
+    "snack-street-food-num-kom":                             "នំគម — នំដំណើបរូបពីរ៉ាមីត ផ្ទុកសណ្ដែកផ្អែម រុំស្លឹកចេក ហើយចំហុយ។",
+}
+
+# English-lowercase → Khmer lookups used by phrase rules
+_KM_PROT_EN = {p["en"].lower(): p["km"] for p in PROTEINS}
+_KM_PROT_EN["mixed vegetables"] = "បន្លែ"
+_KM_PROT_EN["clams"] = "ងាវ"
+
+_KM_VEG_EN = {v["en"].lower(): v["km"] for v in VEG_PAIRS}
+_KM_VEG_EN.update({v["en"].lower(): v["km"] for v in MACHU_VEG})
+
+_KM_FRUIT_EN   = {n.lower(): km for n, km, _ in SMOOTHIE_FRUITS}
+_KM_FILLING_EN = {n.lower(): km for n, km, _ in STICKY_FILLINGS}
+_KM_FILLING_EN.update({n.lower(): km for n, km, _ in SWEET_SOUP_ITEMS})
+
+KM_PREP = {
+    "cut into bite-sized pieces":            "កាត់ជាដុំៗតូច",
+    "cut into thin slices":                  "ហាន់ជាបន្ទះស្ដើង",
+    "sliced thin against the grain":         "ហាន់ស្ដើងបញ្ច្រាសខ្សែ",
+    "chopped into pieces":                   "កាត់ជាដុំៗ",
+    "cleaned and jointed":                   "សម្អាត ហើយកាត់តាមសន្លាក់",
+    "cut into thick fillet slices":          "ហាន់ជាបន្ទះក្រាស់",
+    "peeled and deveined":                   "ចេញសំបក និងសរសៃ",
+    "cleaned and scored into rings":         "សម្អាត ហើយហាន់ជាកង់",
+    "cleaned and quartered":                 "សម្អាត ហើយកាត់ជា ៤",
+    "scrubbed":                              "សម្អាតសំបក",
+    "cubed and lightly fried until golden":  "ហាន់ជាគូប ហើយចៀនបន្តិចឱ្យលឿង",
+    "lightly beaten":                        "វាយបន្តិច",
+    "torn or sliced":                        "កាត់ ឬ ហាន់",
+}
+
+KM_COOK = {
+    "until cooked through and no longer pink": "រហូតទាល់តែឆ្អិន ហើយបាត់ពណ៌ផ្កាឈូក",
+    "until cooked through":                    "រហូតទាល់តែឆ្អិន",
+    "until just browned but still tender":     "រហូតទាល់តែលឿងស្រាល តែនៅទន់",
+    "until tender":                            "រហូតទាល់តែទន់",
+    "until the flesh turns opaque and flakes": "រហូតទាល់តែសាច់ត្រីពណ៌ស និងបែកជាដុំៗ",
+    "until they curl and turn pink":           "រហូតទាល់តែបង្គាក្រឡុំ និងមានពណ៌ផ្កាឈូក",
+    "until just opaque (do not overcook)":     "រហូតទាល់តែទើបឆ្អិន (កុំឆ្អិនពេក)",
+    "until the shells turn bright orange":     "រហូតទាល់តែសំបកក្ដាមមានពណ៌ទឹកក្រូច",
+    "until the shells open":                   "រហូតទាល់តែសំបករបោះ",
+    "until heated through":                    "រហូតទាល់តែក្ដៅ",
+    "until softly set":                        "រហូតទាល់តែទន់ ហើយកក",
+    "until softened and glossy":               "រហូតទាល់តែទន់ និងភ្លឺ",
+    "until tender-crisp":                      "រហូតទាល់តែទន់និងក្រៀម",
+}
+
+def _km_prot(s):    return _KM_PROT_EN.get(s.lower(), s)
+def _km_veg(s):     return _KM_VEG_EN.get(s.lower(), s)
+def _km_prep(s):    return KM_PREP.get(s.lower(), s)
+def _km_cook(s):    return KM_COOK.get(s.lower(), s)
+def _km_fruit(s):   return _KM_FRUIT_EN.get(s.lower(), s)
+def _km_filling(s): return _KM_FILLING_EN.get(s.lower(), s)
+
+# Regex phrase → Khmer template. Applied to description AND each step text.
+PHRASE_RULES = [
+    # --- parameterized descriptions ---
+    (re.compile(r"^A fast, high-heat home stir-fry of (.+?) with (.+?)\.$"),
+     lambda m: "ម្ហូបឆាដ៏លឿនជាមួយ" + _km_veg(m.group(1)) + " និង" + _km_prot(m.group(2)) + "។"),
+    (re.compile(r"^A bright Khmer sour soup of (.+?) with (.+?)\.$"),
+     lambda m: "សម្លម្ជូរស្រស់ ផ្សំជាមួយ" + _km_veg(m.group(1)) + " និង" + _km_prot(m.group(2)) + "។"),
+    (re.compile(r"^Fragrant coconut sticky rice served with (.+?)\.$"),
+     lambda m: "បាយដំណើបទឹកដូងក្រអូប ផ្សំជាមួយ" + _km_filling(m.group(1)) + "។"),
+    (re.compile(r"^A warm Khmer sweet soup of (.+?) in pandan-scented coconut milk\.$"),
+     lambda m: "បបរផ្អែម" + _km_filling(m.group(1)) + " ក្នុងទឹកដូងស្លឹកតើយ។"),
+    (re.compile(r"^A creamy Cambodian street-style (.+?) shake\.$"),
+     lambda m: "ទឹកក្រឡុក" + _km_fruit(m.group(1)) + " ស្ទីលខ្មែរ។"),
+
+    # --- common cooking step phrases ---
+    (re.compile(r"^Prepare the (.+?): (.+?)\.$"),
+     lambda m: "រៀបចំ" + _km_prot(m.group(1)) + "៖ " + _km_prep(m.group(2)) + "។"),
+    (re.compile(r"^Heat 2 tbsp oil in a wok over high heat[^.]*\.$"),
+     lambda m: "ដាក់ប្រេង ២ ស្លាបព្រាក្នុងខ្ទះ ហើយដុំឱ្យក្ដៅខ្លាំង។"),
+    (re.compile(r"^Add the aromatics and stir-fry 1–2 minutes until fragrant.*$"),
+     lambda m: "ដាក់គ្រឿងផ្សំ ហើយឆា ១–២ នាទី រហូតទាល់តែឈ្ងុយ និងបាត់ក្លិនឆៅ។"),
+    (re.compile(r"^Add the (.+?) and stir-fry (.+?), about (\d+) minutes\.$"),
+     lambda m: "ដាក់" + _km_prot(m.group(1)) + " ហើយឆា " + _km_cook(m.group(2)) + " ប្រហែល " + m.group(3) + " នាទី។"),
+    (re.compile(r"^Add the (.+?) and simmer (.+?), about (\d+) minutes\.$"),
+     lambda m: "ដាក់" + _km_prot(m.group(1)) + " ហើយដាំ " + _km_cook(m.group(2)) + " ប្រហែល " + m.group(3) + " នាទី។"),
+    (re.compile(r"^Season with fish sauce, palm sugar and a small splash of water.*$"),
+     lambda m: "បន្ថែមទឹកត្រី ស្ករត្នោត និងទឹកបន្តិច។ កូរឱ្យសម។"),
+    (re.compile(r"^Season with fish sauce and palm sugar.*$"),
+     lambda m: "បន្ថែមទឹកត្រី និងស្ករត្នោត។"),
+    (re.compile(r"^Serve hot with steamed jasmine rice\.$"),
+     lambda m: "បរិភោគជាមួយបាយក្ដៅ។"),
+    (re.compile(r"^Bring the stock to a boil with bruised lemongrass and smashed garlic\.$"),
+     lambda m: "ដាំទឹកស៊ុបជាមួយស្លឹកគ្រៃបុក និងខ្ទឹមសបុក។"),
+    (re.compile(r"^Mince the garlic and have the (.+?) washed and cut\.$"),
+     lambda m: "កិនខ្ទឹមស ហើយលាង " + _km_veg(m.group(1)) + " ឱ្យស្អាតហើយកាត់រួច។"),
+    (re.compile(r"^Add the (.+?) and stir-fry over high heat until tender-crisp\.$"),
+     lambda m: "ដាក់" + _km_veg(m.group(1)) + " ហើយឆាលើភ្លើងខ្លាំង រហូតទាល់តែទន់និងក្រៀម។"),
+]
+
+def _apply_km(record):
+    """Populate Khmer fields where translations are available (in-place)."""
+    if "descriptionKm" not in record:
+        fam = record.get("imageFamily", "")
+        if fam in KM_DESC_BY_FAMILY:
+            record["descriptionKm"] = KM_DESC_BY_FAMILY[fam]
+    if "descriptionKm" not in record:
+        d = record.get("description", "")
+        for pat, rep in PHRASE_RULES:
+            m = pat.match(d)
+            if m:
+                try:
+                    record["descriptionKm"] = rep(m)
+                except Exception:
+                    pass
+                break
+    for step in record.get("instructions", []):
+        if "textKm" in step:
+            continue
+        t = step.get("text", "")
+        for pat, rep in PHRASE_RULES:
+            m = pat.match(t)
+            if m:
+                try:
+                    step["textKm"] = rep(m)
+                except Exception:
+                    pass
+                break
 
 # --------------------------------------------------------------------------- #
 # assemble
@@ -1594,6 +1841,9 @@ def generate():
             "ingredients": r["ingredients"],
             "instructions": r["instructions"],
         }
+        if r.get("description_km"):
+            record["descriptionKm"] = r["description_km"]
+        _apply_km(record)
         final.append(record)
         counter += 1
 

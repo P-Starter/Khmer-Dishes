@@ -66,6 +66,7 @@
         "subcategory": { "type": "string", "description": "Khmer technique/family, e.g. cha, samlor, amok, kho." },
         "cuisine": { "type": "string", "default": "Khmer" },
         "description": { "type": "string" },
+        "descriptionKm": { "type": "string", "description": "Khmer translation of `description`. Optional." },
         "image": { "type": "string", "description": "Relative or absolute image URL." },
         "imageFamily": { "type": "string", "description": "Image group key shared by protein variants of one base dish, so ~1000 dishes reuse ~150 images." },
         "tags": { "type": "array", "items": { "type": "string" } },
@@ -134,7 +135,9 @@
       "properties": {
         "step": { "type": "integer", "minimum": 1 },
         "text": { "type": "string" },
-        "tip": { "type": "string", "description": "Optional chef's tip for this step." }
+        "textKm": { "type": "string", "description": "Khmer translation of `text`. Optional." },
+        "tip": { "type": "string", "description": "Optional chef's tip for this step." },
+        "tipKm": { "type": "string", "description": "Khmer translation of `tip`. Optional." }
       }
     }
   }
