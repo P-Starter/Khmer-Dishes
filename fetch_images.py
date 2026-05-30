@@ -1,20 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Fetch one stock photo per dish-family for the Khmer menu (hybrid strategy).
+Fetch one stock photo per DISH for the Khmer menu — with a relevance gate.
 
-- Collapses the 1000+ dishes to ~164 image families (protein variants share an image).
-- Searches a free stock provider (Pexels or Unsplash) for each family and saves
-  images/dishes/<family>.jpg. Dishes with no good match keep the page's emoji placeholder.
-- Resumable: skips families that already have a file.
+- One attempt per recipe (slug-keyed), so protein variants don't share misleading
+  photos. A photo is only accepted if its alt-text or page URL contains a clearly
+  Cambodian/Khmer term ("cambodian", "khmer", "amok", "lok lak", "kuy teav",
+  "prahok", "samlor", "kreung", etc.). Otherwise the dish keeps the page's emoji
+  placeholder — honest is better than wrong.
+- Resumable: skips dishes that already have a file at images/dishes/<slug>.jpg.
 - Writes attribution.json and credits.html (required by both providers' terms).
 
 Get a FREE API key (2 min):
-  Pexels   -> https://www.pexels.com/api/   (200 req/hour, simplest)
+  Pexels   -> https://www.pexels.com/api/   (simplest, generous quota)
   Unsplash -> https://unsplash.com/developers (50 req/hour on demo)
 
 Usage:
-  python fetch_images.py --dry-run                       # show what it would fetch, no network
-  python fetch_images.py --source pexels   --key YOUR_KEY
+  python fetch_images.py --dry-run                       # show per-dish queries, no network
+  python fetch_images.py --source pexels   --key YOUR_KEY --limit 10   # test
+  python fetch_images.py --source pexels   --key YOUR_KEY              # full run
   python fetch_images.py --source unsplash --key YOUR_KEY
   (or set env PEXELS_API_KEY / UNSPLASH_ACCESS_KEY instead of --key)
 """
@@ -31,47 +34,47 @@ import urllib.error
 MENU_FILE = "khmer_menu.json"
 OUT_DIR = os.path.join("images", "dishes")
 
-# Better queries for the iconic / well-known families than the auto-derived ones.
+# Per-dish curated queries for well-known dishes where the obvious phrasing
+# isn't what stock sites tag the photo as.
 QUERY_OVERRIDES = {
-    "fish-amok": "fish amok cambodian curry banana leaf",
-    "beef-loc-lac": "beef lok lak cambodian",
-    "prahok-ktis-pork-coconut-dip": "cambodian pork coconut dip vegetables",
-    "kuy-teav-phnom-penh": "cambodian rice noodle soup kuy teav",
-    "samlor-machu-kreung-sach-ko": "cambodian sour beef soup",
-    "rice-bai-cha": "khmer fried rice",
-    "noodles-num-banh-chok": "num banh chok khmer noodles",
+    "fish-amok":                          "fish amok cambodian banana leaf",
+    "beef-loc-lac":                       "lok lak cambodian beef",
+    "prahok-ktis-pork-coconut-dip":       "prahok ktis cambodian",
+    "phnom-penh-noodle-soup":             "kuy teav cambodian noodle soup",
+    "sour-lemongrass-beef-soup":          "samlor machu cambodian sour soup",
 }
 
-# Protein words to strip from a dish name to get a family-level search query.
-PROTEIN_WORDS = [
-    "Mixed Vegetables", "Chicken", "Pork", "Beef", "Duck", "Frog", "Fish",
-    "Shrimp", "Squid", "Crab", "Clams", "Tofu", "Egg", "Mushroom", "Vegetables",
+# Relevance gate: a returned photo is only accepted if its alt-text or page
+# URL contains at least one of these terms. The intent: avoid showing
+# unrelated stock photos that confuse users. Better to placeholder than mislead.
+KHMER_TERMS = [
+    # geographic / cuisine markers — primary signal
+    "cambodia", "cambodian", "khmer", "phnom penh", "siem reap", "kampot",
+    # iconic Khmer dish names — accept if mentioned (very specific)
+    "amok", "lok lak", "lok-lak", "loc lac", "loklak",
+    "kuy teav", "kuyteav", "kuyteav",
+    "num banh chok", "num banh", "nom banh chok",
+    "prahok", "samlor", "kreung", "kralan", "sankhya",
+    "bai sach", "num pang", "bobor", "babor", "saraman",
 ]
 
 
-def derive_query(name_en):
-    q = name_en
-    for w in PROTEIN_WORDS:
-        q = q.replace(w, "")
-    # clean dangling connectors / punctuation left behind
-    q = q.replace("()", " ").replace("with &", "").replace("with ", " ")
-    q = q.replace(" & ", " ").replace("&", " ")
-    q = " ".join(q.split()).strip(" -(),")
-    if not q:
-        q = name_en
-    return q + " Cambodian Khmer food dish"
-
-
-def build_families(recipes):
-    """Return {family: {'query':..., 'example':..., 'count':int}} keyed by image family."""
-    fams = {}
+def build_per_dish(recipes):
+    """Return {slug: {'query':..., 'name':...}} — one entry per unique dish."""
+    out = {}
     for r in recipes:
-        fam = r["imageFamily"]
-        if fam not in fams:
-            q = QUERY_OVERRIDES.get(fam) or derive_query(r["name"]["en"])
-            fams[fam] = {"query": q, "example": r["name"]["en"], "count": 0}
-        fams[fam]["count"] += 1
-    return fams
+        slug = r["slug"]
+        if slug in out:
+            continue
+        q = QUERY_OVERRIDES.get(slug) or (r["name"]["en"] + " Cambodian Khmer food")
+        out[slug] = {"query": q, "name": r["name"]["en"]}
+    return out
+
+
+def is_relevant(hit):
+    """Decide whether a search hit is actually a Cambodian/Khmer dish photo."""
+    text = ((hit.get("alt") or "") + " " + (hit.get("page_url") or "")).lower()
+    return any(term in text for term in KHMER_TERMS)
 
 
 # Use a real browser-like UA. Pexels/Unsplash sit behind Cloudflare, which
@@ -98,37 +101,42 @@ def http_json(url, headers):
 
 
 def search_pexels(query, key):
+    # Pull the top 3 candidates so the relevance gate has something to choose from.
     url = "https://api.pexels.com/v1/search?" + urllib.parse.urlencode(
-        {"query": query, "per_page": 1, "orientation": "landscape"})
+        {"query": query, "per_page": 3, "orientation": "landscape"})
     data = http_json(url, {"Authorization": key})
     photos = data.get("photos") or []
-    if not photos:
-        return None
-    p = photos[0]
-    return {
-        "img": p["src"].get("large") or p["src"].get("medium"),
-        "photographer": p.get("photographer", "Unknown"),
-        "photographer_url": p.get("photographer_url", ""),
-        "source": "Pexels",
-        "source_url": p.get("url", ""),
-    }
+    out = []
+    for p in photos:
+        out.append({
+            "img": p["src"].get("large") or p["src"].get("medium"),
+            "alt": p.get("alt", ""),
+            "page_url": p.get("url", ""),
+            "photographer": p.get("photographer", "Unknown"),
+            "photographer_url": p.get("photographer_url", ""),
+            "source": "Pexels",
+            "source_url": p.get("url", ""),
+        })
+    return out
 
 
 def search_unsplash(query, key):
     url = "https://api.unsplash.com/search/photos?" + urllib.parse.urlencode(
-        {"query": query, "per_page": 1, "orientation": "landscape"})
+        {"query": query, "per_page": 3, "orientation": "landscape"})
     data = http_json(url, {"Authorization": "Client-ID " + key, "Accept-Version": "v1"})
-    results = data.get("results") or []
-    if not results:
-        return None
-    p = results[0]
-    return {
-        "img": p["urls"].get("regular"),
-        "photographer": p["user"].get("name", "Unknown"),
-        "photographer_url": p["user"]["links"].get("html", "") + "?utm_source=khmer_chief&utm_medium=referral",
-        "source": "Unsplash",
-        "source_url": p["links"].get("html", "") + "?utm_source=khmer_chief&utm_medium=referral",
-    }
+    out = []
+    for p in (data.get("results") or []):
+        page = p["links"].get("html", "") + "?utm_source=khmer_chief&utm_medium=referral"
+        out.append({
+            "img": p["urls"].get("regular"),
+            "alt": p.get("alt_description") or p.get("description") or "",
+            "page_url": p["links"].get("html", ""),
+            "photographer": p["user"].get("name", "Unknown"),
+            "photographer_url": p["user"]["links"].get("html", "") + "?utm_source=khmer_chief&utm_medium=referral",
+            "source": "Unsplash",
+            "source_url": page,
+        })
+    return out
 
 
 def download(url, path):
@@ -162,19 +170,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", choices=["pexels", "unsplash"], default="pexels")
     ap.add_argument("--key", default=None, help="API key (or set PEXELS_API_KEY / UNSPLASH_ACCESS_KEY)")
-    ap.add_argument("--dry-run", action="store_true", help="list families + queries, no network calls")
-    ap.add_argument("--limit", type=int, default=0, help="max families to fetch this run (0 = all)")
-    ap.add_argument("--delay", type=float, default=1.0, help="seconds between requests (rate limiting)")
+    ap.add_argument("--dry-run", action="store_true", help="list per-dish queries, no network calls")
+    ap.add_argument("--limit", type=int, default=0, help="max dishes to fetch this run (0 = all)")
+    ap.add_argument("--delay", type=float, default=1.5, help="seconds between requests (rate limiting)")
     args = ap.parse_args()
 
     doc = json.load(open(MENU_FILE, encoding="utf-8"))
-    families = build_families(doc["recipes"])
-    print("Dishes: {} -> image families: {}".format(len(doc["recipes"]), len(families)))
+    dishes = build_per_dish(doc["recipes"])
+    print("Dishes: {} (one image attempt per dish)".format(len(dishes)))
 
     if args.dry_run:
-        for fam in sorted(families):
-            info = families[fam]
-            print("  [{:>2} dishes] {:34s} query: {}".format(info["count"], fam, info["query"]))
+        for slug in sorted(dishes):
+            info = dishes[slug]
+            print("  {:48s} query: {}".format(slug, info["query"]))
         print("\nDry run only — no images fetched. Re-run with --source/--key to download.")
         return
 
@@ -191,31 +199,39 @@ def main():
     if os.path.exists(attr_path):
         attribution = json.load(open(attr_path, encoding="utf-8"))
 
-    fetched = skipped = missed = errored = 0
-    for fam in sorted(families):
-        path = os.path.join(OUT_DIR, fam + ".jpg")
+    fetched = skipped = missed = rejected = errored = 0
+    for slug in sorted(dishes):
+        path = os.path.join(OUT_DIR, slug + ".jpg")
         if os.path.exists(path):
             skipped += 1
             continue
         if args.limit and fetched >= args.limit:
             break
-        query = families[fam]["query"]
+        query = dishes[slug]["query"]
         try:
-            hit = search(query, key)
-            if not hit or not hit.get("img"):
-                print("  no match: {:34s} ({})".format(fam, query))
+            hits = search(query, key) or []
+            if not hits:
+                print("  no match  : {:48s} ({})".format(slug, query))
                 missed += 1
             else:
-                download(hit["img"], path)
-                attribution[fam] = {k: hit[k] for k in
-                                    ("photographer", "photographer_url", "source", "source_url")}
-                print("  saved   : {:34s} <- {}".format(fam, hit["source"]))
-                fetched += 1
+                # Take the first hit that is Khmer/Cambodian-tagged.
+                # Better an honest placeholder than a misleading photo.
+                relevant = next((h for h in hits if h.get("img") and is_relevant(h)), None)
+                if not relevant:
+                    top = hits[0]
+                    print("  not Khmer : {:48s} (top alt: {})".format(
+                        slug, (top.get("alt") or "")[:60]))
+                    rejected += 1
+                else:
+                    download(relevant["img"], path)
+                    attribution[slug] = {k: relevant[k] for k in
+                                         ("photographer", "photographer_url", "source", "source_url")}
+                    print("  saved     : {:48s} <- {} ({})".format(
+                        slug, relevant["source"], (relevant.get("alt") or "")[:40]))
+                    fetched += 1
         except Exception as e:
-            print("  ERROR   : {:34s} {}".format(fam, str(e)[:240]))
+            print("  ERROR     : {:48s} {}".format(slug, str(e)[:240]))
             errored += 1
-            # If the very first request is failing, bail early — almost certainly
-            # an auth/quota issue, no point hammering the API.
             if errored >= 3 and fetched == 0:
                 print("\nAborting: 3 consecutive failures with no successes. "
                       "The error message above is from the API itself — "
@@ -224,8 +240,9 @@ def main():
         time.sleep(args.delay)
 
     write_credits(attribution)
-    print("\nDone. fetched={} skipped={} no-match={} errors={}".format(
-        fetched, skipped, missed, errored))
+    print("\nDone. fetched={} skipped={} no-match={} rejected={} errors={}".format(
+        fetched, skipped, missed, rejected, errored))
+    print("'rejected' = photo found but not Khmer/Cambodian-tagged — kept the placeholder instead.")
     print("Images in {}/ ; credits in credits.html".format(OUT_DIR))
 
 

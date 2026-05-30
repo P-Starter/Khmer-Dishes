@@ -1825,7 +1825,7 @@ def generate():
             "cuisine": "Khmer",
             "description": r["description"],
             "imageFamily": family,
-            "image": "images/dishes/{}.jpg".format(family),
+            "image": "images/dishes/{}.jpg".format(slug),
             "tags": tags,
             "dietary": r.get("dietary", []),
             "spiceLevel": r.get("spice", 0),
