@@ -124,6 +124,7 @@
   .stat{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:13px;min-width:78px}
   .stat b{display:block;font-size:15px;margin-top:1px}
   .sec-title{font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin:24px 0 10px}
+  .sec-title .sec-km{font-family:var(--khmer);font-weight:600;letter-spacing:.4px;text-transform:none;opacity:.85;margin-left:4px}
   .kroeung-note{background:var(--gold-soft);border-radius:10px;padding:10px 14px;font-size:13px;margin-bottom:6px}
   .ing-group{margin-bottom:14px}
   .ing-group .gname{font-size:12px;font-weight:600;color:var(--muted);text-transform:capitalize;margin-bottom:5px}
@@ -435,8 +436,12 @@
     const ingHtml=gkeys.map(g=>{
       const items=groups[g].map(i=>{
         const qty=[i.quantity,i.unit].filter(x=>x!==undefined&&x!==null&&x!=="").join(" ");
+        const km = (i.itemKm||i.notesKm)
+          ? '<div class="km-line">'+(i.itemKm?esc(i.itemKm):'')+
+              (i.notesKm?(i.itemKm?' — ':'')+'<span class="nt">'+esc(i.notesKm)+'</span>':'')+'</div>'
+          : '';
         return '<li><span class="qty">'+esc(qty)+'</span><span class="nm">'+esc(i.item)+
-               (i.notes?' <span class="nt">— '+esc(i.notes)+'</span>':'')+'</span></li>';
+               (i.notes?' <span class="nt">— '+esc(i.notes)+'</span>':'')+km+'</span></li>';
       }).join("");
       return '<div class="ing-group"><div class="gname">'+esc(g)+'</div><ul class="ings">'+items+'</ul></div>';
     }).join("");
@@ -451,7 +456,7 @@
 
     const diet=(r.dietary||[]).map(d=>'<span class="diet">'+d+'</span>').join("");
     const kro=(r.kroeung&&r.kroeung.length)?
-      '<div class="kroeung-note"><b>Kroeung (flavour base):</b> '+r.kroeung.map(esc).join(", ")+'</div>':'';
+      '<div class="kroeung-note"><b>Kroeung <span class="km">គ្រឿង</span> (flavour base):</b> '+r.kroeung.map(esc).join(", ")+'</div>':'';
 
     m.innerHTML=
       '<div class="mhead" style="background:linear-gradient(135deg,'+v.c+','+shade(v.c)+')">'+
@@ -470,11 +475,15 @@
         kro+
         '<div class="mbody-grid">'+
           '<aside class="ingredients-col">'+
-            '<div class="sec-title">Ingredients</div>'+ingHtml+
+            '<div class="sec-title">Ingredients <span class="sec-km">· គ្រឿងផ្សំ</span></div>'+ingHtml+
           '</aside>'+
           '<div class="steps-col">'+
-            '<div class="sec-title">How to cook</div><ol class="steps">'+stepsHtml+'</ol>'+
-            (r.equipment&&r.equipment.length?'<div class="sec-title">Equipment</div><div style="font-size:14px">'+r.equipment.map(esc).join(" · ")+'</div>':'')+
+            '<div class="sec-title">How to cook <span class="sec-km">· របៀបធ្វើ</span></div><ol class="steps">'+stepsHtml+'</ol>'+
+            (r.equipment&&r.equipment.length?
+              '<div class="sec-title">Equipment <span class="sec-km">· ឧបករណ៍</span></div>'+
+              '<div style="font-size:14px">'+r.equipment.map(esc).join(" · ")+'</div>'+
+              (r.equipmentKm?'<div class="km-line" style="font-size:14px;margin-top:4px">'+r.equipmentKm.map(esc).join(" · ")+'</div>':'')
+              :'')+
           '</div>'+
         '</div>'+
       '</div>';
