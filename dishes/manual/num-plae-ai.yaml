@@ -1,0 +1,39 @@
+id: khm-0012
+slug: num-plae-ai
+name:
+  km: នំផ្លែអាយ
+  romanized: Num Plae Ai
+  en: Sticky Rice Balls with Palm Sugar
+category: dessert
+subcategory: signature
+cuisine: Khmer
+description: "Small glutinous-rice dumplings with a molten palm-sugar centre, boiled until they bob and rolled in freshly grated coconut. The bite — chewy outside, a sweet liquid surprise inside — is unmistakably Khmer."
+descriptionKm: "នំផ្លែអាយ — នំដំណើបតូចៗមានស្ករត្នោតរលាយខាងក្នុង ស្ងោររហូតអណ្តែត ហើយរុមដោយដូងកោសស្រស់។ ការទំពាញ — ខាងក្រៅទន់ស្អិត ខាងក្នុងផ្អែមហូរ — ជារសជាតិពិតៗរបស់ខ្មែរ។"
+image: images/dishes/num-plae-ai.jpg
+imageFamily: num-plae-ai
+tags: [signature, dessert, sticky-rice, palm-sugar, festival]
+dietary: [vegetarian, vegan, dairy-free]
+spiceLevel: 0
+difficulty: medium
+servings: 6
+time: { prepMinutes: 35, cookMinutes: 15, totalMinutes: 50 }
+kroeung: []
+equipment:   [mixing bowl, large pot, slotted spoon]
+equipmentKm: [ចានលាយ, ឆ្នាំងធំ, ស្លាបព្រាមានរន្ធ]
+ingredients:
+  - { group: main,      item: glutinous (sticky) rice flour, itemKm: ម្សៅអង្ករដំណើប, quantity: 300, unit: g }
+  - { group: main,      item: warm water,                    itemKm: ទឹកក្ដៅ,         quantity: 220, unit: ml,    notes: "approximately", notesKm: "ប្រហែល" }
+  - { group: main,      item: palm sugar,                    itemKm: ស្ករត្នោត,       quantity: 200, unit: g,     notes: "chopped into 1-cm cubes", notesKm: "កាត់ជាគូប ១សម" }
+  - { group: main,      item: pandan leaves,                 itemKm: ស្លឹកតើយ,        quantity: 3,   unit: leaves, notes: "knotted",      notesKm: "ចំរូង" }
+  - { group: garnish,   item: grated young coconut,          itemKm: ដូងខ្ចីកោស,     quantity: 200, unit: g,     notes: "mixed with a pinch of salt", notesKm: "លាយជាមួយអំបិលបន្តិច" }
+  - { group: garnish,   item: toasted sesame seeds,          itemKm: ល្ងលីង,          quantity: 2,   unit: tbsp,   notes: optional,        notesKm: ស្ម័គ្រ }
+instructions:
+  - { step: 1, text: "Mix the glutinous rice flour with the warm water a little at a time, kneading to a soft, pliable dough that doesn't stick to your hands.",     textKm: "លាយម្សៅអង្ករដំណើបជាមួយទឹកក្ដៅបន្តិចម្ដងៗ លាយឱ្យម្សៅទន់ និងមិនជាប់ដៃ។",
+      tip: "If the dough cracks, add a teaspoon more water. If sticky, dust with extra flour.",                                                                       tipKm: "បើម្សៅប្រេះ បន្ថែមទឹក ១ ស្លាបព្រាតូច។ បើស្អិត លាបម្សៅបន្ថែម។" }
+  - { step: 2, text: "Pinch off small pieces (~2 cm). Flatten each into a disc on your palm.",                                                                       textKm: "កាច់ម្សៅជាដុំតូចៗ (~ ២ សម)។ បង្គាបម្នាក់ៗជារាងរលឹមលើបាតដៃ។" }
+  - { step: 3, text: "Place a cube of palm sugar in the centre, then pinch closed and roll into a smooth ball.",                                                     textKm: "ដាក់ស្ករត្នោតមួយគូបនៅកណ្ដាល បន្ទាប់មកបិទ ហើយរុមជារាងបាល់រលោង។",
+      tip: "Seal completely or the sugar leaks out while boiling.",                                                                                                   tipKm: "បិទឱ្យជិត បើមិនជិតស្ករនឹងហូរចេញពេលស្ងោរ។" }
+  - { step: 4, text: "Bring a large pot of water to a boil with the knotted pandan leaves.",                                                                          textKm: "ដាំទឹកក្នុងឆ្នាំងធំឱ្យពុះ ដាក់ស្លឹកតើយចំរូងចូល។" }
+  - { step: 5, text: "Drop the balls in gently. When they bob to the surface (about 3–4 minutes), let them simmer 1 more minute.",                                    textKm: "ដាក់នំចូលថ្នមៗ។ ពេលនំអណ្តែតលើទឹក (ប្រហែល ៣–៤ នាទី) ដាំបន្ត ១ នាទីទៀត។" }
+  - { step: 6, text: "Lift out with a slotted spoon and roll while still warm in the salted grated coconut.",                                                          textKm: "លើកចេញដោយស្លាបព្រាមានរន្ធ ហើយរុមក្ដៅៗក្នុងដូងកោសប្រឡាក់អំបិល។" }
+  - { step: 7, text: "Serve straight away, while the palm sugar inside is still molten. Sprinkle sesame if using.",                                                    textKm: "បរិភោគភ្លាមៗ ខណៈពេលស្ករត្នោតខាងក្នុងនៅរលាយ។ រោយល្ងបើប្រើ។" }

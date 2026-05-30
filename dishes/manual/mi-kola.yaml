@@ -1,0 +1,51 @@
+id: khm-0014
+slug: mi-kola
+name:
+  km: មីកូឡា
+  romanized: Mi Kola
+  en: Battambang Vegetarian Noodles
+category: noodles
+subcategory: signature
+cuisine: Khmer
+description: "Battambang's signature vegetarian rice-noodle dish, born of the local Cham community — thin rice noodles tossed with toasted peanut, daikon, carrot, dried mushroom and a savoury vegetarian sauce. Served at room temperature."
+descriptionKm: "ម្ហូបអាហារសញ្ញារបស់ខេត្តបាត់ដំបង — មីសួមីខ្មែរអាហារូបត្ថម្ភ កើតពីសហគមន៍ចាមក្នុងតំបន់ — មីស្ដើងលាយជាមួយសណ្ដែកដីលីង ហ៊ុនឆាយ ការ៉ុត ផ្សិតស្ងួត និងទឹកជ្រលក់អាហារូបត្ថម្ភ។ បរិភោគនៅសីតុណ្ហភាពបន្ទប់។"
+image: images/dishes/mi-kola.jpg
+imageFamily: mi-kola
+tags: [signature, regional, battambang, noodles, vegetarian, cham]
+dietary: [vegetarian, vegan, dairy-free]
+spiceLevel: 1
+difficulty: medium
+servings: 4
+time: { prepMinutes: 30, cookMinutes: 15, totalMinutes: 45 }
+kroeung: [garlic, lemongrass]
+equipment:   [wok, large mixing bowl]
+equipmentKm: [ខ្ទះ, ចានលាយធំ]
+ingredients:
+  - { group: main,      item: thin rice noodles,         itemKm: មីសួ,             quantity: 300, unit: g,    notes: "soaked in cold water 20 minutes", notesKm: "ត្រាំទឹកត្រជាក់ ២០ នាទី" }
+  - { group: main,      item: dried shiitake mushrooms,  itemKm: ផ្សិតស្ងួត,        quantity: 30,  unit: g,    notes: "soaked, stems removed, sliced",   notesKm: "ត្រាំ ដកដើម ហើយហាន់" }
+  - { group: main,      item: firm tofu,                 itemKm: តៅហ៊ូ,              quantity: 200, unit: g,    notes: "cubed",                            notesKm: "កាត់ជាគូប" }
+  - { group: veg,       item: daikon,                    itemKm: ហ៊ុនឆាយ,           quantity: 150, unit: g,    notes: "thinly julienned",                 notesKm: "ហាន់ជាខ្សែស្ដើង" }
+  - { group: veg,       item: carrot,                    itemKm: ការ៉ុត,             quantity: 1,   unit: whole, notes: "thinly julienned",                 notesKm: "ហាន់ជាខ្សែស្ដើង" }
+  - { group: veg,       item: bean sprouts,              itemKm: សណ្ដែកបណ្ដុះ,        quantity: 200, unit: g }
+  - { group: veg,       item: spring onion,              itemKm: ស្លឹកខ្ទឹមបារាំង,  quantity: 3,   unit: stalks, notes: "cut in 4 cm lengths",              notesKm: "កាត់ ៤សម" }
+  - { group: kroeung,   item: garlic,                    itemKm: ខ្ទឹមស,             quantity: 4,   unit: cloves, notes: minced,                             notesKm: កិន }
+  - { group: kroeung,   item: lemongrass,                itemKm: ស្លឹកគ្រៃ,          quantity: 1,   unit: stalk,  notes: "tender part minced",               notesKm: "យកផ្នែកទន់កិន" }
+  - { group: kroeung,   item: shallots,                  itemKm: ខ្ទឹមក្រហម,         quantity: 2,   unit: whole,  notes: minced,                             notesKm: កិន }
+  - { group: seasoning, item: light soy sauce,           itemKm: ទឹកសុីអ៊ីវស្រាល,    quantity: 3,   unit: tbsp }
+  - { group: seasoning, item: dark soy sauce,            itemKm: ទឹកសុីអ៊ីវខ្មៅ,     quantity: 1,   unit: tbsp,   notes: "for colour",                       notesKm: "សម្រាប់ពណ៌" }
+  - { group: seasoning, item: palm sugar,                itemKm: ស្ករត្នោត,          quantity: 1,   unit: tbsp }
+  - { group: seasoning, item: vegetable oil,             itemKm: ប្រេងបន្លែ,         quantity: 3,   unit: tbsp }
+  - { group: seasoning, item: vegetable stock,           itemKm: ទឹកស៊ុបបន្លែ,        quantity: 100, unit: ml }
+  - { group: garnish,   item: roasted peanuts,           itemKm: សណ្ដែកដីលីង,        quantity: 4,   unit: tbsp,   notes: "coarsely crushed",                 notesKm: "បុកគ្រើម" }
+  - { group: garnish,   item: coriander and mint,        itemKm: "វ៉ាន់សុយ និងស្លឹកសុណ្ដ", quantity: 1, unit: handful }
+  - { group: garnish,   item: lime wedges,               itemKm: ក្រូចឆ្មារ,         quantity: 2,   unit: whole,  notes: "to serve",                         notesKm: "សម្រាប់បរិភោគ" }
+instructions:
+  - { step: 1, text: "Drain the soaked noodles. Briefly blanch in boiling water 30 seconds, drain again, toss with 1 tbsp oil to prevent sticking, and set aside.",                            textKm: "ច្រោះមីដែលត្រាំ។ ស្ងោរក្នុងទឹកពុះ ៣០ វិនាទី ច្រោះម្ដងទៀត លាបប្រេង ១ ស្លាបព្រាដើម្បីកុំជាប់ ហើយទុកសល់។" }
+  - { step: 2, text: "Pan-fry the tofu in 1 tbsp oil until golden on all sides. Reserve.",                                                                                                       textKm: "ចៀនតៅហ៊ូក្នុងប្រេង ១ ស្លាបព្រារហូតលឿងគ្រប់ផ្នែក។ ទុកសល់។" }
+  - { step: 3, text: "Heat the remaining oil in the wok. Fry the garlic, lemongrass and shallot until fragrant — about 1 minute.",                                                              textKm: "កម្ដៅប្រេងដែលនៅសល់ក្នុងខ្ទះ។ ឆាខ្ទឹមស ស្លឹកគ្រៃ និងខ្ទឹមក្រហមឱ្យឈ្ងុយ ប្រហែល ១ នាទី។" }
+  - { step: 4, text: "Add the mushrooms, daikon and carrot. Toss 2 minutes until just softened.",                                                                                                textKm: "បន្ថែមផ្សិត ហ៊ុនឆាយ និងការ៉ុត។ ឆា ២ នាទីរហូតទើបទន់។" }
+  - { step: 5, text: "Add light soy, dark soy, palm sugar and vegetable stock. Bring to a simmer.",                                                                                              textKm: "បន្ថែមទឹកសុីអ៊ីវស្រាល ទឹកសុីអ៊ីវខ្មៅ ស្ករត្នោត និងទឹកស៊ុបបន្លែ។ ដាំស្រាលៗ។" }
+  - { step: 6, text: "Add the noodles and tofu, toss gently to coat in the sauce without breaking the noodles.",                                                                                  textKm: "បន្ថែមមី និងតៅហ៊ូ លាយថ្នមៗឱ្យស្រូបទឹក កុំឱ្យមីបាក់។",
+      tip: "Use chopsticks and lift from the bottom — the noodles bruise easily.",                                                                                                                tipKm: "ប្រើចង្កឹះ ហើយលើកពីបាត — មីបាក់ងាយ។" }
+  - { step: 7, text: "Off the heat, fold in bean sprouts and spring onion. The bean sprouts should stay crunchy.",                                                                                textKm: "ដកពីភ្លើង បញ្ចូលសណ្ដែកបណ្ដុះ និងស្លឹកខ្ទឹមបារាំង។ សណ្ដែកគួរនៅក្រៀម។" }
+  - { step: 8, text: "Pile onto plates, shower with peanuts and herbs, serve at room temperature with lime wedges on the side.",                                                                  textKm: "ដាក់លើចាន រោយសណ្ដែកដី និងស្លឹក បរិភោគនៅសីតុណ្ហភាពបន្ទប់ជាមួយក្រូចឆ្មារ។" }

@@ -1,0 +1,48 @@
+id: khm-0011
+slug: num-banh-chaev
+name:
+  km: នំបាញ់ឆែវ
+  romanized: Num Banh Chaev
+  en: Khmer Crispy Crepe
+category: snack
+subcategory: signature
+cuisine: Khmer
+description: "A lacy, turmeric-yellow rice-flour crepe folded over a stir-fry of pork, shrimp, bean sprouts and herbs. Eaten the Khmer way — wrapped in lettuce with mint and basil, dunked in tuk trey p'aem."
+descriptionKm: "នំបាញ់ឆែវ — នំម្សៅអង្ករពណ៌លឿងពីរមៀតស្រួយ បត់លើគ្រឿងឆាសាច់ជ្រូក បង្គា សណ្ដែកបណ្ដុះ និងស្លឹក។ បរិភោគជាស្ទីលខ្មែរ — រុំក្នុងសាឡាត់ជាមួយស្លឹកសុណ្ដ និងស្លឹកមៀន ជ្រលក់ទឹកត្រីផ្អែម។"
+image: images/dishes/num-banh-chaev.jpg
+imageFamily: num-banh-chaev
+tags: [signature, snack, street-food, crepe, pork, shrimp]
+dietary: []
+spiceLevel: 1
+difficulty: medium
+servings: 4
+time: { prepMinutes: 30, cookMinutes: 25, totalMinutes: 55 }
+kroeung: [turmeric, garlic]
+equipment:   [large non-stick pan or crepe pan, ladle]
+equipmentKm: [ខ្ទះមិនជាប់ធំ ឬ ខ្ទះធ្វើនំបាញ់ឆែវ, ឆ្នាំងស្នូរ]
+ingredients:
+  - { group: main,      item: rice flour,            itemKm: ម្សៅអង្ករ,         quantity: 250, unit: g }
+  - { group: main,      item: coconut milk,          itemKm: ទឹកដូង,             quantity: 250, unit: ml }
+  - { group: main,      item: water,                 itemKm: ទឹក,                quantity: 250, unit: ml }
+  - { group: main,      item: ground turmeric,       itemKm: រមៀតបុក,           quantity: 1,   unit: tsp }
+  - { group: main,      item: salt,                  itemKm: អំបិល,             quantity: 1,   unit: tsp }
+  - { group: main,      item: ground pork,           itemKm: សាច់ជ្រូកកិន,      quantity: 250, unit: g }
+  - { group: main,      item: shrimp,                itemKm: បង្គា,              quantity: 200, unit: g,     notes: "peeled and deveined",          notesKm: "ចេញសំបក និងសរសៃ" }
+  - { group: kroeung,   item: garlic,                itemKm: ខ្ទឹមស,             quantity: 4,   unit: cloves, notes: minced,                        notesKm: កិន }
+  - { group: kroeung,   item: shallots,              itemKm: ខ្ទឹមក្រហម,         quantity: 2,   unit: whole,  notes: minced,                        notesKm: កិន }
+  - { group: veg,       item: bean sprouts,          itemKm: សណ្ដែកបណ្ដុះ,       quantity: 300, unit: g }
+  - { group: veg,       item: yardlong beans,        itemKm: សណ្ដែកគួរ,           quantity: 100, unit: g,     notes: "thinly sliced",                notesKm: "ហាន់ស្ដើង" }
+  - { group: seasoning, item: fish sauce,            itemKm: ទឹកត្រី,             quantity: 2,   unit: tbsp }
+  - { group: seasoning, item: palm sugar,            itemKm: ស្ករត្នោត,           quantity: 1,   unit: tsp }
+  - { group: seasoning, item: vegetable oil,         itemKm: ប្រេងបន្លែ,          quantity: 6,   unit: tbsp,   notes: "for frying",                  notesKm: "សម្រាប់ចៀន" }
+  - { group: garnish,   item: lettuce, mint and Asian basil, itemKm: "សាឡាត់ ស្លឹកសុណ្ដ និងស្លឹកមៀន", quantity: 1, unit: large platter, notes: "to wrap", notesKm: "សម្រាប់រុំ" }
+  - { group: serving,   item: tuk trey p'aem dip,    itemKm: ទឹកត្រីផ្អែម,        quantity: 1,   unit: bowl,   notes: "sweet-sour fish sauce dip",    notesKm: "ទឹកជ្រលក់ផ្អែមជូរ" }
+instructions:
+  - { step: 1, text: "Whisk the rice flour, coconut milk, water, turmeric and salt into a thin, smooth batter. Rest 20 minutes.",                                                                  textKm: "កូរម្សៅអង្ករ ទឹកដូង ទឹក រមៀត និងអំបិលជាម្សៅរលុងស្រស់រលោង។ ទុក ២០ នាទី។",
+      tip: "Thin batter = lacy crepe. Don't overload it.",                                                                                                                                          tipKm: "ម្សៅរលុង = នំស្រួយ។ កុំដាក់ច្រើនពេក។" }
+  - { step: 2, text: "Heat 1 tbsp oil in a wok. Fry garlic and shallot until fragrant, then add the pork. Stir-fry until cooked through.",                                                          textKm: "កម្ដៅប្រេង ១ ស្លាបព្រាក្នុងខ្ទះ។ ឆាខ្ទឹមស និងខ្ទឹមក្រហមឱ្យឈ្ងុយ រួចបន្ថែមសាច់ជ្រូក។ ឆារហូតឆ្អិន។" }
+  - { step: 3, text: "Add the shrimp; toss until just pink. Season with fish sauce and palm sugar. Remove and reserve.",                                                                            textKm: "បន្ថែមបង្គា; លាយរហូតប្រែជាពណ៌ផ្កាឈូក។ ប្រឡាក់ដោយទឹកត្រី និងស្ករត្នោត។ លើកចេញ និងទុកសល់។" }
+  - { step: 4, text: "Heat the crepe pan over medium-high heat and brush with oil. Ladle in a thin layer of batter, swirling to coat — the edges should crackle.",                                  textKm: "កម្ដៅខ្ទះធ្វើនំលើភ្លើងមធ្យម-ខ្លាំង ហើយលាបប្រេង។ ស្នូរម្សៅជាជាន់ស្ដើង វិលឱ្យជាប់ — គ្រាប់នឹងស្ងួតៗ។" }
+  - { step: 5, text: "Cover briefly. When the crepe is set and the edges curl, scatter on a spoonful of the filling, a generous handful of bean sprouts and some sliced beans.",                    textKm: "គ្របគម្របបន្តិច។ ពេលនំកក និងគ្រាប់រួមផ្ដួល ដាក់សាច់ឆា ដាក់សណ្ដែកបណ្ដុះមួយក្ដាប់ និងសណ្ដែកគួរហាន់។" }
+  - { step: 6, text: "Cook another minute until the underside is deeply crisp, then fold the crepe in half and slide onto a plate.",                                                                textKm: "ដាំម៉ោងមួយនាទីទៀតរហូតបាតក្រៀមខ្លាំង បន្ទាប់មកបត់ពាក់កណ្ដាល ហើយដួសចេញចូលចាន។" }
+  - { step: 7, text: "Tear pieces of crepe + filling, wrap in lettuce with mint and basil, dunk in tuk trey p'aem, eat with your hands.",                                                            textKm: "ចែកនំ និងសាច់ឱ្យតូច រុំក្នុងស្លឹកសាឡាត់ជាមួយស្លឹកសុណ្ដ និងស្លឹកមៀន ជ្រលក់ទឹកត្រីផ្អែម បរិភោគដោយដៃ។" }

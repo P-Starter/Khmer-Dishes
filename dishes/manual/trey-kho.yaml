@@ -1,0 +1,45 @@
+id: khm-0009
+slug: trey-kho
+name:
+  km: ត្រីខ
+  romanized: Trey Kho
+  en: Caramelised Braised Fish
+category: braised
+subcategory: signature
+cuisine: Khmer
+description: "Catfish steaks braised in a dark, glossy palm-sugar caramel with coconut water, garlic and black pepper. A clay-pot classic — sweet, salty and aromatic, eaten with steamed rice."
+descriptionKm: "ត្រីខ — សាច់ត្រីឆ្ងាសខក្នុងស៊ីរ៉ូស្ករត្នោតពណ៌ខ្មៅភ្លឺ ផ្សំជាមួយទឹកដូងខ្ចី ខ្ទឹមស និងម្រេចខ្មៅ។ ម្ហូបប្រពៃណីដ៏ល្បីក្នុងឆ្នាំងដី — ផ្អែម ប្រៃ និងឈ្ងុយ បរិភោគជាមួយបាយ។"
+image: images/dishes/trey-kho.jpg
+imageFamily: trey-kho
+tags: [signature, fish, braised, caramel, comfort-food]
+dietary: [pescatarian, dairy-free, gluten-free]
+spiceLevel: 1
+difficulty: easy
+servings: 4
+time: { prepMinutes: 15, cookMinutes: 35, totalMinutes: 50 }
+kroeung: [garlic, black pepper]
+equipment:   [clay pot or heavy-bottomed pot]
+equipmentKm: [ឆ្នាំងដី ឬ ឆ្នាំងបាតក្រាស់]
+ingredients:
+  - { group: main,      item: catfish or pangasius steaks, itemKm: សាច់ត្រី,           quantity: 700, unit: g,    notes: "cut into 3 cm thick rounds, skin on", notesKm: "កាត់ជារាងមូលក្រាស់ ៣សម មានសំបក" }
+  - { group: kroeung,   item: garlic,                      itemKm: ខ្ទឹមស,             quantity: 6,   unit: cloves, notes: smashed,                                notesKm: បុក }
+  - { group: kroeung,   item: shallots,                    itemKm: ខ្ទឹមក្រហម,         quantity: 3,   unit: whole,  notes: smashed,                                notesKm: បុក }
+  - { group: seasoning, item: palm sugar,                  itemKm: ស្ករត្នោត,          quantity: 5,   unit: tbsp }
+  - { group: seasoning, item: fish sauce,                  itemKm: ទឹកត្រី,            quantity: 4,   unit: tbsp }
+  - { group: seasoning, item: light soy sauce,             itemKm: ទឹកសុីអ៊ីវស្រាល,    quantity: 1,   unit: tbsp }
+  - { group: seasoning, item: coconut water,               itemKm: ទឹកដូងខ្ចី,         quantity: 400, unit: ml }
+  - { group: seasoning, item: cracked black pepper,        itemKm: ម្រេចខ្មៅបុក,        quantity: 1,   unit: tsp,    notes: "Kampot if available",                  notesKm: "កំពតបើមាន" }
+  - { group: seasoning, item: vegetable oil,               itemKm: ប្រេងបន្លែ,         quantity: 2,   unit: tbsp }
+  - { group: garnish,   item: spring onion,                itemKm: ស្លឹកខ្ទឹមបារាំង,  quantity: 2,   unit: stalks, notes: "cut in 4 cm lengths",                  notesKm: "កាត់ ៤សម" }
+  - { group: garnish,   item: fresh red chili,             itemKm: ម្ទេសក្រហមស្រស់,   quantity: 2,   unit: whole,  notes: sliced,                                 notesKm: ហាន់ }
+  - { group: serving,   item: steamed jasmine rice,        itemKm: បាយម្លិះ,           quantity: 4,   unit: servings, notes: to serve,                              notesKm: សម្រាប់បរិភោគ }
+instructions:
+  - { step: 1, text: "Rinse the fish steaks and pat thoroughly dry — wet fish won't caramelise.",                                                              textKm: "លាងសាច់ត្រី ហើយសម្ងួតឱ្យល្អិត — សាច់ត្រីសើមមិនអាចមានពណ៌ស្ករបាន។" }
+  - { step: 2, text: "In the clay pot over medium heat, melt 3 tbsp of the palm sugar with the oil until it darkens to a deep amber.",                          textKm: "ក្នុងឆ្នាំងដីលើភ្លើងមធ្យម រលាយស្ករត្នោត ៣ ស្លាបព្រាជាមួយប្រេងរហូតប្រែជាពណ៌ត្នោតចាស់។",
+      tip: "Watch closely — once it smokes it's burnt. Pull off the heat the moment it smells nutty.",                                                          tipKm: "មើលឱ្យប្រុងប្រយ័ត្ន — បើផ្សែងវាខ្លោច។ ដកចេញពីភ្លើងពេលក្លិនឈ្ងុយ។" }
+  - { step: 3, text: "Add the garlic and shallot to the caramel and stir 10 seconds.",                                                                          textKm: "បន្ថែមខ្ទឹមស និងខ្ទឹមក្រហមចូលស៊ីរ៉ូ ហើយកូរ ១០ វិនាទី។" }
+  - { step: 4, text: "Lay the fish in a single layer and turn each piece to coat in the caramel.",                                                              textKm: "តម្រៀបសាច់ត្រីជាជាន់តែមួយ ហើយត្រលប់ម្នាក់ៗឱ្យស្រូបស៊ីរ៉ូ។" }
+  - { step: 5, text: "Pour in the coconut water, fish sauce, soy and the remaining palm sugar. Add cracked black pepper.",                                       textKm: "ស្នូរទឹកដូងខ្ចី ទឹកត្រី ទឹកសុីអ៊ីវ និងស្ករត្នោតដែលនៅសល់។ បន្ថែមម្រេចខ្មៅបុក។" }
+  - { step: 6, text: "Bring to a low simmer, cover loosely, and braise 25–30 minutes — the sauce should reduce until it clings to the fish in a dark glaze.",   textKm: "ដាំស្រាលៗ គ្របរលុង ហើយស្លស្រាលៗ ២៥–៣០ នាទី — ទឹកគួរក្រាស់រហូតស្រូបជាប់នឹងសាច់ត្រី។" }
+  - { step: 7, text: "Uncover, baste the fish with the syrup once or twice. Scatter spring onion and chili on top.",                                            textKm: "បើកគម្រប លាបទឹកលើសាច់ត្រី ១–២ ដង។ រោយស្លឹកខ្ទឹមបារាំង និងម្ទេសពីលើ។" }
+  - { step: 8, text: "Serve straight from the pot with plenty of steamed rice to soak up the sauce.",                                                            textKm: "បរិភោគពីឆ្នាំងផ្ទាល់ជាមួយបាយក្ដៅច្រើនដើម្បីស្រូបទឹក។" }

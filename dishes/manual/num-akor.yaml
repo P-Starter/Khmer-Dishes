@@ -1,0 +1,41 @@
+id: khm-0015
+slug: num-akor
+name:
+  km: នំអាកោរ
+  romanized: Num Akor
+  en: Steamed Rice-Flour Cake
+category: dessert
+subcategory: signature
+cuisine: Khmer
+description: "A two-layer steamed cake — a coconut-cream top set on a soft pandan-green rice-flour base. Lightly sweet, gently chewy, served cool in small leaf-cup squares."
+descriptionKm: "នំអាកោរ — នំចំហុយពីរជាន់ ខ្ទិះដូងពីលើ ផ្សំជាមួយម្សៅអង្ករពណ៌បៃតងស្លឹកតើយខាងក្រោម។ ផ្អែមតិចៗ ទន់ស្អិត បរិភោគត្រជាក់ជាគូបតូចៗក្នុងពែងស្លឹក។"
+image: images/dishes/num-akor.jpg
+imageFamily: num-akor
+tags: [signature, dessert, steamed, coconut, pandan]
+dietary: [vegetarian, vegan, dairy-free, gluten-free]
+spiceLevel: 0
+difficulty: medium
+servings: 8
+time: { prepMinutes: 25, cookMinutes: 35, totalMinutes: 60 }
+kroeung: []
+equipment:   [steamer, square or round tin (~20 cm), small saucepan]
+equipmentKm: [ឆ្នាំងចំហុយ, ខ្នាតការេ ឬ មូល (~ ២០ សម), ឆ្នាំងតូច]
+ingredients:
+  - { group: main,      item: rice flour,            itemKm: ម្សៅអង្ករ,         quantity: 200, unit: g }
+  - { group: main,      item: tapioca starch,        itemKm: ម្សៅដំឡូងមី,        quantity: 50,  unit: g }
+  - { group: main,      item: palm sugar,            itemKm: ស្ករត្នោត,          quantity: 150, unit: g,    notes: chopped,                              notesKm: កាត់ }
+  - { group: main,      item: water,                 itemKm: ទឹក,                quantity: 400, unit: ml }
+  - { group: main,      item: pandan extract,        itemKm: សារធាតុស្លឹកតើយ,    quantity: 1,   unit: tbsp,  notes: "or fresh pandan juice",              notesKm: "ឬ ទឹកស្លឹកតើយស្រស់" }
+  - { group: main,      item: salt,                  itemKm: អំបិល,             quantity: 0.5, unit: tsp }
+  - { group: main,      item: coconut cream,         itemKm: ខ្ទិះដូង,           quantity: 250, unit: ml,    notes: "for the top layer",                 notesKm: "សម្រាប់ជាន់ខាងលើ" }
+  - { group: main,      item: rice flour,            itemKm: ម្សៅអង្ករ,         quantity: 1.5, unit: tbsp,  notes: "for the top layer",                 notesKm: "សម្រាប់ជាន់ខាងលើ" }
+  - { group: main,      item: salt,                  itemKm: អំបិល,             quantity: 0.25, unit: tsp, notes: "for the top layer",                 notesKm: "សម្រាប់ជាន់ខាងលើ" }
+instructions:
+  - { step: 1, text: "Warm the water with the palm sugar in a small saucepan until fully dissolved. Cool to lukewarm.",                              textKm: "កម្ដៅទឹកជាមួយស្ករត្នោតក្នុងឆ្នាំងតូចរហូតរលាយទាំងស្រុង។ ត្រជាក់ដល់សីតុណ្ហភាពកាក់។" }
+  - { step: 2, text: "In a bowl, whisk the rice flour, tapioca starch, salt, pandan extract and the warm sugar water into a smooth batter.",         textKm: "ក្នុងចាន កូរម្សៅអង្ករ ម្សៅដំឡូងមី អំបិល សារធាតុស្លឹកតើយ និងទឹកស្ករកាក់ឱ្យជាម្សៅរលុងស្អាត។",
+      tip: "Strain through a sieve to be sure there are no lumps.",                                                                                  tipKm: "ច្រោះតាមច្រោះល្អិតដើម្បីប្រាកដថាគ្មានគ្រាប់រឹងៗ។" }
+  - { step: 3, text: "Lightly oil a tin and pour in the green batter to about 3 cm depth. Steam over rapidly boiling water for 20 minutes until the surface is set.", textKm: "លាបប្រេងស្រាលៗលើខ្នាត ហើយស្នូរម្សៅពណ៌បៃតងចូលជម្រៅប្រហែល ៣សម។ ចំហុយលើទឹកដាំខ្លាំង ២០ នាទីរហូតផ្ទៃកក។" }
+  - { step: 4, text: "Whisk the coconut cream with the extra rice flour and salt until smooth.",                                                      textKm: "កូរខ្ទិះដូងជាមួយម្សៅអង្ករបន្ថែម និងអំបិលឱ្យរលុង។" }
+  - { step: 5, text: "Pour the coconut layer over the set green base and steam a further 12–15 minutes until just set.",                              textKm: "ស្នូរជាន់ខ្ទិះដូងពីលើនំពណ៌បៃតង ហើយចំហុយបន្ថែម ១២–១៥ នាទីរហូតទើបកក។" }
+  - { step: 6, text: "Cool completely in the tin — this firms the cake. Then cut into small squares with a wet knife.",                              textKm: "ត្រជាក់ទាំងស្រុងក្នុងខ្នាត — នេះធ្វើឱ្យនំរឹងបន្តិច។ បន្ទាប់មកកាត់ជាគូបតូចៗដោយកាំបិតសើម។" }
+  - { step: 7, text: "Best eaten same day, slightly cool. Lovely with a strong Khmer coffee.",                                                        textKm: "ឆ្ងាញ់បំផុតពេលបរិភោគថ្ងៃតែមួយ ត្រជាក់បន្តិច។ ឆ្ងាញ់ជាមួយកាហ្វេខ្មែរខ្លាំង។" }
